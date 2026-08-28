@@ -4,12 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Radar Pasar — Produk Terlaris Mingguan</title>
-<meta name="description" content="Dashboard produk terlaris per kategori Shopee, update mingguan.">
+<meta name="description" content="Dashboard produk terlaris per kategori Shopee, update real-time dari server.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
 <style>
-  /* ====== STYLE (sama seperti sebelumnya, tidak diubah) ====== */
+  /* ====== STYLE (SAMA SEPERTI SEBELUMNYA) ====== */
   :root{--bg:#F5F7FB;--surface:#FFFFFF;--surface-soft:#F8FAFD;--border:#E7ECF3;--text:#2C3646;--muted:#8A94A6;--shopee:#FF8A3D;--shopee-bg:#FFF2E7;--toko:#22B07D;--toko-bg:#E8F8F1;--blue:#5B7FEF;--blue-bg:#EEF2FE;--amber:#F0A93E;--amber-bg:#FFF6E7;--shadow:0 1px 2px rgba(30,41,59,0.04),0 8px 24px rgba(30,41,59,0.05);--shadow-sm:0 1px 2px rgba(30,41,59,0.05);}
   *{box-sizing:border-box;}html{scroll-behavior:smooth;}body{margin:0;background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;}
   .font-display{font-family:'Space Grotesk',sans-serif;}.font-mono{font-family:'JetBrains Mono',monospace;}
@@ -128,7 +128,7 @@
   <section class="charts-grid">
     <div class="panel"><h3>Total Transaksi per Kategori</h3><p class="hint">Jumlah unit terjual per kategori.</p><canvas id="chartCategory" height="90"></canvas></div>
   </section>
-  <main id="categoryContainer"><div class="loading"><span class="spinner"></span> Memuat data dari server...</div></main>
+  <main id="categoryContainer"><div class="loading"><span class="spinner"></span> Menghubungi server...</div></main>
   <footer>
     <span class="badge-warn">📡 DATA REAL-TIME DARI SERVER</span>
     <p>Data diambil langsung dari server FastAPI yang berjalan di PC Anda. Server harus menyala agar data muncul.</p>
@@ -137,7 +137,7 @@
 
 <script>
 // ============================================================
-// URL SERVER (GANTI DENGAN URL NGRIK ANDA)
+// URL SERVER (GANTI DENGAN URL NGROK ANDA)
 // ============================================================
 const API_URL = "https://populace-spellbind-duvet.ngrok-free.dev";
 
@@ -181,7 +181,6 @@ async function fetchDataFromServer() {
   container.innerHTML = `<div class="loading"><span class="spinner"></span> Menghubungi server...</div>`;
 
   try {
-    // Persiapkan request ke server
     const payload = {
       category_urls: CATEGORY_URLS.map(c => c.url),
       country: "ID",
@@ -202,10 +201,14 @@ async function fetchDataFromServer() {
     }
 
     const data = await response.json();
-    
-    // Ubah format data dari server ke format yang dipahami template
+
+    // Transformasi data dari server ke format yang dimengerti template
     const results = CATEGORY_URLS.map(cat => {
-      const products = data.categories[cat.url] || [];
+      let products = data.categories[cat.url];
+      // Jika bukan array, ubah jadi array kosong (misal jika ada error)
+      if (!Array.isArray(products)) {
+        products = [];
+      }
       return {
         id: cat.id,
         nama: cat.nama,
@@ -256,7 +259,7 @@ async function fetchDataFromServer() {
 }
 
 // ============================================================
-// FUNGSI TEMPLATE (SAMA SEPERTI SEBELUMNYA)
+// FUNGSI TEMPLATE (TIDAK BERUBAH)
 // ============================================================
 const CAT_COLORS = ["#5B7FEF","#FF8A3D","#22B07D","#F0A93E","#B18CF0","#F0708A","#3EC6D9","#8FA6E0","#F5C16C","#7FD1A8","#E07C7C","#7CB9E8","#B4A7D6","#F7DC6F","#82E0AA","#F1948A","#85C1E9","#BB8FCE","#F8C471","#76D7C4","#E59866","#AF7AC5","#5DADE2","#58D68D","#F4D03F","#E67E22"];
 const BUCKET_EDGES = [0, 20000, 50000, 100000, 200000, 500000, 1000000, Infinity];
