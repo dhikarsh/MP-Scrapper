@@ -9,7 +9,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
 <style>
-  /* ====== STYLE ====== */
   :root{--bg:#F5F7FB;--surface:#FFFFFF;--surface-soft:#F8FAFD;--border:#E7ECF3;--text:#2C3646;--muted:#8A94A6;--shopee:#FF8A3D;--shopee-bg:#FFF2E7;--toko:#22B07D;--toko-bg:#E8F8F1;--blue:#5B7FEF;--blue-bg:#EEF2FE;--amber:#F0A93E;--amber-bg:#FFF6E7;--shadow:0 1px 2px rgba(30,41,59,0.04),0 8px 24px rgba(30,41,59,0.05);--shadow-sm:0 1px 2px rgba(30,41,59,0.05);}
   *{box-sizing:border-box;}html{scroll-behavior:smooth;}body{margin:0;background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;}
   .font-display{font-family:'Space Grotesk',sans-serif;}.font-mono{font-family:'JetBrains Mono',monospace;}
@@ -142,7 +141,7 @@
 const API_URL = "https://populace-spellbind-duvet.ngrok-free.dev"; // <-- GANTI INI
 
 // ============================================================
-// DAFTAR KATEGORI (26 kategori)
+// DAFTAR KATEGORI (25 kategori)
 // ============================================================
 const CATEGORY_URLS = [
   { id: "electronics", url: "https://shopee.co.id/Electronics-cat.11044258", nama: "Elektronik" },
@@ -169,8 +168,7 @@ const CATEGORY_URLS = [
   { id: "souvenir", url: "https://shopee.co.id/Souvenir-Party-Supplies-cat.11116633", nama: "Souvenir & Pesta" },
   { id: "vouchers", url: "https://shopee.co.id/Vouchers-cat.11044631", nama: "Voucher" },
   { id: "stationery", url: "https://shopee.co.id/Stationery-Books-cat.11044123", nama: "Alat Tulis & Buku" },
-  { id: "photography", url: "https://shopee.co.id/Photography-cat.11044588", nama: "Fotografi" },
-  { id: "deals", url: "https://shopee.co.id/Deals-Nearby-cat.11105951", nama: "Deals Nearby" }
+  { id: "photography", url: "https://shopee.co.id/Photography-cat.11044588", nama: "Fotografi" }
 ];
 
 // ============================================================
@@ -184,8 +182,10 @@ async function fetchDataFromServer() {
     const payload = {
       category_urls: CATEGORY_URLS.map(c => c.url),
       country: "ID",
-      max_items: 10,
-      include_reviews: false
+      max_items: 5,             // ← ubah ke 10 jika ingin lebih banyak
+      include_reviews: false,
+      sort_by: "sales",
+      fetch_detail: true
     };
 
     const response = await fetch(`${API_URL}/scrape-category`, {
@@ -257,7 +257,7 @@ async function fetchDataFromServer() {
 // ============================================================
 // FUNGSI TEMPLATE (SAMA SEPERTI SEBELUMNYA)
 // ============================================================
-const CAT_COLORS = ["#5B7FEF","#FF8A3D","#22B07D","#F0A93E","#B18CF0","#F0708A","#3EC6D9","#8FA6E0","#F5C16C","#7FD1A8","#E07C7C","#7CB9E8","#B4A7D6","#F7DC6F","#82E0AA","#F1948A","#85C1E9","#BB8FCE","#F8C471","#76D7C4","#E59866","#AF7AC5","#5DADE2","#58D68D","#F4D03F","#E67E22"];
+const CAT_COLORS = ["#5B7FEF","#FF8A3D","#22B07D","#F0A93E","#B18CF0","#F0708A","#3EC6D9","#8FA6E0","#F5C16C","#7FD1A8","#E07C7C","#7CB9E8","#B4A7D6","#F7DC6F","#82E0AA","#F1948A","#85C1E9","#BB8FCE","#F8C471","#76D7C4","#E59866","#AF7AC5","#5DADE2","#58D68D","#F4D03F"];
 const BUCKET_EDGES = [0, 20000, 50000, 100000, 200000, 500000, 1000000, Infinity];
 const BUCKET_LABELS = ["<20rb","20-50rb","50-100rb","100-200rb","200-500rb","500rb-1jt",">1jt"];
 
