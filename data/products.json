@@ -1,0 +1,1934 @@
+{
+  "minggu": "18 - 24 Agustus 2026",
+  "terakhir_diperbarui": "2026-08-27T09:00:00+07:00",
+  "platforms": [
+    {
+      "id": "shopee",
+      "nama": "Shopee",
+      "kategori": [
+        {
+          "id": "electronics",
+          "nama": "Electronics",
+          "shopee_cat_id": 11044258,
+          "url": "https://shopee.co.id/Electronics-cat.11044258",
+          "produk": [
+            {
+              "nama": "Produk contoh Electronics #1",
+              "toko": "Electronics Shop",
+              "harga": 144000,
+              "terjual_minggu_ini": 383,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Electronics #2",
+              "toko": "Electronics Official Store",
+              "harga": 297000,
+              "terjual_minggu_ini": 308,
+              "rating": 4.8
+            },
+            {
+              "nama": "Produk contoh Electronics #3",
+              "toko": "Electronics Home",
+              "harga": 1022000,
+              "terjual_minggu_ini": 186,
+              "rating": 4.4
+            },
+            {
+              "nama": "Produk contoh Electronics #4",
+              "toko": "Electronics Mart",
+              "harga": 1593000,
+              "terjual_minggu_ini": 188,
+              "rating": 4.8
+            }
+          ]
+        },
+        {
+          "id": "computer-accessories",
+          "nama": "Computer Accessories",
+          "shopee_cat_id": 11044364,
+          "url": "https://shopee.co.id/Computer-Accessories-cat.11044364",
+          "produk": [
+            {
+              "nama": "Produk contoh Computer Accessories #1",
+              "toko": "Computer Shop",
+              "harga": 133500,
+              "terjual_minggu_ini": 437,
+              "rating": 4.8
+            },
+            {
+              "nama": "Produk contoh Computer Accessories #2",
+              "toko": "Computer Mart",
+              "harga": 400000,
+              "terjual_minggu_ini": 305,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Computer Accessories #3",
+              "toko": "Computer Store ID",
+              "harga": 457000,
+              "terjual_minggu_ini": 468,
+              "rating": 4.8
+            },
+            {
+              "nama": "Produk contoh Computer Accessories #4",
+              "toko": "Computer Store ID",
+              "harga": 2627000,
+              "terjual_minggu_ini": 168,
+              "rating": 5.0
+            }
+          ]
+        },
+        {
+          "id": "mobile-accessories",
+          "nama": "Mobile Accessories",
+          "shopee_cat_id": 11044458,
+          "url": "https://shopee.co.id/Mobile-Accessories-cat.11044458",
+          "produk": [
+            {
+              "nama": "Produk contoh Mobile Accessories #1",
+              "toko": "Mobile Home",
+              "harga": 26000,
+              "terjual_minggu_ini": 689,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Mobile Accessories #2",
+              "toko": "Mobile Grosir",
+              "harga": 100500,
+              "terjual_minggu_ini": 564,
+              "rating": 4.9
+            },
+            {
+              "nama": "Produk contoh Mobile Accessories #3",
+              "toko": "Mobile Home",
+              "harga": 230500,
+              "terjual_minggu_ini": 502,
+              "rating": 4.4
+            },
+            {
+              "nama": "Produk contoh Mobile Accessories #4",
+              "toko": "Mobile Mart",
+              "harga": 327000,
+              "terjual_minggu_ini": 553,
+              "rating": 4.9
+            }
+          ]
+        },
+        {
+          "id": "men-clothes",
+          "nama": "Men Clothes",
+          "shopee_cat_id": 11042849,
+          "url": "https://shopee.co.id/Men-Clothes-cat.11042849",
+          "produk": [
+            {
+              "nama": "Produk contoh Men Clothes #1",
+              "toko": "Men Shop",
+              "harga": 27000,
+              "terjual_minggu_ini": 1101,
+              "rating": 4.4
+            },
+            {
+              "nama": "Produk contoh Men Clothes #2",
+              "toko": "Men Grosir",
+              "harga": 88500,
+              "terjual_minggu_ini": 522,
+              "rating": 5.0
+            },
+            {
+              "nama": "Produk contoh Men Clothes #3",
+              "toko": "Men Home",
+              "harga": 171000,
+              "terjual_minggu_ini": 710,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Men Clothes #4",
+              "toko": "Men Store ID",
+              "harga": 416500,
+              "terjual_minggu_ini": 509,
+              "rating": 4.6
+            }
+          ]
+        },
+        {
+          "id": "men-shoes",
+          "nama": "Men Shoes",
+          "shopee_cat_id": 11042985,
+          "url": "https://shopee.co.id/Men-Shoes-cat.11042985",
+          "produk": [
+            {
+              "nama": "Produk contoh Men Shoes #1",
+              "toko": "Men Shop",
+              "harga": 22000,
+              "terjual_minggu_ini": 1271,
+              "rating": 5.0
+            },
+            {
+              "nama": "Produk contoh Men Shoes #2",
+              "toko": "Men Shop",
+              "harga": 87500,
+              "terjual_minggu_ini": 433,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Men Shoes #3",
+              "toko": "Men Home",
+              "harga": 174000,
+              "terjual_minggu_ini": 382,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Men Shoes #4",
+              "toko": "Men Mart",
+              "harga": 492500,
+              "terjual_minggu_ini": 418,
+              "rating": 4.5
+            }
+          ]
+        },
+        {
+          "id": "men-bags",
+          "nama": "Men Bags",
+          "shopee_cat_id": 11043011,
+          "url": "https://shopee.co.id/Men-Bags-cat.11043011",
+          "produk": [
+            {
+              "nama": "Produk contoh Men Bags #1",
+              "toko": "Men Official Store",
+              "harga": 25500,
+              "terjual_minggu_ini": 1364,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Men Bags #2",
+              "toko": "Men Home",
+              "harga": 47000,
+              "terjual_minggu_ini": 1072,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Men Bags #3",
+              "toko": "Men Mart",
+              "harga": 165500,
+              "terjual_minggu_ini": 740,
+              "rating": 4.9
+            },
+            {
+              "nama": "Produk contoh Men Bags #4",
+              "toko": "Men Home",
+              "harga": 332500,
+              "terjual_minggu_ini": 322,
+              "rating": 4.6
+            }
+          ]
+        },
+        {
+          "id": "fashion-accessories",
+          "nama": "Fashion Accessories",
+          "shopee_cat_id": 11042921,
+          "url": "https://shopee.co.id/Fashion-Accessories-cat.11042921",
+          "produk": [
+            {
+              "nama": "Produk contoh Fashion Accessories #1",
+              "toko": "Fashion Grosir",
+              "harga": 14500,
+              "terjual_minggu_ini": 1238,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Fashion Accessories #2",
+              "toko": "Fashion Grosir",
+              "harga": 39500,
+              "terjual_minggu_ini": 951,
+              "rating": 4.8
+            },
+            {
+              "nama": "Produk contoh Fashion Accessories #3",
+              "toko": "Fashion Home",
+              "harga": 68000,
+              "terjual_minggu_ini": 1002,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Fashion Accessories #4",
+              "toko": "Fashion Official Store",
+              "harga": 108000,
+              "terjual_minggu_ini": 640,
+              "rating": 4.9
+            }
+          ]
+        },
+        {
+          "id": "watches",
+          "nama": "Watches",
+          "shopee_cat_id": 11042900,
+          "url": "https://shopee.co.id/Watches-cat.11042900",
+          "produk": [
+            {
+              "nama": "Produk contoh Watches #1",
+              "toko": "Watches Shop",
+              "harga": 173000,
+              "terjual_minggu_ini": 358,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Watches #2",
+              "toko": "Watches Home",
+              "harga": 401500,
+              "terjual_minggu_ini": 434,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Watches #3",
+              "toko": "Watches Mart",
+              "harga": 941000,
+              "terjual_minggu_ini": 304,
+              "rating": 4.9
+            },
+            {
+              "nama": "Produk contoh Watches #4",
+              "toko": "Watches Official Store",
+              "harga": 1248000,
+              "terjual_minggu_ini": 311,
+              "rating": 4.8
+            }
+          ]
+        },
+        {
+          "id": "health",
+          "nama": "Health",
+          "shopee_cat_id": 11043279,
+          "url": "https://shopee.co.id/Health-cat.11043279",
+          "produk": [
+            {
+              "nama": "Produk contoh Health #1",
+              "toko": "Health Shop",
+              "harga": 32500,
+              "terjual_minggu_ini": 1176,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Health #2",
+              "toko": "Health Home",
+              "harga": 64000,
+              "terjual_minggu_ini": 720,
+              "rating": 4.4
+            },
+            {
+              "nama": "Produk contoh Health #3",
+              "toko": "Health Store ID",
+              "harga": 179000,
+              "terjual_minggu_ini": 747,
+              "rating": 4.7
+            },
+            {
+              "nama": "Produk contoh Health #4",
+              "toko": "Health Grosir",
+              "harga": 278000,
+              "terjual_minggu_ini": 601,
+              "rating": 4.9
+            }
+          ]
+        },
+        {
+          "id": "hobby-collection",
+          "nama": "Hobby & Collection",
+          "shopee_cat_id": 11043572,
+          "url": "https://shopee.co.id/Hobby--Collection-cat.11043572",
+          "produk": [
+            {
+              "nama": "Produk contoh Hobby & Collection #1",
+              "toko": "Hobby Store ID",
+              "harga": 31500,
+              "terjual_minggu_ini": 1070,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Hobby & Collection #2",
+              "toko": "Hobby Mart",
+              "harga": 55500,
+              "terjual_minggu_ini": 829,
+              "rating": 5.0
+            },
+            {
+              "nama": "Produk contoh Hobby & Collection #3",
+              "toko": "Hobby Official Store",
+              "harga": 195000,
+              "terjual_minggu_ini": 511,
+              "rating": 5.0
+            },
+            {
+              "nama": "Produk contoh Hobby & Collection #4",
+              "toko": "Hobby Grosir",
+              "harga": 480500,
+              "terjual_minggu_ini": 533,
+              "rating": 4.5
+            }
+          ]
+        },
+        {
+          "id": "food-beverages",
+          "nama": "Food & Beverages",
+          "shopee_cat_id": 11043451,
+          "url": "https://shopee.co.id/Food--Beverages-cat.11043451",
+          "produk": [
+            {
+              "nama": "Produk contoh Food & Beverages #1",
+              "toko": "Food Official Store",
+              "harga": 8000,
+              "terjual_minggu_ini": 2093,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Food & Beverages #2",
+              "toko": "Food Mart",
+              "harga": 31000,
+              "terjual_minggu_ini": 1250,
+              "rating": 4.9
+            },
+            {
+              "nama": "Produk contoh Food & Beverages #3",
+              "toko": "Food Mart",
+              "harga": 48500,
+              "terjual_minggu_ini": 956,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Food & Beverages #4",
+              "toko": "Food Home",
+              "harga": 159000,
+              "terjual_minggu_ini": 732,
+              "rating": 5.0
+            }
+          ]
+        },
+        {
+          "id": "beauty-care",
+          "nama": "Beauty Care",
+          "shopee_cat_id": 11043145,
+          "url": "https://shopee.co.id/Beauty-Care-cat.11043145",
+          "produk": [
+            {
+              "nama": "Produk contoh Beauty Care #1",
+              "toko": "Beauty Shop",
+              "harga": 13000,
+              "terjual_minggu_ini": 1626,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Beauty Care #2",
+              "toko": "Beauty Shop",
+              "harga": 25000,
+              "terjual_minggu_ini": 969,
+              "rating": 4.8
+            },
+            {
+              "nama": "Produk contoh Beauty Care #3",
+              "toko": "Beauty Home",
+              "harga": 68500,
+              "terjual_minggu_ini": 1000,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Beauty Care #4",
+              "toko": "Beauty Official Store",
+              "harga": 119500,
+              "terjual_minggu_ini": 384,
+              "rating": 4.8
+            }
+          ]
+        },
+        {
+          "id": "home-living",
+          "nama": "Home & Living",
+          "shopee_cat_id": 11043778,
+          "url": "https://shopee.co.id/Home--Living-cat.11043778",
+          "produk": [
+            {
+              "nama": "Produk contoh Home & Living #1",
+              "toko": "Home Official Store",
+              "harga": 22500,
+              "terjual_minggu_ini": 1184,
+              "rating": 4.4
+            },
+            {
+              "nama": "Produk contoh Home & Living #2",
+              "toko": "Home Official Store",
+              "harga": 86500,
+              "terjual_minggu_ini": 427,
+              "rating": 4.9
+            },
+            {
+              "nama": "Produk contoh Home & Living #3",
+              "toko": "Home Store ID",
+              "harga": 196500,
+              "terjual_minggu_ini": 325,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Home & Living #4",
+              "toko": "Home Store ID",
+              "harga": 377000,
+              "terjual_minggu_ini": 309,
+              "rating": 4.8
+            }
+          ]
+        },
+        {
+          "id": "women-clothes",
+          "nama": "Women Clothes",
+          "shopee_cat_id": 11042745,
+          "url": "https://shopee.co.id/Women-Clothes-cat.11042745",
+          "produk": [
+            {
+              "nama": "Produk contoh Women Clothes #1",
+              "toko": "Women Home",
+              "harga": 44000,
+              "terjual_minggu_ini": 923,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Women Clothes #2",
+              "toko": "Women Store ID",
+              "harga": 76000,
+              "terjual_minggu_ini": 908,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Women Clothes #3",
+              "toko": "Women Home",
+              "harga": 223000,
+              "terjual_minggu_ini": 431,
+              "rating": 4.7
+            },
+            {
+              "nama": "Produk contoh Women Clothes #4",
+              "toko": "Women Shop",
+              "harga": 441000,
+              "terjual_minggu_ini": 240,
+              "rating": 5.0
+            }
+          ]
+        },
+        {
+          "id": "muslim-fashion",
+          "nama": "Muslim Fashion",
+          "shopee_cat_id": 11042684,
+          "url": "https://shopee.co.id/Muslim-Fashion-cat.11042684",
+          "produk": [
+            {
+              "nama": "Produk contoh Muslim Fashion #1",
+              "toko": "Muslim Shop",
+              "harga": 18000,
+              "terjual_minggu_ini": 742,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Muslim Fashion #2",
+              "toko": "Muslim Store ID",
+              "harga": 101500,
+              "terjual_minggu_ini": 432,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Muslim Fashion #3",
+              "toko": "Muslim Store ID",
+              "harga": 227500,
+              "terjual_minggu_ini": 338,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Muslim Fashion #4",
+              "toko": "Muslim Official Store",
+              "harga": 315500,
+              "terjual_minggu_ini": 577,
+              "rating": 4.7
+            }
+          ]
+        },
+        {
+          "id": "baby-kids-fashion",
+          "nama": "Baby & Kids Fashion",
+          "shopee_cat_id": 11043031,
+          "url": "https://shopee.co.id/Baby--Kids-Fashion-cat.11043031",
+          "produk": [
+            {
+              "nama": "Produk contoh Baby & Kids Fashion #1",
+              "toko": "Baby Shop",
+              "harga": 13000,
+              "terjual_minggu_ini": 874,
+              "rating": 5.0
+            },
+            {
+              "nama": "Produk contoh Baby & Kids Fashion #2",
+              "toko": "Baby Store ID",
+              "harga": 15500,
+              "terjual_minggu_ini": 1759,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Baby & Kids Fashion #3",
+              "toko": "Baby Home",
+              "harga": 72000,
+              "terjual_minggu_ini": 721,
+              "rating": 4.9
+            },
+            {
+              "nama": "Produk contoh Baby & Kids Fashion #4",
+              "toko": "Baby Home",
+              "harga": 111500,
+              "terjual_minggu_ini": 563,
+              "rating": 4.6
+            }
+          ]
+        },
+        {
+          "id": "mom-baby",
+          "nama": "Mom & Baby",
+          "shopee_cat_id": 11043350,
+          "url": "https://shopee.co.id/Mom--Baby-cat.11043350",
+          "produk": [
+            {
+              "nama": "Produk contoh Mom & Baby #1",
+              "toko": "Mom Grosir",
+              "harga": 40500,
+              "terjual_minggu_ini": 1115,
+              "rating": 4.7
+            },
+            {
+              "nama": "Produk contoh Mom & Baby #2",
+              "toko": "Mom Mart",
+              "harga": 107500,
+              "terjual_minggu_ini": 762,
+              "rating": 4.8
+            },
+            {
+              "nama": "Produk contoh Mom & Baby #3",
+              "toko": "Mom Grosir",
+              "harga": 237500,
+              "terjual_minggu_ini": 339,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Mom & Baby #4",
+              "toko": "Mom Mart",
+              "harga": 265500,
+              "terjual_minggu_ini": 495,
+              "rating": 4.4
+            }
+          ]
+        },
+        {
+          "id": "women-shoes",
+          "nama": "Women Shoes",
+          "shopee_cat_id": 11042604,
+          "url": "https://shopee.co.id/Women-Shoes-cat.11042604",
+          "produk": [
+            {
+              "nama": "Produk contoh Women Shoes #1",
+              "toko": "Women Mart",
+              "harga": 25500,
+              "terjual_minggu_ini": 654,
+              "rating": 4.7
+            },
+            {
+              "nama": "Produk contoh Women Shoes #2",
+              "toko": "Women Store ID",
+              "harga": 105500,
+              "terjual_minggu_ini": 834,
+              "rating": 4.4
+            },
+            {
+              "nama": "Produk contoh Women Shoes #3",
+              "toko": "Women Store ID",
+              "harga": 243000,
+              "terjual_minggu_ini": 306,
+              "rating": 4.4
+            },
+            {
+              "nama": "Produk contoh Women Shoes #4",
+              "toko": "Women Store ID",
+              "harga": 268000,
+              "terjual_minggu_ini": 531,
+              "rating": 4.6
+            }
+          ]
+        },
+        {
+          "id": "women-bags",
+          "nama": "Women Bags",
+          "shopee_cat_id": 11042642,
+          "url": "https://shopee.co.id/Women-Bags-cat.11042642",
+          "produk": [
+            {
+              "nama": "Produk contoh Women Bags #1",
+              "toko": "Women Mart",
+              "harga": 44000,
+              "terjual_minggu_ini": 922,
+              "rating": 4.8
+            },
+            {
+              "nama": "Produk contoh Women Bags #2",
+              "toko": "Women Shop",
+              "harga": 85500,
+              "terjual_minggu_ini": 442,
+              "rating": 4.8
+            },
+            {
+              "nama": "Produk contoh Women Bags #3",
+              "toko": "Women Grosir",
+              "harga": 247000,
+              "terjual_minggu_ini": 400,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Women Bags #4",
+              "toko": "Women Grosir",
+              "harga": 437500,
+              "terjual_minggu_ini": 327,
+              "rating": 4.6
+            }
+          ]
+        },
+        {
+          "id": "automotive",
+          "nama": "Automotive",
+          "shopee_cat_id": 11043660,
+          "url": "https://shopee.co.id/Automotive-cat.11043660",
+          "produk": [
+            {
+              "nama": "Produk contoh Automotive #1",
+              "toko": "Automotive Home",
+              "harga": 148000,
+              "terjual_minggu_ini": 640,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Automotive #2",
+              "toko": "Automotive Mart",
+              "harga": 218000,
+              "terjual_minggu_ini": 287,
+              "rating": 5.0
+            },
+            {
+              "nama": "Produk contoh Automotive #3",
+              "toko": "Automotive Store ID",
+              "harga": 555000,
+              "terjual_minggu_ini": 227,
+              "rating": 4.7
+            },
+            {
+              "nama": "Produk contoh Automotive #4",
+              "toko": "Automotive Official Store",
+              "harga": 1755500,
+              "terjual_minggu_ini": 328,
+              "rating": 4.9
+            }
+          ]
+        },
+        {
+          "id": "sports-outdoor",
+          "nama": "Sports & Outdoor",
+          "shopee_cat_id": 11043958,
+          "url": "https://shopee.co.id/Sports--Outdoor-cat.11043958",
+          "produk": [
+            {
+              "nama": "Produk contoh Sports & Outdoor #1",
+              "toko": "Sports Home",
+              "harga": 27000,
+              "terjual_minggu_ini": 842,
+              "rating": 4.9
+            },
+            {
+              "nama": "Produk contoh Sports & Outdoor #2",
+              "toko": "Sports Shop",
+              "harga": 91000,
+              "terjual_minggu_ini": 560,
+              "rating": 4.7
+            },
+            {
+              "nama": "Produk contoh Sports & Outdoor #3",
+              "toko": "Sports Official Store",
+              "harga": 188500,
+              "terjual_minggu_ini": 716,
+              "rating": 5.0
+            },
+            {
+              "nama": "Produk contoh Sports & Outdoor #4",
+              "toko": "Sports Official Store",
+              "harga": 285000,
+              "terjual_minggu_ini": 361,
+              "rating": 4.8
+            }
+          ]
+        },
+        {
+          "id": "souvenir-party-supplies",
+          "nama": "Souvenir & Party Supplies",
+          "shopee_cat_id": 11116633,
+          "url": "https://shopee.co.id/Souvenir--Party-Supplies-cat.11116633",
+          "produk": [
+            {
+              "nama": "Produk contoh Souvenir & Party Supplies #1",
+              "toko": "Souvenir Mart",
+              "harga": 6500,
+              "terjual_minggu_ini": 1369,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Souvenir & Party Supplies #2",
+              "toko": "Souvenir Shop",
+              "harga": 26000,
+              "terjual_minggu_ini": 780,
+              "rating": 4.9
+            },
+            {
+              "nama": "Produk contoh Souvenir & Party Supplies #3",
+              "toko": "Souvenir Official Store",
+              "harga": 73000,
+              "terjual_minggu_ini": 721,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Souvenir & Party Supplies #4",
+              "toko": "Souvenir Official Store",
+              "harga": 145500,
+              "terjual_minggu_ini": 733,
+              "rating": 4.4
+            }
+          ]
+        },
+        {
+          "id": "vouchers",
+          "nama": "Vouchers",
+          "shopee_cat_id": 11044631,
+          "url": "https://shopee.co.id/Vouchers-cat.11044631",
+          "produk": [
+            {
+              "nama": "Produk contoh Vouchers #1",
+              "toko": "Vouchers Grosir",
+              "harga": 6000,
+              "terjual_minggu_ini": 1954,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Vouchers #2",
+              "toko": "Vouchers Home",
+              "harga": 29500,
+              "terjual_minggu_ini": 1046,
+              "rating": 4.7
+            },
+            {
+              "nama": "Produk contoh Vouchers #3",
+              "toko": "Vouchers Shop",
+              "harga": 47500,
+              "terjual_minggu_ini": 538,
+              "rating": 4.9
+            },
+            {
+              "nama": "Produk contoh Vouchers #4",
+              "toko": "Vouchers Grosir",
+              "harga": 161500,
+              "terjual_minggu_ini": 332,
+              "rating": 4.7
+            }
+          ]
+        },
+        {
+          "id": "stationery-books",
+          "nama": "Stationery & Books",
+          "shopee_cat_id": 11044123,
+          "url": "https://shopee.co.id/Stationery--Books-cat.11044123",
+          "produk": [
+            {
+              "nama": "Produk contoh Stationery & Books #1",
+              "toko": "Stationery Official Store",
+              "harga": 6500,
+              "terjual_minggu_ini": 1598,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Stationery & Books #2",
+              "toko": "Stationery Store ID",
+              "harga": 16500,
+              "terjual_minggu_ini": 1647,
+              "rating": 4.8
+            },
+            {
+              "nama": "Produk contoh Stationery & Books #3",
+              "toko": "Stationery Mart",
+              "harga": 83500,
+              "terjual_minggu_ini": 458,
+              "rating": 4.9
+            },
+            {
+              "nama": "Produk contoh Stationery & Books #4",
+              "toko": "Stationery Shop",
+              "harga": 143500,
+              "terjual_minggu_ini": 809,
+              "rating": 4.5
+            }
+          ]
+        },
+        {
+          "id": "photography",
+          "nama": "Photography",
+          "shopee_cat_id": 11044588,
+          "url": "https://shopee.co.id/Photography-cat.11044588",
+          "produk": [
+            {
+              "nama": "Produk contoh Photography #1",
+              "toko": "Photography Store ID",
+              "harga": 91000,
+              "terjual_minggu_ini": 886,
+              "rating": 4.9
+            },
+            {
+              "nama": "Produk contoh Photography #2",
+              "toko": "Photography Grosir",
+              "harga": 193000,
+              "terjual_minggu_ini": 376,
+              "rating": 4.9
+            },
+            {
+              "nama": "Produk contoh Photography #3",
+              "toko": "Photography Shop",
+              "harga": 881500,
+              "terjual_minggu_ini": 383,
+              "rating": 4.9
+            },
+            {
+              "nama": "Produk contoh Photography #4",
+              "toko": "Photography Shop",
+              "harga": 2319000,
+              "terjual_minggu_ini": 153,
+              "rating": 4.5
+            }
+          ]
+        },
+        {
+          "id": "deals-nearby",
+          "nama": "Deals Nearby",
+          "shopee_cat_id": 11105951,
+          "url": "https://shopee.co.id/Deals-Nearby-cat.11105951",
+          "produk": [
+            {
+              "nama": "Produk contoh Deals Nearby #1",
+              "toko": "Deals Store ID",
+              "harga": 4500,
+              "terjual_minggu_ini": 2528,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Deals Nearby #2",
+              "toko": "Deals Store ID",
+              "harga": 30000,
+              "terjual_minggu_ini": 867,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Deals Nearby #3",
+              "toko": "Deals Grosir",
+              "harga": 83500,
+              "terjual_minggu_ini": 512,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Deals Nearby #4",
+              "toko": "Deals Grosir",
+              "harga": 99000,
+              "terjual_minggu_ini": 917,
+              "rating": 4.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tokopedia",
+      "nama": "Tokopedia (kini bagian TikTok Shop)",
+      "kategori": [
+        {
+          "id": "audio-kamera-elektronik-lainnya",
+          "nama": "Audio, Kamera & Elektronik Lainnya",
+          "url": "https://www.tokopedia.com/p/audio-kamera-elektronik-lainnya",
+          "produk": [
+            {
+              "nama": "Produk contoh Audio, Kamera & Elektronik Lainnya #1",
+              "toko": "Audio, Mart",
+              "harga": 127000,
+              "terjual_minggu_ini": 548,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Audio, Kamera & Elektronik Lainnya #2",
+              "toko": "Audio, Grosir",
+              "harga": 194500,
+              "terjual_minggu_ini": 346,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Audio, Kamera & Elektronik Lainnya #3",
+              "toko": "Audio, Mart",
+              "harga": 728500,
+              "terjual_minggu_ini": 196,
+              "rating": 4.7
+            },
+            {
+              "nama": "Produk contoh Audio, Kamera & Elektronik Lainnya #4",
+              "toko": "Audio, Mart",
+              "harga": 2515500,
+              "terjual_minggu_ini": 199,
+              "rating": 4.5
+            }
+          ]
+        },
+        {
+          "id": "buku",
+          "nama": "Buku",
+          "url": "https://www.tokopedia.com/p/buku",
+          "produk": [
+            {
+              "nama": "Produk contoh Buku #1",
+              "toko": "Buku Official Store",
+              "harga": 13500,
+              "terjual_minggu_ini": 966,
+              "rating": 4.8
+            },
+            {
+              "nama": "Produk contoh Buku #2",
+              "toko": "Buku Mart",
+              "harga": 15000,
+              "terjual_minggu_ini": 1291,
+              "rating": 4.8
+            },
+            {
+              "nama": "Produk contoh Buku #3",
+              "toko": "Buku Store ID",
+              "harga": 88500,
+              "terjual_minggu_ini": 819,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Buku #4",
+              "toko": "Buku Grosir",
+              "harga": 99000,
+              "terjual_minggu_ini": 907,
+              "rating": 4.8
+            }
+          ]
+        },
+        {
+          "id": "dapur",
+          "nama": "Dapur",
+          "url": "https://www.tokopedia.com/p/dapur",
+          "produk": [
+            {
+              "nama": "Produk contoh Dapur #1",
+              "toko": "Dapur Shop",
+              "harga": 36500,
+              "terjual_minggu_ini": 1206,
+              "rating": 4.9
+            },
+            {
+              "nama": "Produk contoh Dapur #2",
+              "toko": "Dapur Home",
+              "harga": 78000,
+              "terjual_minggu_ini": 595,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Dapur #3",
+              "toko": "Dapur Store ID",
+              "harga": 187500,
+              "terjual_minggu_ini": 548,
+              "rating": 4.7
+            },
+            {
+              "nama": "Produk contoh Dapur #4",
+              "toko": "Dapur Shop",
+              "harga": 496500,
+              "terjual_minggu_ini": 334,
+              "rating": 4.9
+            }
+          ]
+        },
+        {
+          "id": "elektronik",
+          "nama": "Elektronik",
+          "url": "https://www.tokopedia.com/p/elektronik",
+          "produk": [
+            {
+              "nama": "Produk contoh Elektronik #1",
+              "toko": "Elektronik Home",
+              "harga": 140500,
+              "terjual_minggu_ini": 613,
+              "rating": 4.7
+            },
+            {
+              "nama": "Produk contoh Elektronik #2",
+              "toko": "Elektronik Store ID",
+              "harga": 180000,
+              "terjual_minggu_ini": 441,
+              "rating": 4.7
+            },
+            {
+              "nama": "Produk contoh Elektronik #3",
+              "toko": "Elektronik Grosir",
+              "harga": 1058000,
+              "terjual_minggu_ini": 311,
+              "rating": 4.7
+            },
+            {
+              "nama": "Produk contoh Elektronik #4",
+              "toko": "Elektronik Mart",
+              "harga": 3054500,
+              "terjual_minggu_ini": 227,
+              "rating": 4.7
+            }
+          ]
+        },
+        {
+          "id": "fashion-anak-bayi",
+          "nama": "Fashion Anak & Bayi",
+          "url": "https://www.tokopedia.com/p/fashion-anak-bayi",
+          "produk": [
+            {
+              "nama": "Produk contoh Fashion Anak & Bayi #1",
+              "toko": "Fashion Grosir",
+              "harga": 7000,
+              "terjual_minggu_ini": 1882,
+              "rating": 4.7
+            },
+            {
+              "nama": "Produk contoh Fashion Anak & Bayi #2",
+              "toko": "Fashion Official Store",
+              "harga": 35500,
+              "terjual_minggu_ini": 1034,
+              "rating": 4.9
+            },
+            {
+              "nama": "Produk contoh Fashion Anak & Bayi #3",
+              "toko": "Fashion Grosir",
+              "harga": 89000,
+              "terjual_minggu_ini": 525,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Fashion Anak & Bayi #4",
+              "toko": "Fashion Official Store",
+              "harga": 116000,
+              "terjual_minggu_ini": 432,
+              "rating": 4.5
+            }
+          ]
+        },
+        {
+          "id": "fashion-muslim",
+          "nama": "Fashion Muslim",
+          "url": "https://www.tokopedia.com/p/fashion-muslim",
+          "produk": [
+            {
+              "nama": "Produk contoh Fashion Muslim #1",
+              "toko": "Fashion Official Store",
+              "harga": 30500,
+              "terjual_minggu_ini": 1084,
+              "rating": 4.7
+            },
+            {
+              "nama": "Produk contoh Fashion Muslim #2",
+              "toko": "Fashion Store ID",
+              "harga": 103000,
+              "terjual_minggu_ini": 717,
+              "rating": 4.8
+            },
+            {
+              "nama": "Produk contoh Fashion Muslim #3",
+              "toko": "Fashion Store ID",
+              "harga": 210500,
+              "terjual_minggu_ini": 500,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Fashion Muslim #4",
+              "toko": "Fashion Official Store",
+              "harga": 430500,
+              "terjual_minggu_ini": 225,
+              "rating": 4.9
+            }
+          ]
+        },
+        {
+          "id": "fashion-pria",
+          "nama": "Fashion Pria",
+          "url": "https://www.tokopedia.com/p/fashion-pria",
+          "produk": [
+            {
+              "nama": "Produk contoh Fashion Pria #1",
+              "toko": "Fashion Shop",
+              "harga": 22000,
+              "terjual_minggu_ini": 801,
+              "rating": 4.7
+            },
+            {
+              "nama": "Produk contoh Fashion Pria #2",
+              "toko": "Fashion Official Store",
+              "harga": 48500,
+              "terjual_minggu_ini": 882,
+              "rating": 4.7
+            },
+            {
+              "nama": "Produk contoh Fashion Pria #3",
+              "toko": "Fashion Mart",
+              "harga": 232000,
+              "terjual_minggu_ini": 555,
+              "rating": 4.8
+            },
+            {
+              "nama": "Produk contoh Fashion Pria #4",
+              "toko": "Fashion Home",
+              "harga": 499000,
+              "terjual_minggu_ini": 453,
+              "rating": 4.8
+            }
+          ]
+        },
+        {
+          "id": "fashion-wanita",
+          "nama": "Fashion Wanita",
+          "url": "https://www.tokopedia.com/p/fashion-wanita",
+          "produk": [
+            {
+              "nama": "Produk contoh Fashion Wanita #1",
+              "toko": "Fashion Home",
+              "harga": 38500,
+              "terjual_minggu_ini": 1219,
+              "rating": 4.9
+            },
+            {
+              "nama": "Produk contoh Fashion Wanita #2",
+              "toko": "Fashion Store ID",
+              "harga": 81000,
+              "terjual_minggu_ini": 670,
+              "rating": 4.8
+            },
+            {
+              "nama": "Produk contoh Fashion Wanita #3",
+              "toko": "Fashion Store ID",
+              "harga": 234500,
+              "terjual_minggu_ini": 463,
+              "rating": 4.9
+            },
+            {
+              "nama": "Produk contoh Fashion Wanita #4",
+              "toko": "Fashion Mart",
+              "harga": 322500,
+              "terjual_minggu_ini": 532,
+              "rating": 4.7
+            }
+          ]
+        },
+        {
+          "id": "film-musik",
+          "nama": "Film & Musik",
+          "url": "https://www.tokopedia.com/p/film-musik",
+          "produk": [
+            {
+              "nama": "Produk contoh Film & Musik #1",
+              "toko": "Film Official Store",
+              "harga": 8000,
+              "terjual_minggu_ini": 1275,
+              "rating": 4.8
+            },
+            {
+              "nama": "Produk contoh Film & Musik #2",
+              "toko": "Film Grosir",
+              "harga": 22500,
+              "terjual_minggu_ini": 885,
+              "rating": 4.9
+            },
+            {
+              "nama": "Produk contoh Film & Musik #3",
+              "toko": "Film Store ID",
+              "harga": 45500,
+              "terjual_minggu_ini": 593,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Film & Musik #4",
+              "toko": "Film Official Store",
+              "harga": 110000,
+              "terjual_minggu_ini": 742,
+              "rating": 4.6
+            }
+          ]
+        },
+        {
+          "id": "gaming",
+          "nama": "Gaming",
+          "url": "https://www.tokopedia.com/p/gaming",
+          "produk": [
+            {
+              "nama": "Produk contoh Gaming #1",
+              "toko": "Gaming Home",
+              "harga": 103500,
+              "terjual_minggu_ini": 668,
+              "rating": 4.4
+            },
+            {
+              "nama": "Produk contoh Gaming #2",
+              "toko": "Gaming Mart",
+              "harga": 400500,
+              "terjual_minggu_ini": 363,
+              "rating": 5.0
+            },
+            {
+              "nama": "Produk contoh Gaming #3",
+              "toko": "Gaming Mart",
+              "harga": 470500,
+              "terjual_minggu_ini": 494,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Gaming #4",
+              "toko": "Gaming Grosir",
+              "harga": 1224500,
+              "terjual_minggu_ini": 373,
+              "rating": 4.9
+            }
+          ]
+        },
+        {
+          "id": "handphone-tablet",
+          "nama": "Handphone & Tablet",
+          "url": "https://www.tokopedia.com/p/handphone-tablet",
+          "produk": [
+            {
+              "nama": "Produk contoh Handphone & Tablet #1",
+              "toko": "Handphone Home",
+              "harga": 172000,
+              "terjual_minggu_ini": 720,
+              "rating": 4.7
+            },
+            {
+              "nama": "Produk contoh Handphone & Tablet #2",
+              "toko": "Handphone Grosir",
+              "harga": 295500,
+              "terjual_minggu_ini": 441,
+              "rating": 4.7
+            },
+            {
+              "nama": "Produk contoh Handphone & Tablet #3",
+              "toko": "Handphone Shop",
+              "harga": 480500,
+              "terjual_minggu_ini": 341,
+              "rating": 4.8
+            },
+            {
+              "nama": "Produk contoh Handphone & Tablet #4",
+              "toko": "Handphone Home",
+              "harga": 2896000,
+              "terjual_minggu_ini": 239,
+              "rating": 5.0
+            }
+          ]
+        },
+        {
+          "id": "ibu-bayi",
+          "nama": "Ibu & Bayi",
+          "url": "https://www.tokopedia.com/p/ibu-bayi",
+          "produk": [
+            {
+              "nama": "Produk contoh Ibu & Bayi #1",
+              "toko": "Ibu Home",
+              "harga": 35500,
+              "terjual_minggu_ini": 966,
+              "rating": 4.8
+            },
+            {
+              "nama": "Produk contoh Ibu & Bayi #2",
+              "toko": "Ibu Shop",
+              "harga": 88500,
+              "terjual_minggu_ini": 405,
+              "rating": 4.7
+            },
+            {
+              "nama": "Produk contoh Ibu & Bayi #3",
+              "toko": "Ibu Grosir",
+              "harga": 231000,
+              "terjual_minggu_ini": 354,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Ibu & Bayi #4",
+              "toko": "Ibu Grosir",
+              "harga": 305500,
+              "terjual_minggu_ini": 424,
+              "rating": 4.9
+            }
+          ]
+        },
+        {
+          "id": "kecantikan",
+          "nama": "Kecantikan",
+          "url": "https://www.tokopedia.com/p/kecantikan",
+          "produk": [
+            {
+              "nama": "Produk contoh Kecantikan #1",
+              "toko": "Kecantikan Home",
+              "harga": 10000,
+              "terjual_minggu_ini": 1184,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Kecantikan #2",
+              "toko": "Kecantikan Shop",
+              "harga": 17500,
+              "terjual_minggu_ini": 1171,
+              "rating": 4.7
+            },
+            {
+              "nama": "Produk contoh Kecantikan #3",
+              "toko": "Kecantikan Official Store",
+              "harga": 63000,
+              "terjual_minggu_ini": 586,
+              "rating": 4.9
+            },
+            {
+              "nama": "Produk contoh Kecantikan #4",
+              "toko": "Kecantikan Official Store",
+              "harga": 175500,
+              "terjual_minggu_ini": 325,
+              "rating": 5.0
+            }
+          ]
+        },
+        {
+          "id": "kesehatan",
+          "nama": "Kesehatan",
+          "url": "https://www.tokopedia.com/p/kesehatan",
+          "produk": [
+            {
+              "nama": "Produk contoh Kesehatan #1",
+              "toko": "Kesehatan Mart",
+              "harga": 21500,
+              "terjual_minggu_ini": 1443,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Kesehatan #2",
+              "toko": "Kesehatan Official Store",
+              "harga": 53500,
+              "terjual_minggu_ini": 794,
+              "rating": 4.7
+            },
+            {
+              "nama": "Produk contoh Kesehatan #3",
+              "toko": "Kesehatan Grosir",
+              "harga": 167000,
+              "terjual_minggu_ini": 529,
+              "rating": 4.9
+            },
+            {
+              "nama": "Produk contoh Kesehatan #4",
+              "toko": "Kesehatan Shop",
+              "harga": 294000,
+              "terjual_minggu_ini": 487,
+              "rating": 4.8
+            }
+          ]
+        },
+        {
+          "id": "komputer-laptop",
+          "nama": "Komputer & Laptop",
+          "url": "https://www.tokopedia.com/p/komputer-laptop",
+          "produk": [
+            {
+              "nama": "Produk contoh Komputer & Laptop #1",
+              "toko": "Komputer Grosir",
+              "harga": 162000,
+              "terjual_minggu_ini": 702,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Komputer & Laptop #2",
+              "toko": "Komputer Mart",
+              "harga": 193500,
+              "terjual_minggu_ini": 709,
+              "rating": 4.8
+            },
+            {
+              "nama": "Produk contoh Komputer & Laptop #3",
+              "toko": "Komputer Shop",
+              "harga": 843500,
+              "terjual_minggu_ini": 282,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Komputer & Laptop #4",
+              "toko": "Komputer Grosir",
+              "harga": 2218500,
+              "terjual_minggu_ini": 145,
+              "rating": 4.9
+            }
+          ]
+        },
+        {
+          "id": "logam-mulia",
+          "nama": "Logam Mulia",
+          "url": "https://www.tokopedia.com/p/logam-mulia",
+          "produk": [
+            {
+              "nama": "Produk contoh Logam Mulia #1",
+              "toko": "Logam Mart",
+              "harga": 138500,
+              "terjual_minggu_ini": 735,
+              "rating": 4.9
+            },
+            {
+              "nama": "Produk contoh Logam Mulia #2",
+              "toko": "Logam Shop",
+              "harga": 362000,
+              "terjual_minggu_ini": 427,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Logam Mulia #3",
+              "toko": "Logam Official Store",
+              "harga": 980500,
+              "terjual_minggu_ini": 329,
+              "rating": 4.9
+            },
+            {
+              "nama": "Produk contoh Logam Mulia #4",
+              "toko": "Logam Grosir",
+              "harga": 3256000,
+              "terjual_minggu_ini": 127,
+              "rating": 4.8
+            }
+          ]
+        },
+        {
+          "id": "mainan-hobi",
+          "nama": "Mainan & Hobi",
+          "url": "https://www.tokopedia.com/p/mainan-hobi",
+          "produk": [
+            {
+              "nama": "Produk contoh Mainan & Hobi #1",
+              "toko": "Mainan Store ID",
+              "harga": 42000,
+              "terjual_minggu_ini": 854,
+              "rating": 4.7
+            },
+            {
+              "nama": "Produk contoh Mainan & Hobi #2",
+              "toko": "Mainan Shop",
+              "harga": 93000,
+              "terjual_minggu_ini": 682,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Mainan & Hobi #3",
+              "toko": "Mainan Shop",
+              "harga": 236500,
+              "terjual_minggu_ini": 468,
+              "rating": 4.8
+            },
+            {
+              "nama": "Produk contoh Mainan & Hobi #4",
+              "toko": "Mainan Official Store",
+              "harga": 334500,
+              "terjual_minggu_ini": 556,
+              "rating": 4.6
+            }
+          ]
+        },
+        {
+          "id": "makanan-minuman",
+          "nama": "Makanan & Minuman",
+          "url": "https://www.tokopedia.com/p/makanan-minuman",
+          "produk": [
+            {
+              "nama": "Produk contoh Makanan & Minuman #1",
+              "toko": "Makanan Home",
+              "harga": 11500,
+              "terjual_minggu_ini": 1086,
+              "rating": 4.7
+            },
+            {
+              "nama": "Produk contoh Makanan & Minuman #2",
+              "toko": "Makanan Official Store",
+              "harga": 37000,
+              "terjual_minggu_ini": 829,
+              "rating": 4.7
+            },
+            {
+              "nama": "Produk contoh Makanan & Minuman #3",
+              "toko": "Makanan Store ID",
+              "harga": 61500,
+              "terjual_minggu_ini": 562,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Makanan & Minuman #4",
+              "toko": "Makanan Mart",
+              "harga": 124000,
+              "terjual_minggu_ini": 522,
+              "rating": 4.8
+            }
+          ]
+        },
+        {
+          "id": "office-stationery",
+          "nama": "Office & Stationery",
+          "url": "https://www.tokopedia.com/p/office-stationery",
+          "produk": [
+            {
+              "nama": "Produk contoh Office & Stationery #1",
+              "toko": "Office Mart",
+              "harga": 8500,
+              "terjual_minggu_ini": 1621,
+              "rating": 5.0
+            },
+            {
+              "nama": "Produk contoh Office & Stationery #2",
+              "toko": "Office Home",
+              "harga": 18000,
+              "terjual_minggu_ini": 926,
+              "rating": 4.7
+            },
+            {
+              "nama": "Produk contoh Office & Stationery #3",
+              "toko": "Office Home",
+              "harga": 89500,
+              "terjual_minggu_ini": 528,
+              "rating": 4.8
+            },
+            {
+              "nama": "Produk contoh Office & Stationery #4",
+              "toko": "Office Official Store",
+              "harga": 154500,
+              "terjual_minggu_ini": 535,
+              "rating": 4.5
+            }
+          ]
+        },
+        {
+          "id": "olahraga",
+          "nama": "Olahraga",
+          "url": "https://www.tokopedia.com/p/olahraga",
+          "produk": [
+            {
+              "nama": "Produk contoh Olahraga #1",
+              "toko": "Olahraga Store ID",
+              "harga": 22500,
+              "terjual_minggu_ini": 1011,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Olahraga #2",
+              "toko": "Olahraga Mart",
+              "harga": 83000,
+              "terjual_minggu_ini": 618,
+              "rating": 4.7
+            },
+            {
+              "nama": "Produk contoh Olahraga #3",
+              "toko": "Olahraga Mart",
+              "harga": 221500,
+              "terjual_minggu_ini": 705,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Olahraga #4",
+              "toko": "Olahraga Grosir",
+              "harga": 434000,
+              "terjual_minggu_ini": 375,
+              "rating": 4.6
+            }
+          ]
+        },
+        {
+          "id": "perawatan-hewan",
+          "nama": "Perawatan Hewan",
+          "url": "https://www.tokopedia.com/p/perawatan-hewan",
+          "produk": [
+            {
+              "nama": "Produk contoh Perawatan Hewan #1",
+              "toko": "Perawatan Grosir",
+              "harga": 19000,
+              "terjual_minggu_ini": 1390,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Perawatan Hewan #2",
+              "toko": "Perawatan Shop",
+              "harga": 80000,
+              "terjual_minggu_ini": 978,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Perawatan Hewan #3",
+              "toko": "Perawatan Grosir",
+              "harga": 166500,
+              "terjual_minggu_ini": 657,
+              "rating": 4.8
+            },
+            {
+              "nama": "Produk contoh Perawatan Hewan #4",
+              "toko": "Perawatan Grosir",
+              "harga": 449500,
+              "terjual_minggu_ini": 393,
+              "rating": 5.0
+            }
+          ]
+        },
+        {
+          "id": "perawatan-tubuh",
+          "nama": "Perawatan Tubuh",
+          "url": "https://www.tokopedia.com/p/perawatan-tubuh",
+          "produk": [
+            {
+              "nama": "Produk contoh Perawatan Tubuh #1",
+              "toko": "Perawatan Grosir",
+              "harga": 7000,
+              "terjual_minggu_ini": 1367,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Perawatan Tubuh #2",
+              "toko": "Perawatan Store ID",
+              "harga": 15500,
+              "terjual_minggu_ini": 1478,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Perawatan Tubuh #3",
+              "toko": "Perawatan Shop",
+              "harga": 43500,
+              "terjual_minggu_ini": 913,
+              "rating": 5.0
+            },
+            {
+              "nama": "Produk contoh Perawatan Tubuh #4",
+              "toko": "Perawatan Home",
+              "harga": 173500,
+              "terjual_minggu_ini": 708,
+              "rating": 4.5
+            }
+          ]
+        },
+        {
+          "id": "perlengkapan-pesta",
+          "nama": "Perlengkapan Pesta",
+          "url": "https://www.tokopedia.com/p/perlengkapan-pesta",
+          "produk": [
+            {
+              "nama": "Produk contoh Perlengkapan Pesta #1",
+              "toko": "Perlengkapan Home",
+              "harga": 4000,
+              "terjual_minggu_ini": 2143,
+              "rating": 4.7
+            },
+            {
+              "nama": "Produk contoh Perlengkapan Pesta #2",
+              "toko": "Perlengkapan Official Store",
+              "harga": 26000,
+              "terjual_minggu_ini": 763,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Perlengkapan Pesta #3",
+              "toko": "Perlengkapan Official Store",
+              "harga": 71500,
+              "terjual_minggu_ini": 491,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Perlengkapan Pesta #4",
+              "toko": "Perlengkapan Shop",
+              "harga": 99500,
+              "terjual_minggu_ini": 697,
+              "rating": 4.4
+            }
+          ]
+        },
+        {
+          "id": "pertukangan",
+          "nama": "Pertukangan",
+          "url": "https://www.tokopedia.com/p/pertukangan",
+          "produk": [
+            {
+              "nama": "Produk contoh Pertukangan #1",
+              "toko": "Pertukangan Grosir",
+              "harga": 20000,
+              "terjual_minggu_ini": 1453,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Pertukangan #2",
+              "toko": "Pertukangan Home",
+              "harga": 61500,
+              "terjual_minggu_ini": 520,
+              "rating": 4.8
+            },
+            {
+              "nama": "Produk contoh Pertukangan #3",
+              "toko": "Pertukangan Home",
+              "harga": 169000,
+              "terjual_minggu_ini": 671,
+              "rating": 4.7
+            },
+            {
+              "nama": "Produk contoh Pertukangan #4",
+              "toko": "Pertukangan Mart",
+              "harga": 366000,
+              "terjual_minggu_ini": 342,
+              "rating": 5.0
+            }
+          ]
+        },
+        {
+          "id": "properti",
+          "nama": "Properti",
+          "url": "https://www.tokopedia.com/p/properti",
+          "produk": [
+            {
+              "nama": "Produk contoh Properti #1",
+              "toko": "Properti Official Store",
+              "harga": 100000,
+              "terjual_minggu_ini": 691,
+              "rating": 4.8
+            },
+            {
+              "nama": "Produk contoh Properti #2",
+              "toko": "Properti Store ID",
+              "harga": 232000,
+              "terjual_minggu_ini": 672,
+              "rating": 4.8
+            },
+            {
+              "nama": "Produk contoh Properti #3",
+              "toko": "Properti Store ID",
+              "harga": 727500,
+              "terjual_minggu_ini": 370,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Properti #4",
+              "toko": "Properti Home",
+              "harga": 1515000,
+              "terjual_minggu_ini": 177,
+              "rating": 4.7
+            }
+          ]
+        },
+        {
+          "id": "rumah-tangga",
+          "nama": "Rumah Tangga",
+          "url": "https://www.tokopedia.com/p/rumah-tangga",
+          "produk": [
+            {
+              "nama": "Produk contoh Rumah Tangga #1",
+              "toko": "Rumah Official Store",
+              "harga": 34500,
+              "terjual_minggu_ini": 923,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Rumah Tangga #2",
+              "toko": "Rumah Home",
+              "harga": 91500,
+              "terjual_minggu_ini": 548,
+              "rating": 4.4
+            },
+            {
+              "nama": "Produk contoh Rumah Tangga #3",
+              "toko": "Rumah Shop",
+              "harga": 171000,
+              "terjual_minggu_ini": 737,
+              "rating": 4.8
+            },
+            {
+              "nama": "Produk contoh Rumah Tangga #4",
+              "toko": "Rumah Home",
+              "harga": 460500,
+              "terjual_minggu_ini": 524,
+              "rating": 4.5
+            }
+          ]
+        },
+        {
+          "id": "tiket-travel-voucher",
+          "nama": "Tiket, Travel & Voucher",
+          "url": "https://www.tokopedia.com/p/tiket-travel-voucher",
+          "produk": [
+            {
+              "nama": "Produk contoh Tiket, Travel & Voucher #1",
+              "toko": "Tiket, Grosir",
+              "harga": 7500,
+              "terjual_minggu_ini": 1821,
+              "rating": 4.9
+            },
+            {
+              "nama": "Produk contoh Tiket, Travel & Voucher #2",
+              "toko": "Tiket, Grosir",
+              "harga": 17500,
+              "terjual_minggu_ini": 748,
+              "rating": 4.8
+            },
+            {
+              "nama": "Produk contoh Tiket, Travel & Voucher #3",
+              "toko": "Tiket, Home",
+              "harga": 77500,
+              "terjual_minggu_ini": 971,
+              "rating": 4.5
+            },
+            {
+              "nama": "Produk contoh Tiket, Travel & Voucher #4",
+              "toko": "Tiket, Grosir",
+              "harga": 130000,
+              "terjual_minggu_ini": 697,
+              "rating": 4.7
+            }
+          ]
+        },
+        {
+          "id": "virtual-products",
+          "nama": "Virtual Products",
+          "url": "https://www.tokopedia.com/p/virtual-products",
+          "produk": [
+            {
+              "nama": "Produk contoh Virtual Products #1",
+              "toko": "Virtual Mart",
+              "harga": 12000,
+              "terjual_minggu_ini": 1299,
+              "rating": 4.4
+            },
+            {
+              "nama": "Produk contoh Virtual Products #2",
+              "toko": "Virtual Mart",
+              "harga": 29000,
+              "terjual_minggu_ini": 1209,
+              "rating": 4.6
+            },
+            {
+              "nama": "Produk contoh Virtual Products #3",
+              "toko": "Virtual Shop",
+              "harga": 46000,
+              "terjual_minggu_ini": 657,
+              "rating": 4.9
+            },
+            {
+              "nama": "Produk contoh Virtual Products #4",
+              "toko": "Virtual Official Store",
+              "harga": 165500,
+              "terjual_minggu_ini": 587,
+              "rating": 5.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
