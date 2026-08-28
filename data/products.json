@@ -7,1924 +7,1022 @@
       "nama": "Shopee",
       "kategori": [
         {
-          "id": "electronics",
-          "nama": "Electronics",
-          "shopee_cat_id": 11044258,
-          "url": "https://shopee.co.id/Electronics-cat.11044258",
+          "id": "cat1",
+          "nama": "Elektronik & Lampu",
           "produk": [
             {
-              "nama": "Produk contoh Electronics #1",
-              "toko": "Electronics Shop",
-              "harga": 144000,
-              "terjual_minggu_ini": 383,
-              "rating": 4.6
+              "nama": "LAMPU LED NEON FLEX SELANG 220V METERAN FLEXIBLE SIGN STRIP OUTDOOR INDOOR (LAMPU TIK TOK) BAGUS",
+              "toko": "-",
+              "harga": 5800,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/LAMPU-LED-NEON-FLEX-SELANG-220V-METERAN-FLEXIBLE-SIGN-STRIP-OUTDOOR-INDOOR-(LAMPU-TIK-TOK)-BAGUS-i.218542238.7756274185",
+              "image": ""
             },
             {
-              "nama": "Produk contoh Electronics #2",
-              "toko": "Electronics Official Store",
-              "harga": 297000,
-              "terjual_minggu_ini": 308,
-              "rating": 4.8
+              "nama": "LAMPU LED STRIP SELANG 5050 SMD AC 220V METERAN (1M 100M) OUTDOOR AND INDOOR LAMPU PLAFON LAMPU HIAS",
+              "toko": "-",
+              "harga": 3399,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/LAMPU-LED-STRIP-SELANG-5050-SMD-AC-220V-METERAN-(1M-100M)-OUTDOOR-AND-INDOOR-LAMPU-PLAFON-LAMPU-HIAS-i.218542238.6023384546",
+              "image": "https://down-id.img.susercontent.com/file/280edf5b852b5d94a7996b933a45bc1a"
             },
             {
-              "nama": "Produk contoh Electronics #3",
-              "toko": "Electronics Home",
-              "harga": 1022000,
-              "terjual_minggu_ini": 186,
-              "rating": 4.4
+              "nama": "NEON FLEX 220V PERMETER LAMPU LED NEON SIGN LED SELANG NEON FLEX AC 220V LED METERAN LAMPU PLAFON",
+              "toko": "-",
+              "harga": 5800,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/NEON-FLEX-220V-PERMETER-LAMPU-LED-NEON-SIGN-LED-SELANG-NEON-FLEX-AC-220V-LED-METERAN-LAMPU-PLAFON-i.254302311.3264875740",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7rasd-m3z75m58bfyf98"
             },
             {
-              "nama": "Produk contoh Electronics #4",
-              "toko": "Electronics Mart",
-              "harga": 1593000,
-              "terjual_minggu_ini": 188,
-              "rating": 4.8
+              "nama": "Lampu LED STRIP SELANG 2835 220V OUTDOOR RGB LED strip warna warni",
+              "toko": "-",
+              "harga": 25666,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Lampu-LED-STRIP-SELANG-2835-220V-OUTDOOR-RGB-LED-strip-warna-warni-i.43229082.11831287352",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7rasa-m43f4hbc4rdl6f"
+            },
+            {
+              "nama": "SMS Lampu Tumblr Kawat Mini 1 Meter Lampu Hias Dekorasi Gift Box Bucket Balon Fairy Light Led",
+              "toko": "-",
+              "harga": 2288,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/SMS-Lampu-Tumblr-Kawat-Mini-1-Meter-Lampu-Hias-Dekorasi-Gift-Box-Bucket-Balon-Fairy-Light-Led-i.453955220.18210916732",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7rbkd-mapfhq6hlwoof2"
             }
           ]
         },
         {
-          "id": "computer-accessories",
-          "nama": "Computer Accessories",
-          "shopee_cat_id": 11044364,
-          "url": "https://shopee.co.id/Computer-Accessories-cat.11044364",
+          "id": "cat2",
+          "nama": "Aksesoris HP & Audio",
           "produk": [
             {
-              "nama": "Produk contoh Computer Accessories #1",
-              "toko": "Computer Shop",
-              "harga": 133500,
-              "terjual_minggu_ini": 437,
-              "rating": 4.8
+              "nama": "X55 TWS Bluetooth Wireless Nyaman Digunakan Earphone Bass Kencang Kualitas Jernih dan Tahan Lama",
+              "toko": "-",
+              "harga": 30888,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/X55-TWS-Bluetooth-Wireless-Nyaman-Digunakan-Earphone-Bass-Kencang-Kualitas-Jernih-dan-Tahan-Lama-i.1676828789.56851781083",
+              "image": ""
             },
             {
-              "nama": "Produk contoh Computer Accessories #2",
-              "toko": "Computer Mart",
-              "harga": 400000,
-              "terjual_minggu_ini": 305,
-              "rating": 4.6
+              "nama": "COD Headset bluetooth TWS Air31 wirelles LED display tranparan Hifi sound",
+              "toko": "-",
+              "harga": 25009,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/COD-Headset-bluetooth-TWS-Air31-wirelles-LED-display-tranparan-Hifi-sound-i.52922719.24821931040",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-822wh-mp1z2lmfc5xnb1"
             },
             {
-              "nama": "Produk contoh Computer Accessories #3",
-              "toko": "Computer Store ID",
-              "harga": 457000,
-              "terjual_minggu_ini": 468,
-              "rating": 4.8
+              "nama": "COD CID17 Wireless Earphone Headset Bluetooth TWS with MIC Stereo Handset Earbud Wireless Henset",
+              "toko": "-",
+              "harga": 29800,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/-COD-CID17-Wireless-Earphone-Headset-Bluetooth-TWS-with-MIC-Stereo-Handset-Earbud-Wireless-Henset-i.1050434990.23277903185",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-81ztl-ms02dlfsmtqe09"
             },
             {
-              "nama": "Produk contoh Computer Accessories #4",
-              "toko": "Computer Store ID",
-              "harga": 2627000,
-              "terjual_minggu_ini": 168,
-              "rating": 5.0
+              "nama": "I13 Pro TWS Headset Bluetooth Bass 9D HiFi Stereo Sound Earphone Wireless Waterproof Headphone Sport",
+              "toko": "-",
+              "harga": 26600,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/I13-Pro-TWS-Headset-Bluetooth-Bass-9D-HiFi-Stereo-Sound-Earphone-Wireless-Waterproof-Headphone-Sport-i.52922719.22254627658",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7r98v-lx0zari0y3x7b6"
+            },
+            {
+              "nama": "COD Hieen M10 TWS Wireless Bluetooth Earphone In Ear Headset Noise Cancelling Bluetooth Headset 10D bass stereo HiFi HD LED Displa",
+              "toko": "-",
+              "harga": 28900,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/COD-Hieen-M10-TWS-Wireless-Bluetooth-Earphone-In-Ear-Headset-Noise-Cancelling-Bluetooth-Headset-10D-bass-stereo-HiFi-HD-LED-Displa-i.451021432.23285088262",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-81ztj-ms02dlfsh7gm91"
             }
           ]
         },
         {
-          "id": "mobile-accessories",
-          "nama": "Mobile Accessories",
-          "shopee_cat_id": 11044458,
-          "url": "https://shopee.co.id/Mobile-Accessories-cat.11044458",
+          "id": "cat3",
+          "nama": "Aksesoris HP & Gadget",
           "produk": [
             {
-              "nama": "Produk contoh Mobile Accessories #1",
-              "toko": "Mobile Home",
-              "harga": 26000,
-              "terjual_minggu_ini": 689,
-              "rating": 4.5
-            },
-            {
-              "nama": "Produk contoh Mobile Accessories #2",
-              "toko": "Mobile Grosir",
-              "harga": 100500,
-              "terjual_minggu_ini": 564,
-              "rating": 4.9
-            },
-            {
-              "nama": "Produk contoh Mobile Accessories #3",
-              "toko": "Mobile Home",
-              "harga": 230500,
-              "terjual_minggu_ini": 502,
-              "rating": 4.4
-            },
-            {
-              "nama": "Produk contoh Mobile Accessories #4",
-              "toko": "Mobile Mart",
-              "harga": 327000,
-              "terjual_minggu_ini": 553,
-              "rating": 4.9
-            }
-          ]
-        },
-        {
-          "id": "men-clothes",
-          "nama": "Men Clothes",
-          "shopee_cat_id": 11042849,
-          "url": "https://shopee.co.id/Men-Clothes-cat.11042849",
-          "produk": [
-            {
-              "nama": "Produk contoh Men Clothes #1",
-              "toko": "Men Shop",
-              "harga": 27000,
-              "terjual_minggu_ini": 1101,
-              "rating": 4.4
-            },
-            {
-              "nama": "Produk contoh Men Clothes #2",
-              "toko": "Men Grosir",
-              "harga": 88500,
-              "terjual_minggu_ini": 522,
-              "rating": 5.0
-            },
-            {
-              "nama": "Produk contoh Men Clothes #3",
-              "toko": "Men Home",
-              "harga": 171000,
-              "terjual_minggu_ini": 710,
-              "rating": 4.6
-            },
-            {
-              "nama": "Produk contoh Men Clothes #4",
-              "toko": "Men Store ID",
-              "harga": 416500,
-              "terjual_minggu_ini": 509,
-              "rating": 4.6
-            }
-          ]
-        },
-        {
-          "id": "men-shoes",
-          "nama": "Men Shoes",
-          "shopee_cat_id": 11042985,
-          "url": "https://shopee.co.id/Men-Shoes-cat.11042985",
-          "produk": [
-            {
-              "nama": "Produk contoh Men Shoes #1",
-              "toko": "Men Shop",
-              "harga": 22000,
-              "terjual_minggu_ini": 1271,
-              "rating": 5.0
-            },
-            {
-              "nama": "Produk contoh Men Shoes #2",
-              "toko": "Men Shop",
-              "harga": 87500,
-              "terjual_minggu_ini": 433,
-              "rating": 4.5
-            },
-            {
-              "nama": "Produk contoh Men Shoes #3",
-              "toko": "Men Home",
-              "harga": 174000,
-              "terjual_minggu_ini": 382,
-              "rating": 4.6
-            },
-            {
-              "nama": "Produk contoh Men Shoes #4",
-              "toko": "Men Mart",
-              "harga": 492500,
-              "terjual_minggu_ini": 418,
-              "rating": 4.5
-            }
-          ]
-        },
-        {
-          "id": "men-bags",
-          "nama": "Men Bags",
-          "shopee_cat_id": 11043011,
-          "url": "https://shopee.co.id/Men-Bags-cat.11043011",
-          "produk": [
-            {
-              "nama": "Produk contoh Men Bags #1",
-              "toko": "Men Official Store",
-              "harga": 25500,
-              "terjual_minggu_ini": 1364,
-              "rating": 4.5
-            },
-            {
-              "nama": "Produk contoh Men Bags #2",
-              "toko": "Men Home",
-              "harga": 47000,
-              "terjual_minggu_ini": 1072,
-              "rating": 4.6
-            },
-            {
-              "nama": "Produk contoh Men Bags #3",
-              "toko": "Men Mart",
-              "harga": 165500,
-              "terjual_minggu_ini": 740,
-              "rating": 4.9
-            },
-            {
-              "nama": "Produk contoh Men Bags #4",
-              "toko": "Men Home",
-              "harga": 332500,
-              "terjual_minggu_ini": 322,
-              "rating": 4.6
-            }
-          ]
-        },
-        {
-          "id": "fashion-accessories",
-          "nama": "Fashion Accessories",
-          "shopee_cat_id": 11042921,
-          "url": "https://shopee.co.id/Fashion-Accessories-cat.11042921",
-          "produk": [
-            {
-              "nama": "Produk contoh Fashion Accessories #1",
-              "toko": "Fashion Grosir",
-              "harga": 14500,
-              "terjual_minggu_ini": 1238,
-              "rating": 4.5
-            },
-            {
-              "nama": "Produk contoh Fashion Accessories #2",
-              "toko": "Fashion Grosir",
-              "harga": 39500,
-              "terjual_minggu_ini": 951,
-              "rating": 4.8
-            },
-            {
-              "nama": "Produk contoh Fashion Accessories #3",
-              "toko": "Fashion Home",
-              "harga": 68000,
-              "terjual_minggu_ini": 1002,
-              "rating": 4.6
-            },
-            {
-              "nama": "Produk contoh Fashion Accessories #4",
-              "toko": "Fashion Official Store",
-              "harga": 108000,
-              "terjual_minggu_ini": 640,
-              "rating": 4.9
-            }
-          ]
-        },
-        {
-          "id": "watches",
-          "nama": "Watches",
-          "shopee_cat_id": 11042900,
-          "url": "https://shopee.co.id/Watches-cat.11042900",
-          "produk": [
-            {
-              "nama": "Produk contoh Watches #1",
-              "toko": "Watches Shop",
-              "harga": 173000,
-              "terjual_minggu_ini": 358,
-              "rating": 4.5
-            },
-            {
-              "nama": "Produk contoh Watches #2",
-              "toko": "Watches Home",
-              "harga": 401500,
-              "terjual_minggu_ini": 434,
-              "rating": 4.6
-            },
-            {
-              "nama": "Produk contoh Watches #3",
-              "toko": "Watches Mart",
-              "harga": 941000,
-              "terjual_minggu_ini": 304,
-              "rating": 4.9
-            },
-            {
-              "nama": "Produk contoh Watches #4",
-              "toko": "Watches Official Store",
-              "harga": 1248000,
-              "terjual_minggu_ini": 311,
-              "rating": 4.8
-            }
-          ]
-        },
-        {
-          "id": "health",
-          "nama": "Health",
-          "shopee_cat_id": 11043279,
-          "url": "https://shopee.co.id/Health-cat.11043279",
-          "produk": [
-            {
-              "nama": "Produk contoh Health #1",
-              "toko": "Health Shop",
-              "harga": 32500,
-              "terjual_minggu_ini": 1176,
-              "rating": 4.6
-            },
-            {
-              "nama": "Produk contoh Health #2",
-              "toko": "Health Home",
-              "harga": 64000,
-              "terjual_minggu_ini": 720,
-              "rating": 4.4
-            },
-            {
-              "nama": "Produk contoh Health #3",
-              "toko": "Health Store ID",
-              "harga": 179000,
-              "terjual_minggu_ini": 747,
-              "rating": 4.7
-            },
-            {
-              "nama": "Produk contoh Health #4",
-              "toko": "Health Grosir",
-              "harga": 278000,
-              "terjual_minggu_ini": 601,
-              "rating": 4.9
-            }
-          ]
-        },
-        {
-          "id": "hobby-collection",
-          "nama": "Hobby & Collection",
-          "shopee_cat_id": 11043572,
-          "url": "https://shopee.co.id/Hobby--Collection-cat.11043572",
-          "produk": [
-            {
-              "nama": "Produk contoh Hobby & Collection #1",
-              "toko": "Hobby Store ID",
-              "harga": 31500,
-              "terjual_minggu_ini": 1070,
-              "rating": 4.6
-            },
-            {
-              "nama": "Produk contoh Hobby & Collection #2",
-              "toko": "Hobby Mart",
-              "harga": 55500,
-              "terjual_minggu_ini": 829,
-              "rating": 5.0
-            },
-            {
-              "nama": "Produk contoh Hobby & Collection #3",
-              "toko": "Hobby Official Store",
-              "harga": 195000,
-              "terjual_minggu_ini": 511,
-              "rating": 5.0
-            },
-            {
-              "nama": "Produk contoh Hobby & Collection #4",
-              "toko": "Hobby Grosir",
-              "harga": 480500,
-              "terjual_minggu_ini": 533,
-              "rating": 4.5
-            }
-          ]
-        },
-        {
-          "id": "food-beverages",
-          "nama": "Food & Beverages",
-          "shopee_cat_id": 11043451,
-          "url": "https://shopee.co.id/Food--Beverages-cat.11043451",
-          "produk": [
-            {
-              "nama": "Produk contoh Food & Beverages #1",
-              "toko": "Food Official Store",
-              "harga": 8000,
-              "terjual_minggu_ini": 2093,
-              "rating": 4.5
-            },
-            {
-              "nama": "Produk contoh Food & Beverages #2",
-              "toko": "Food Mart",
-              "harga": 31000,
-              "terjual_minggu_ini": 1250,
-              "rating": 4.9
-            },
-            {
-              "nama": "Produk contoh Food & Beverages #3",
-              "toko": "Food Mart",
-              "harga": 48500,
-              "terjual_minggu_ini": 956,
-              "rating": 4.5
-            },
-            {
-              "nama": "Produk contoh Food & Beverages #4",
-              "toko": "Food Home",
-              "harga": 159000,
-              "terjual_minggu_ini": 732,
-              "rating": 5.0
-            }
-          ]
-        },
-        {
-          "id": "beauty-care",
-          "nama": "Beauty Care",
-          "shopee_cat_id": 11043145,
-          "url": "https://shopee.co.id/Beauty-Care-cat.11043145",
-          "produk": [
-            {
-              "nama": "Produk contoh Beauty Care #1",
-              "toko": "Beauty Shop",
-              "harga": 13000,
-              "terjual_minggu_ini": 1626,
-              "rating": 4.5
-            },
-            {
-              "nama": "Produk contoh Beauty Care #2",
-              "toko": "Beauty Shop",
-              "harga": 25000,
-              "terjual_minggu_ini": 969,
-              "rating": 4.8
-            },
-            {
-              "nama": "Produk contoh Beauty Care #3",
-              "toko": "Beauty Home",
-              "harga": 68500,
-              "terjual_minggu_ini": 1000,
-              "rating": 4.5
-            },
-            {
-              "nama": "Produk contoh Beauty Care #4",
-              "toko": "Beauty Official Store",
-              "harga": 119500,
-              "terjual_minggu_ini": 384,
-              "rating": 4.8
-            }
-          ]
-        },
-        {
-          "id": "home-living",
-          "nama": "Home & Living",
-          "shopee_cat_id": 11043778,
-          "url": "https://shopee.co.id/Home--Living-cat.11043778",
-          "produk": [
-            {
-              "nama": "Produk contoh Home & Living #1",
-              "toko": "Home Official Store",
-              "harga": 22500,
-              "terjual_minggu_ini": 1184,
-              "rating": 4.4
-            },
-            {
-              "nama": "Produk contoh Home & Living #2",
-              "toko": "Home Official Store",
-              "harga": 86500,
-              "terjual_minggu_ini": 427,
-              "rating": 4.9
-            },
-            {
-              "nama": "Produk contoh Home & Living #3",
-              "toko": "Home Store ID",
-              "harga": 196500,
-              "terjual_minggu_ini": 325,
-              "rating": 4.6
-            },
-            {
-              "nama": "Produk contoh Home & Living #4",
-              "toko": "Home Store ID",
-              "harga": 377000,
-              "terjual_minggu_ini": 309,
-              "rating": 4.8
-            }
-          ]
-        },
-        {
-          "id": "women-clothes",
-          "nama": "Women Clothes",
-          "shopee_cat_id": 11042745,
-          "url": "https://shopee.co.id/Women-Clothes-cat.11042745",
-          "produk": [
-            {
-              "nama": "Produk contoh Women Clothes #1",
-              "toko": "Women Home",
-              "harga": 44000,
-              "terjual_minggu_ini": 923,
-              "rating": 4.5
-            },
-            {
-              "nama": "Produk contoh Women Clothes #2",
-              "toko": "Women Store ID",
-              "harga": 76000,
-              "terjual_minggu_ini": 908,
-              "rating": 4.5
-            },
-            {
-              "nama": "Produk contoh Women Clothes #3",
-              "toko": "Women Home",
-              "harga": 223000,
-              "terjual_minggu_ini": 431,
-              "rating": 4.7
-            },
-            {
-              "nama": "Produk contoh Women Clothes #4",
-              "toko": "Women Shop",
-              "harga": 441000,
-              "terjual_minggu_ini": 240,
-              "rating": 5.0
-            }
-          ]
-        },
-        {
-          "id": "muslim-fashion",
-          "nama": "Muslim Fashion",
-          "shopee_cat_id": 11042684,
-          "url": "https://shopee.co.id/Muslim-Fashion-cat.11042684",
-          "produk": [
-            {
-              "nama": "Produk contoh Muslim Fashion #1",
-              "toko": "Muslim Shop",
-              "harga": 18000,
-              "terjual_minggu_ini": 742,
-              "rating": 4.6
-            },
-            {
-              "nama": "Produk contoh Muslim Fashion #2",
-              "toko": "Muslim Store ID",
-              "harga": 101500,
-              "terjual_minggu_ini": 432,
-              "rating": 4.5
-            },
-            {
-              "nama": "Produk contoh Muslim Fashion #3",
-              "toko": "Muslim Store ID",
-              "harga": 227500,
-              "terjual_minggu_ini": 338,
-              "rating": 4.6
-            },
-            {
-              "nama": "Produk contoh Muslim Fashion #4",
-              "toko": "Muslim Official Store",
-              "harga": 315500,
-              "terjual_minggu_ini": 577,
-              "rating": 4.7
-            }
-          ]
-        },
-        {
-          "id": "baby-kids-fashion",
-          "nama": "Baby & Kids Fashion",
-          "shopee_cat_id": 11043031,
-          "url": "https://shopee.co.id/Baby--Kids-Fashion-cat.11043031",
-          "produk": [
-            {
-              "nama": "Produk contoh Baby & Kids Fashion #1",
-              "toko": "Baby Shop",
-              "harga": 13000,
-              "terjual_minggu_ini": 874,
-              "rating": 5.0
-            },
-            {
-              "nama": "Produk contoh Baby & Kids Fashion #2",
-              "toko": "Baby Store ID",
-              "harga": 15500,
-              "terjual_minggu_ini": 1759,
-              "rating": 4.5
-            },
-            {
-              "nama": "Produk contoh Baby & Kids Fashion #3",
-              "toko": "Baby Home",
-              "harga": 72000,
-              "terjual_minggu_ini": 721,
-              "rating": 4.9
-            },
-            {
-              "nama": "Produk contoh Baby & Kids Fashion #4",
-              "toko": "Baby Home",
-              "harga": 111500,
-              "terjual_minggu_ini": 563,
-              "rating": 4.6
-            }
-          ]
-        },
-        {
-          "id": "mom-baby",
-          "nama": "Mom & Baby",
-          "shopee_cat_id": 11043350,
-          "url": "https://shopee.co.id/Mom--Baby-cat.11043350",
-          "produk": [
-            {
-              "nama": "Produk contoh Mom & Baby #1",
-              "toko": "Mom Grosir",
-              "harga": 40500,
-              "terjual_minggu_ini": 1115,
-              "rating": 4.7
-            },
-            {
-              "nama": "Produk contoh Mom & Baby #2",
-              "toko": "Mom Mart",
-              "harga": 107500,
-              "terjual_minggu_ini": 762,
-              "rating": 4.8
-            },
-            {
-              "nama": "Produk contoh Mom & Baby #3",
-              "toko": "Mom Grosir",
-              "harga": 237500,
-              "terjual_minggu_ini": 339,
-              "rating": 4.5
-            },
-            {
-              "nama": "Produk contoh Mom & Baby #4",
-              "toko": "Mom Mart",
-              "harga": 265500,
-              "terjual_minggu_ini": 495,
-              "rating": 4.4
-            }
-          ]
-        },
-        {
-          "id": "women-shoes",
-          "nama": "Women Shoes",
-          "shopee_cat_id": 11042604,
-          "url": "https://shopee.co.id/Women-Shoes-cat.11042604",
-          "produk": [
-            {
-              "nama": "Produk contoh Women Shoes #1",
-              "toko": "Women Mart",
-              "harga": 25500,
-              "terjual_minggu_ini": 654,
-              "rating": 4.7
-            },
-            {
-              "nama": "Produk contoh Women Shoes #2",
-              "toko": "Women Store ID",
-              "harga": 105500,
-              "terjual_minggu_ini": 834,
-              "rating": 4.4
-            },
-            {
-              "nama": "Produk contoh Women Shoes #3",
-              "toko": "Women Store ID",
-              "harga": 243000,
-              "terjual_minggu_ini": 306,
-              "rating": 4.4
-            },
-            {
-              "nama": "Produk contoh Women Shoes #4",
-              "toko": "Women Store ID",
-              "harga": 268000,
-              "terjual_minggu_ini": 531,
-              "rating": 4.6
-            }
-          ]
-        },
-        {
-          "id": "women-bags",
-          "nama": "Women Bags",
-          "shopee_cat_id": 11042642,
-          "url": "https://shopee.co.id/Women-Bags-cat.11042642",
-          "produk": [
-            {
-              "nama": "Produk contoh Women Bags #1",
-              "toko": "Women Mart",
-              "harga": 44000,
-              "terjual_minggu_ini": 922,
-              "rating": 4.8
-            },
-            {
-              "nama": "Produk contoh Women Bags #2",
-              "toko": "Women Shop",
-              "harga": 85500,
-              "terjual_minggu_ini": 442,
-              "rating": 4.8
-            },
-            {
-              "nama": "Produk contoh Women Bags #3",
-              "toko": "Women Grosir",
-              "harga": 247000,
-              "terjual_minggu_ini": 400,
-              "rating": 4.5
-            },
-            {
-              "nama": "Produk contoh Women Bags #4",
-              "toko": "Women Grosir",
-              "harga": 437500,
-              "terjual_minggu_ini": 327,
-              "rating": 4.6
-            }
-          ]
-        },
-        {
-          "id": "automotive",
-          "nama": "Automotive",
-          "shopee_cat_id": 11043660,
-          "url": "https://shopee.co.id/Automotive-cat.11043660",
-          "produk": [
-            {
-              "nama": "Produk contoh Automotive #1",
-              "toko": "Automotive Home",
-              "harga": 148000,
-              "terjual_minggu_ini": 640,
-              "rating": 4.6
-            },
-            {
-              "nama": "Produk contoh Automotive #2",
-              "toko": "Automotive Mart",
-              "harga": 218000,
-              "terjual_minggu_ini": 287,
-              "rating": 5.0
-            },
-            {
-              "nama": "Produk contoh Automotive #3",
-              "toko": "Automotive Store ID",
-              "harga": 555000,
-              "terjual_minggu_ini": 227,
-              "rating": 4.7
-            },
-            {
-              "nama": "Produk contoh Automotive #4",
-              "toko": "Automotive Official Store",
-              "harga": 1755500,
-              "terjual_minggu_ini": 328,
-              "rating": 4.9
-            }
-          ]
-        },
-        {
-          "id": "sports-outdoor",
-          "nama": "Sports & Outdoor",
-          "shopee_cat_id": 11043958,
-          "url": "https://shopee.co.id/Sports--Outdoor-cat.11043958",
-          "produk": [
-            {
-              "nama": "Produk contoh Sports & Outdoor #1",
-              "toko": "Sports Home",
-              "harga": 27000,
-              "terjual_minggu_ini": 842,
-              "rating": 4.9
-            },
-            {
-              "nama": "Produk contoh Sports & Outdoor #2",
-              "toko": "Sports Shop",
-              "harga": 91000,
-              "terjual_minggu_ini": 560,
-              "rating": 4.7
-            },
-            {
-              "nama": "Produk contoh Sports & Outdoor #3",
-              "toko": "Sports Official Store",
-              "harga": 188500,
-              "terjual_minggu_ini": 716,
-              "rating": 5.0
-            },
-            {
-              "nama": "Produk contoh Sports & Outdoor #4",
-              "toko": "Sports Official Store",
-              "harga": 285000,
-              "terjual_minggu_ini": 361,
-              "rating": 4.8
-            }
-          ]
-        },
-        {
-          "id": "souvenir-party-supplies",
-          "nama": "Souvenir & Party Supplies",
-          "shopee_cat_id": 11116633,
-          "url": "https://shopee.co.id/Souvenir--Party-Supplies-cat.11116633",
-          "produk": [
-            {
-              "nama": "Produk contoh Souvenir & Party Supplies #1",
-              "toko": "Souvenir Mart",
-              "harga": 6500,
-              "terjual_minggu_ini": 1369,
-              "rating": 4.5
-            },
-            {
-              "nama": "Produk contoh Souvenir & Party Supplies #2",
-              "toko": "Souvenir Shop",
-              "harga": 26000,
-              "terjual_minggu_ini": 780,
-              "rating": 4.9
-            },
-            {
-              "nama": "Produk contoh Souvenir & Party Supplies #3",
-              "toko": "Souvenir Official Store",
-              "harga": 73000,
-              "terjual_minggu_ini": 721,
-              "rating": 4.5
-            },
-            {
-              "nama": "Produk contoh Souvenir & Party Supplies #4",
-              "toko": "Souvenir Official Store",
-              "harga": 145500,
-              "terjual_minggu_ini": 733,
-              "rating": 4.4
-            }
-          ]
-        },
-        {
-          "id": "vouchers",
-          "nama": "Vouchers",
-          "shopee_cat_id": 11044631,
-          "url": "https://shopee.co.id/Vouchers-cat.11044631",
-          "produk": [
-            {
-              "nama": "Produk contoh Vouchers #1",
-              "toko": "Vouchers Grosir",
-              "harga": 6000,
-              "terjual_minggu_ini": 1954,
-              "rating": 4.5
-            },
-            {
-              "nama": "Produk contoh Vouchers #2",
-              "toko": "Vouchers Home",
-              "harga": 29500,
-              "terjual_minggu_ini": 1046,
-              "rating": 4.7
-            },
-            {
-              "nama": "Produk contoh Vouchers #3",
-              "toko": "Vouchers Shop",
-              "harga": 47500,
-              "terjual_minggu_ini": 538,
-              "rating": 4.9
-            },
-            {
-              "nama": "Produk contoh Vouchers #4",
-              "toko": "Vouchers Grosir",
-              "harga": 161500,
-              "terjual_minggu_ini": 332,
-              "rating": 4.7
-            }
-          ]
-        },
-        {
-          "id": "stationery-books",
-          "nama": "Stationery & Books",
-          "shopee_cat_id": 11044123,
-          "url": "https://shopee.co.id/Stationery--Books-cat.11044123",
-          "produk": [
-            {
-              "nama": "Produk contoh Stationery & Books #1",
-              "toko": "Stationery Official Store",
-              "harga": 6500,
-              "terjual_minggu_ini": 1598,
-              "rating": 4.6
-            },
-            {
-              "nama": "Produk contoh Stationery & Books #2",
-              "toko": "Stationery Store ID",
-              "harga": 16500,
-              "terjual_minggu_ini": 1647,
-              "rating": 4.8
-            },
-            {
-              "nama": "Produk contoh Stationery & Books #3",
-              "toko": "Stationery Mart",
-              "harga": 83500,
-              "terjual_minggu_ini": 458,
-              "rating": 4.9
-            },
-            {
-              "nama": "Produk contoh Stationery & Books #4",
-              "toko": "Stationery Shop",
-              "harga": 143500,
-              "terjual_minggu_ini": 809,
-              "rating": 4.5
-            }
-          ]
-        },
-        {
-          "id": "photography",
-          "nama": "Photography",
-          "shopee_cat_id": 11044588,
-          "url": "https://shopee.co.id/Photography-cat.11044588",
-          "produk": [
-            {
-              "nama": "Produk contoh Photography #1",
-              "toko": "Photography Store ID",
-              "harga": 91000,
-              "terjual_minggu_ini": 886,
-              "rating": 4.9
-            },
-            {
-              "nama": "Produk contoh Photography #2",
-              "toko": "Photography Grosir",
-              "harga": 193000,
-              "terjual_minggu_ini": 376,
-              "rating": 4.9
-            },
-            {
-              "nama": "Produk contoh Photography #3",
-              "toko": "Photography Shop",
-              "harga": 881500,
-              "terjual_minggu_ini": 383,
-              "rating": 4.9
-            },
-            {
-              "nama": "Produk contoh Photography #4",
-              "toko": "Photography Shop",
-              "harga": 2319000,
-              "terjual_minggu_ini": 153,
-              "rating": 4.5
-            }
-          ]
-        },
-        {
-          "id": "deals-nearby",
-          "nama": "Deals Nearby",
-          "shopee_cat_id": 11105951,
-          "url": "https://shopee.co.id/Deals-Nearby-cat.11105951",
-          "produk": [
-            {
-              "nama": "Produk contoh Deals Nearby #1",
-              "toko": "Deals Store ID",
-              "harga": 4500,
-              "terjual_minggu_ini": 2528,
-              "rating": 4.5
-            },
-            {
-              "nama": "Produk contoh Deals Nearby #2",
-              "toko": "Deals Store ID",
-              "harga": 30000,
-              "terjual_minggu_ini": 867,
-              "rating": 4.5
-            },
-            {
-              "nama": "Produk contoh Deals Nearby #3",
-              "toko": "Deals Grosir",
-              "harga": 83500,
-              "terjual_minggu_ini": 512,
-              "rating": 4.6
-            },
-            {
-              "nama": "Produk contoh Deals Nearby #4",
-              "toko": "Deals Grosir",
-              "harga": 99000,
-              "terjual_minggu_ini": 917,
-              "rating": 4.6
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "tokopedia",
-      "nama": "Tokopedia (kini bagian TikTok Shop)",
-      "kategori": [
-        {
-          "id": "audio-kamera-elektronik-lainnya",
-          "nama": "Audio, Kamera & Elektronik Lainnya",
-          "url": "https://www.tokopedia.com/p/audio-kamera-elektronik-lainnya",
-          "produk": [
-            {
-              "nama": "Produk contoh Audio, Kamera & Elektronik Lainnya #1",
-              "toko": "Audio, Mart",
-              "harga": 127000,
-              "terjual_minggu_ini": 548,
-              "rating": 4.6
-            },
-            {
-              "nama": "Produk contoh Audio, Kamera & Elektronik Lainnya #2",
-              "toko": "Audio, Grosir",
-              "harga": 194500,
-              "terjual_minggu_ini": 346,
-              "rating": 4.5
-            },
-            {
-              "nama": "Produk contoh Audio, Kamera & Elektronik Lainnya #3",
-              "toko": "Audio, Mart",
-              "harga": 728500,
-              "terjual_minggu_ini": 196,
-              "rating": 4.7
-            },
-            {
-              "nama": "Produk contoh Audio, Kamera & Elektronik Lainnya #4",
-              "toko": "Audio, Mart",
-              "harga": 2515500,
-              "terjual_minggu_ini": 199,
-              "rating": 4.5
-            }
-          ]
-        },
-        {
-          "id": "buku",
-          "nama": "Buku",
-          "url": "https://www.tokopedia.com/p/buku",
-          "produk": [
-            {
-              "nama": "Produk contoh Buku #1",
-              "toko": "Buku Official Store",
-              "harga": 13500,
-              "terjual_minggu_ini": 966,
-              "rating": 4.8
-            },
-            {
-              "nama": "Produk contoh Buku #2",
-              "toko": "Buku Mart",
-              "harga": 15000,
-              "terjual_minggu_ini": 1291,
-              "rating": 4.8
-            },
-            {
-              "nama": "Produk contoh Buku #3",
-              "toko": "Buku Store ID",
-              "harga": 88500,
-              "terjual_minggu_ini": 819,
-              "rating": 4.6
-            },
-            {
-              "nama": "Produk contoh Buku #4",
-              "toko": "Buku Grosir",
-              "harga": 99000,
-              "terjual_minggu_ini": 907,
-              "rating": 4.8
-            }
-          ]
-        },
-        {
-          "id": "dapur",
-          "nama": "Dapur",
-          "url": "https://www.tokopedia.com/p/dapur",
-          "produk": [
-            {
-              "nama": "Produk contoh Dapur #1",
-              "toko": "Dapur Shop",
-              "harga": 36500,
-              "terjual_minggu_ini": 1206,
-              "rating": 4.9
-            },
-            {
-              "nama": "Produk contoh Dapur #2",
-              "toko": "Dapur Home",
-              "harga": 78000,
-              "terjual_minggu_ini": 595,
-              "rating": 4.6
-            },
-            {
-              "nama": "Produk contoh Dapur #3",
-              "toko": "Dapur Store ID",
-              "harga": 187500,
-              "terjual_minggu_ini": 548,
-              "rating": 4.7
-            },
-            {
-              "nama": "Produk contoh Dapur #4",
-              "toko": "Dapur Shop",
-              "harga": 496500,
-              "terjual_minggu_ini": 334,
-              "rating": 4.9
-            }
-          ]
-        },
-        {
-          "id": "elektronik",
-          "nama": "Elektronik",
-          "url": "https://www.tokopedia.com/p/elektronik",
-          "produk": [
-            {
-              "nama": "Produk contoh Elektronik #1",
-              "toko": "Elektronik Home",
-              "harga": 140500,
-              "terjual_minggu_ini": 613,
-              "rating": 4.7
-            },
-            {
-              "nama": "Produk contoh Elektronik #2",
-              "toko": "Elektronik Store ID",
-              "harga": 180000,
-              "terjual_minggu_ini": 441,
-              "rating": 4.7
-            },
-            {
-              "nama": "Produk contoh Elektronik #3",
-              "toko": "Elektronik Grosir",
-              "harga": 1058000,
-              "terjual_minggu_ini": 311,
-              "rating": 4.7
-            },
-            {
-              "nama": "Produk contoh Elektronik #4",
-              "toko": "Elektronik Mart",
-              "harga": 3054500,
-              "terjual_minggu_ini": 227,
-              "rating": 4.7
-            }
-          ]
-        },
-        {
-          "id": "fashion-anak-bayi",
-          "nama": "Fashion Anak & Bayi",
-          "url": "https://www.tokopedia.com/p/fashion-anak-bayi",
-          "produk": [
-            {
-              "nama": "Produk contoh Fashion Anak & Bayi #1",
-              "toko": "Fashion Grosir",
-              "harga": 7000,
-              "terjual_minggu_ini": 1882,
-              "rating": 4.7
-            },
-            {
-              "nama": "Produk contoh Fashion Anak & Bayi #2",
-              "toko": "Fashion Official Store",
-              "harga": 35500,
-              "terjual_minggu_ini": 1034,
-              "rating": 4.9
-            },
-            {
-              "nama": "Produk contoh Fashion Anak & Bayi #3",
-              "toko": "Fashion Grosir",
-              "harga": 89000,
-              "terjual_minggu_ini": 525,
-              "rating": 4.5
-            },
-            {
-              "nama": "Produk contoh Fashion Anak & Bayi #4",
-              "toko": "Fashion Official Store",
-              "harga": 116000,
-              "terjual_minggu_ini": 432,
-              "rating": 4.5
-            }
-          ]
-        },
-        {
-          "id": "fashion-muslim",
-          "nama": "Fashion Muslim",
-          "url": "https://www.tokopedia.com/p/fashion-muslim",
-          "produk": [
-            {
-              "nama": "Produk contoh Fashion Muslim #1",
-              "toko": "Fashion Official Store",
-              "harga": 30500,
-              "terjual_minggu_ini": 1084,
-              "rating": 4.7
-            },
-            {
-              "nama": "Produk contoh Fashion Muslim #2",
-              "toko": "Fashion Store ID",
-              "harga": 103000,
-              "terjual_minggu_ini": 717,
-              "rating": 4.8
-            },
-            {
-              "nama": "Produk contoh Fashion Muslim #3",
-              "toko": "Fashion Store ID",
-              "harga": 210500,
-              "terjual_minggu_ini": 500,
-              "rating": 4.5
-            },
-            {
-              "nama": "Produk contoh Fashion Muslim #4",
-              "toko": "Fashion Official Store",
-              "harga": 430500,
-              "terjual_minggu_ini": 225,
-              "rating": 4.9
-            }
-          ]
-        },
-        {
-          "id": "fashion-pria",
-          "nama": "Fashion Pria",
-          "url": "https://www.tokopedia.com/p/fashion-pria",
-          "produk": [
-            {
-              "nama": "Produk contoh Fashion Pria #1",
-              "toko": "Fashion Shop",
-              "harga": 22000,
-              "terjual_minggu_ini": 801,
-              "rating": 4.7
-            },
-            {
-              "nama": "Produk contoh Fashion Pria #2",
-              "toko": "Fashion Official Store",
-              "harga": 48500,
-              "terjual_minggu_ini": 882,
-              "rating": 4.7
-            },
-            {
-              "nama": "Produk contoh Fashion Pria #3",
-              "toko": "Fashion Mart",
-              "harga": 232000,
-              "terjual_minggu_ini": 555,
-              "rating": 4.8
-            },
-            {
-              "nama": "Produk contoh Fashion Pria #4",
-              "toko": "Fashion Home",
-              "harga": 499000,
-              "terjual_minggu_ini": 453,
-              "rating": 4.8
-            }
-          ]
-        },
-        {
-          "id": "fashion-wanita",
-          "nama": "Fashion Wanita",
-          "url": "https://www.tokopedia.com/p/fashion-wanita",
-          "produk": [
-            {
-              "nama": "Produk contoh Fashion Wanita #1",
-              "toko": "Fashion Home",
-              "harga": 38500,
-              "terjual_minggu_ini": 1219,
-              "rating": 4.9
-            },
-            {
-              "nama": "Produk contoh Fashion Wanita #2",
-              "toko": "Fashion Store ID",
-              "harga": 81000,
-              "terjual_minggu_ini": 670,
-              "rating": 4.8
-            },
-            {
-              "nama": "Produk contoh Fashion Wanita #3",
-              "toko": "Fashion Store ID",
-              "harga": 234500,
-              "terjual_minggu_ini": 463,
-              "rating": 4.9
-            },
-            {
-              "nama": "Produk contoh Fashion Wanita #4",
-              "toko": "Fashion Mart",
-              "harga": 322500,
-              "terjual_minggu_ini": 532,
-              "rating": 4.7
-            }
-          ]
-        },
-        {
-          "id": "film-musik",
-          "nama": "Film & Musik",
-          "url": "https://www.tokopedia.com/p/film-musik",
-          "produk": [
-            {
-              "nama": "Produk contoh Film & Musik #1",
-              "toko": "Film Official Store",
-              "harga": 8000,
-              "terjual_minggu_ini": 1275,
-              "rating": 4.8
-            },
-            {
-              "nama": "Produk contoh Film & Musik #2",
-              "toko": "Film Grosir",
-              "harga": 22500,
-              "terjual_minggu_ini": 885,
-              "rating": 4.9
-            },
-            {
-              "nama": "Produk contoh Film & Musik #3",
-              "toko": "Film Store ID",
-              "harga": 45500,
-              "terjual_minggu_ini": 593,
-              "rating": 4.6
-            },
-            {
-              "nama": "Produk contoh Film & Musik #4",
-              "toko": "Film Official Store",
-              "harga": 110000,
-              "terjual_minggu_ini": 742,
-              "rating": 4.6
-            }
-          ]
-        },
-        {
-          "id": "gaming",
-          "nama": "Gaming",
-          "url": "https://www.tokopedia.com/p/gaming",
-          "produk": [
-            {
-              "nama": "Produk contoh Gaming #1",
-              "toko": "Gaming Home",
-              "harga": 103500,
-              "terjual_minggu_ini": 668,
-              "rating": 4.4
-            },
-            {
-              "nama": "Produk contoh Gaming #2",
-              "toko": "Gaming Mart",
-              "harga": 400500,
-              "terjual_minggu_ini": 363,
-              "rating": 5.0
-            },
-            {
-              "nama": "Produk contoh Gaming #3",
-              "toko": "Gaming Mart",
-              "harga": 470500,
-              "terjual_minggu_ini": 494,
-              "rating": 4.6
-            },
-            {
-              "nama": "Produk contoh Gaming #4",
-              "toko": "Gaming Grosir",
-              "harga": 1224500,
-              "terjual_minggu_ini": 373,
-              "rating": 4.9
-            }
-          ]
-        },
-        {
-          "id": "handphone-tablet",
-          "nama": "Handphone & Tablet",
-          "url": "https://www.tokopedia.com/p/handphone-tablet",
-          "produk": [
-            {
-              "nama": "Produk contoh Handphone & Tablet #1",
-              "toko": "Handphone Home",
-              "harga": 172000,
-              "terjual_minggu_ini": 720,
-              "rating": 4.7
-            },
-            {
-              "nama": "Produk contoh Handphone & Tablet #2",
-              "toko": "Handphone Grosir",
-              "harga": 295500,
-              "terjual_minggu_ini": 441,
-              "rating": 4.7
-            },
-            {
-              "nama": "Produk contoh Handphone & Tablet #3",
-              "toko": "Handphone Shop",
-              "harga": 480500,
-              "terjual_minggu_ini": 341,
-              "rating": 4.8
-            },
-            {
-              "nama": "Produk contoh Handphone & Tablet #4",
-              "toko": "Handphone Home",
-              "harga": 2896000,
-              "terjual_minggu_ini": 239,
-              "rating": 5.0
-            }
-          ]
-        },
-        {
-          "id": "ibu-bayi",
-          "nama": "Ibu & Bayi",
-          "url": "https://www.tokopedia.com/p/ibu-bayi",
-          "produk": [
-            {
-              "nama": "Produk contoh Ibu & Bayi #1",
-              "toko": "Ibu Home",
-              "harga": 35500,
-              "terjual_minggu_ini": 966,
-              "rating": 4.8
-            },
-            {
-              "nama": "Produk contoh Ibu & Bayi #2",
-              "toko": "Ibu Shop",
-              "harga": 88500,
-              "terjual_minggu_ini": 405,
-              "rating": 4.7
-            },
-            {
-              "nama": "Produk contoh Ibu & Bayi #3",
-              "toko": "Ibu Grosir",
-              "harga": 231000,
-              "terjual_minggu_ini": 354,
-              "rating": 4.6
-            },
-            {
-              "nama": "Produk contoh Ibu & Bayi #4",
-              "toko": "Ibu Grosir",
-              "harga": 305500,
-              "terjual_minggu_ini": 424,
-              "rating": 4.9
-            }
-          ]
-        },
-        {
-          "id": "kecantikan",
-          "nama": "Kecantikan",
-          "url": "https://www.tokopedia.com/p/kecantikan",
-          "produk": [
-            {
-              "nama": "Produk contoh Kecantikan #1",
-              "toko": "Kecantikan Home",
-              "harga": 10000,
-              "terjual_minggu_ini": 1184,
-              "rating": 4.6
-            },
-            {
-              "nama": "Produk contoh Kecantikan #2",
-              "toko": "Kecantikan Shop",
-              "harga": 17500,
-              "terjual_minggu_ini": 1171,
-              "rating": 4.7
-            },
-            {
-              "nama": "Produk contoh Kecantikan #3",
-              "toko": "Kecantikan Official Store",
-              "harga": 63000,
-              "terjual_minggu_ini": 586,
-              "rating": 4.9
-            },
-            {
-              "nama": "Produk contoh Kecantikan #4",
-              "toko": "Kecantikan Official Store",
-              "harga": 175500,
-              "terjual_minggu_ini": 325,
-              "rating": 5.0
-            }
-          ]
-        },
-        {
-          "id": "kesehatan",
-          "nama": "Kesehatan",
-          "url": "https://www.tokopedia.com/p/kesehatan",
-          "produk": [
-            {
-              "nama": "Produk contoh Kesehatan #1",
-              "toko": "Kesehatan Mart",
-              "harga": 21500,
-              "terjual_minggu_ini": 1443,
-              "rating": 4.5
-            },
-            {
-              "nama": "Produk contoh Kesehatan #2",
-              "toko": "Kesehatan Official Store",
-              "harga": 53500,
-              "terjual_minggu_ini": 794,
-              "rating": 4.7
-            },
-            {
-              "nama": "Produk contoh Kesehatan #3",
-              "toko": "Kesehatan Grosir",
-              "harga": 167000,
-              "terjual_minggu_ini": 529,
-              "rating": 4.9
-            },
-            {
-              "nama": "Produk contoh Kesehatan #4",
-              "toko": "Kesehatan Shop",
-              "harga": 294000,
-              "terjual_minggu_ini": 487,
-              "rating": 4.8
-            }
-          ]
-        },
-        {
-          "id": "komputer-laptop",
-          "nama": "Komputer & Laptop",
-          "url": "https://www.tokopedia.com/p/komputer-laptop",
-          "produk": [
-            {
-              "nama": "Produk contoh Komputer & Laptop #1",
-              "toko": "Komputer Grosir",
-              "harga": 162000,
-              "terjual_minggu_ini": 702,
-              "rating": 4.5
-            },
-            {
-              "nama": "Produk contoh Komputer & Laptop #2",
-              "toko": "Komputer Mart",
-              "harga": 193500,
-              "terjual_minggu_ini": 709,
-              "rating": 4.8
-            },
-            {
-              "nama": "Produk contoh Komputer & Laptop #3",
-              "toko": "Komputer Shop",
-              "harga": 843500,
-              "terjual_minggu_ini": 282,
-              "rating": 4.5
-            },
-            {
-              "nama": "Produk contoh Komputer & Laptop #4",
-              "toko": "Komputer Grosir",
-              "harga": 2218500,
-              "terjual_minggu_ini": 145,
-              "rating": 4.9
-            }
-          ]
-        },
-        {
-          "id": "logam-mulia",
-          "nama": "Logam Mulia",
-          "url": "https://www.tokopedia.com/p/logam-mulia",
-          "produk": [
-            {
-              "nama": "Produk contoh Logam Mulia #1",
-              "toko": "Logam Mart",
-              "harga": 138500,
-              "terjual_minggu_ini": 735,
-              "rating": 4.9
-            },
-            {
-              "nama": "Produk contoh Logam Mulia #2",
-              "toko": "Logam Shop",
-              "harga": 362000,
-              "terjual_minggu_ini": 427,
-              "rating": 4.6
-            },
-            {
-              "nama": "Produk contoh Logam Mulia #3",
-              "toko": "Logam Official Store",
-              "harga": 980500,
-              "terjual_minggu_ini": 329,
-              "rating": 4.9
-            },
-            {
-              "nama": "Produk contoh Logam Mulia #4",
-              "toko": "Logam Grosir",
-              "harga": 3256000,
-              "terjual_minggu_ini": 127,
-              "rating": 4.8
-            }
-          ]
-        },
-        {
-          "id": "mainan-hobi",
-          "nama": "Mainan & Hobi",
-          "url": "https://www.tokopedia.com/p/mainan-hobi",
-          "produk": [
-            {
-              "nama": "Produk contoh Mainan & Hobi #1",
-              "toko": "Mainan Store ID",
-              "harga": 42000,
-              "terjual_minggu_ini": 854,
-              "rating": 4.7
-            },
-            {
-              "nama": "Produk contoh Mainan & Hobi #2",
-              "toko": "Mainan Shop",
-              "harga": 93000,
-              "terjual_minggu_ini": 682,
-              "rating": 4.6
-            },
-            {
-              "nama": "Produk contoh Mainan & Hobi #3",
-              "toko": "Mainan Shop",
-              "harga": 236500,
-              "terjual_minggu_ini": 468,
-              "rating": 4.8
-            },
-            {
-              "nama": "Produk contoh Mainan & Hobi #4",
-              "toko": "Mainan Official Store",
-              "harga": 334500,
-              "terjual_minggu_ini": 556,
-              "rating": 4.6
-            }
-          ]
-        },
-        {
-          "id": "makanan-minuman",
-          "nama": "Makanan & Minuman",
-          "url": "https://www.tokopedia.com/p/makanan-minuman",
-          "produk": [
-            {
-              "nama": "Produk contoh Makanan & Minuman #1",
-              "toko": "Makanan Home",
-              "harga": 11500,
-              "terjual_minggu_ini": 1086,
-              "rating": 4.7
-            },
-            {
-              "nama": "Produk contoh Makanan & Minuman #2",
-              "toko": "Makanan Official Store",
-              "harga": 37000,
-              "terjual_minggu_ini": 829,
-              "rating": 4.7
-            },
-            {
-              "nama": "Produk contoh Makanan & Minuman #3",
-              "toko": "Makanan Store ID",
-              "harga": 61500,
-              "terjual_minggu_ini": 562,
-              "rating": 4.6
-            },
-            {
-              "nama": "Produk contoh Makanan & Minuman #4",
-              "toko": "Makanan Mart",
-              "harga": 124000,
-              "terjual_minggu_ini": 522,
-              "rating": 4.8
-            }
-          ]
-        },
-        {
-          "id": "office-stationery",
-          "nama": "Office & Stationery",
-          "url": "https://www.tokopedia.com/p/office-stationery",
-          "produk": [
-            {
-              "nama": "Produk contoh Office & Stationery #1",
-              "toko": "Office Mart",
+              "nama": "GROSIR SQUARE EDGE PREMIUM CASE ELECTROPLATING METALIC MAGSAFE IPHONE 11 12 13 14 15 16 17 PRO MAX PLUS LENS GUARD PROTECTOR FULL COVER",
+              "toko": "-",
               "harga": 8500,
-              "terjual_minggu_ini": 1621,
-              "rating": 5.0
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/GROSIR-SQUARE-EDGE-PREMIUM-CASE-ELECTROPLATING-METALIC-MAGSAFE-IPHONE-11-12-13-14-15-16-17-PRO-MAX-PLUS-LENS-GUARD-PROTECTOR-FULL-COVER-i.291567903.10298767629",
+              "image": ""
             },
             {
-              "nama": "Produk contoh Office & Stationery #2",
-              "toko": "Office Home",
-              "harga": 18000,
-              "terjual_minggu_ini": 926,
-              "rating": 4.7
+              "nama": "Sarung Jempol Gaming AP King Accessories Finger Sleeve Mobile Legend Free Fire By Andra ST",
+              "toko": "-",
+              "harga": 27999,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Sarung-Jempol-Gaming-AP-King-Accessories-Finger-Sleeve-Mobile-Legend-Free-Fire-By-Andra-ST-i.158818387.29417792913",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7r98s-lx9m0qwazxwb89"
             },
             {
-              "nama": "Produk contoh Office & Stationery #3",
-              "toko": "Office Home",
-              "harga": 89500,
-              "terjual_minggu_ini": 528,
-              "rating": 4.8
+              "nama": "COD FLIESTRONIC Kipas Angin Mini Portable USB Genggam N68 Layar LED Angin Kencang 100 High Speed Handheld Fan Adjustable Fan Speed Digital Display",
+              "toko": "-",
+              "harga": 34800,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/COD-FLIESTRONIC-Kipas-Angin-Mini-Portable-USB-Genggam-N68-Layar-LED-Angin-Kencang-100-High-Speed-Handheld-Fan-Adjustable-Fan-Speed-Digital-Display-i.1174784727.40062000680",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-8224u-mh73zb9k1r7tdd"
             },
             {
-              "nama": "Produk contoh Office & Stationery #4",
-              "toko": "Office Official Store",
-              "harga": 154500,
-              "terjual_minggu_ini": 535,
-              "rating": 4.5
+              "nama": "Kipas Angin Portable Genggam Kipas Angin Mini Bentuk Buah Bahan Silikon Warna Permen Untuk Outdoor Mini Fan Bisa Untuk Stand HP",
+              "toko": "-",
+              "harga": 19500,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Kipas-Angin-Portable-Genggam-Kipas-Angin-Mini-Bentuk-Buah-Bahan-Silikon-Warna-Permen-Untuk-Outdoor-Mini-Fan-Bisa-Untuk-Stand-HP-i.280179441.21831798626",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7ra0l-md5oxz4h0g8725"
+            },
+            {
+              "nama": "M10 plus TWS Bluetooth V5.3 Earphone HiFi Stereo Sports Wireless powerbank 2000mAh",
+              "toko": "-",
+              "harga": 27600,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/M10-plus-TWS-Bluetooth-V5.3-Earphone-HiFi-Stereo-Sports-Wireless-powerbank-2000mAh-i.115554746.22017573564",
+              "image": "https://down-id.img.susercontent.com/file/901948c4b7107f92ab1d147611f48184"
             }
           ]
         },
         {
-          "id": "olahraga",
-          "nama": "Olahraga",
-          "url": "https://www.tokopedia.com/p/olahraga",
+          "id": "cat4",
+          "nama": "Pakaian Pria",
           "produk": [
             {
-              "nama": "Produk contoh Olahraga #1",
-              "toko": "Olahraga Store ID",
-              "harga": 22500,
-              "terjual_minggu_ini": 1011,
-              "rating": 4.6
+              "nama": "(1kg 7pcs) Celana Pendek Polos Tanpa Saku Sport Harian Terbaru Saat Ini",
+              "toko": "-",
+              "harga": 10025,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/(1kg-7pcs)-Celana-Pendek-Polos-Tanpa-Saku-Sport-Harian-Terbaru-Saat-Ini-i.1347040914.41551567176",
+              "image": ""
             },
             {
-              "nama": "Produk contoh Olahraga #2",
-              "toko": "Olahraga Mart",
-              "harga": 83000,
-              "terjual_minggu_ini": 618,
-              "rating": 4.7
+              "nama": "Celana Pendek Pria Wanita Santai Boardshort Premium Big Size Bahan Micro Suede Boxer Relax Shortpants Olahraga Jumbo Diatas Lutut Jogging Pantai",
+              "toko": "-",
+              "harga": 19114,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Celana-Pendek-Pria-Wanita-Santai-Boardshort-Premium-Big-Size-Bahan-Micro-Suede-Boxer-Relax-Shortpants-Olahraga-Jumbo-Diatas-Lutut-Jogging-Pantai-i.556710796.27703758214",
+              "image": "https://down-id.img.susercontent.com/file/sg-11134201-7rfh7-m9ztr3x0gt3t38"
             },
             {
-              "nama": "Produk contoh Olahraga #3",
-              "toko": "Olahraga Mart",
-              "harga": 221500,
-              "terjual_minggu_ini": 705,
-              "rating": 4.6
+              "nama": "HUES.ID Boxer Pria Cowok Lelaki Motif Daleman Celana Dalam Murah Import 2070",
+              "toko": "-",
+              "harga": 6199,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/HUES.ID-Boxer-Pria-Cowok-Lelaki-Motif-Daleman-Celana-Dalam-Murah-Import-2070-i.43008479.21541766893",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7ra0h-mcwcf0rsodnrf8"
             },
             {
-              "nama": "Produk contoh Olahraga #4",
-              "toko": "Olahraga Grosir",
-              "harga": 434000,
-              "terjual_minggu_ini": 375,
-              "rating": 4.6
+              "nama": "KAOS POLOS PAKAIAN PRIA BAJU KAOS TERBARU KAOS KEKINIAN MODEL TERBARU",
+              "toko": "-",
+              "harga": 18500,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/KAOS-POLOS-PAKAIAN-PRIA-BAJU-KAOS-TERBARU-KAOS-KEKINIAN-MODEL-TERBARU-i.445413165.12724840231",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7r98x-lnsajdwd6p4q7a"
+            },
+            {
+              "nama": "Celana Pendek Boardshort Cargo Celana Pendek Pria Kasual Harian Santai Kualitas Distro",
+              "toko": "-",
+              "harga": 11368,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Celana-Pendek-Boardshort-Cargo-Celana-Pendek-Pria-Kasual-Harian-Santai-Kualitas-Distro-i.556710796.28302868453",
+              "image": "https://down-id.img.susercontent.com/file/3e113ce03cb71701efaef2ca3af615a1"
             }
           ]
         },
         {
-          "id": "perawatan-hewan",
-          "nama": "Perawatan Hewan",
-          "url": "https://www.tokopedia.com/p/perawatan-hewan",
+          "id": "cat5",
+          "nama": "Aksesoris & Perlengkapan",
           "produk": [
             {
-              "nama": "Produk contoh Perawatan Hewan #1",
-              "toko": "Perawatan Grosir",
-              "harga": 19000,
-              "terjual_minggu_ini": 1390,
-              "rating": 4.5
+              "nama": "Kertas Alas kaki 30x40cm samson craf 80gr cuci mobil carwash polos",
+              "toko": "-",
+              "harga": 189,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Kertas-Alas-kaki-30x40cm-samson-craf-80gr-cuci-mobil-carwash-polos-i.425670183.8844337249",
+              "image": ""
             },
             {
-              "nama": "Produk contoh Perawatan Hewan #2",
-              "toko": "Perawatan Shop",
-              "harga": 80000,
-              "terjual_minggu_ini": 978,
-              "rating": 4.5
+              "nama": "Rightbox ID Kaos Kaki Pendek Semata Kaki Tersedia 17 Warna Polos Allsize Dewasa Fit to 37 42",
+              "toko": "-",
+              "harga": 11000,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Rightbox-ID-Kaos-Kaki-Pendek-Semata-Kaki-Tersedia-17-Warna-Polos-Allsize-Dewasa-Fit-to-37-42-i.76216084.1647849561",
+              "image": "https://down-id.img.susercontent.com/file/82a2b938245e048417723a7788783be0"
             },
             {
-              "nama": "Produk contoh Perawatan Hewan #3",
-              "toko": "Perawatan Grosir",
-              "harga": 166500,
-              "terjual_minggu_ini": 657,
-              "rating": 4.8
+              "nama": "Sandal slop pria EVA Sandal rumah laki laki Sendal slop pria Sandal slide pria 39 s d 44(upsize)",
+              "toko": "-",
+              "harga": 30999,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Sandal-slop-pria-EVA-Sandal-rumah-laki-laki-Sendal-slop-pria-Sandal-slide-pria-39-s-d-44(upsize)-i.416586857.8997443716",
+              "image": "https://down-id.img.susercontent.com/file/970b0770b3a4755504659feaffbf1053"
             },
             {
-              "nama": "Produk contoh Perawatan Hewan #4",
-              "toko": "Perawatan Grosir",
-              "harga": 449500,
-              "terjual_minggu_ini": 393,
-              "rating": 5.0
+              "nama": "Kaos Kaki Sport Pendek Motif Oldschool Pria",
+              "toko": "-",
+              "harga": 5249,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Kaos-Kaki-Sport-Pendek-Motif-Oldschool-Pria-i.1236932364.28104124134",
+              "image": "https://down-id.img.susercontent.com/file/f02f5525981e3e84f3b367d41f18b9fd"
+            },
+            {
+              "nama": "KAOS KAKI OLDSCHOOL PANJANG PRIA Wijaya Socks",
+              "toko": "-",
+              "harga": 8200,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/KAOS-KAKI-OLDSCHOOL-PANJANG-PRIA-Wijaya-Socks-i.448541614.23662896234",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-822wk-mng6yj9nwf7kbf"
             }
           ]
         },
         {
-          "id": "perawatan-tubuh",
-          "nama": "Perawatan Tubuh",
-          "url": "https://www.tokopedia.com/p/perawatan-tubuh",
+          "id": "cat6",
+          "nama": "Tas & Perlengkapan",
           "produk": [
             {
-              "nama": "Produk contoh Perawatan Tubuh #1",
-              "toko": "Perawatan Grosir",
-              "harga": 7000,
-              "terjual_minggu_ini": 1367,
-              "rating": 4.5
+              "nama": "JS_ Tas Ransel Laptop Kerja Sekolah Pria Anti Air Unisex Backpack Men Large Premium Stylish Fashionable",
+              "toko": "-",
+              "harga": 33132,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/JS_-Tas-Ransel-Laptop-Kerja-Sekolah-Pria-Anti-Air-Unisex-Backpack-Men-Large-Premium-Stylish-Fashionable-i.238905576.21784907390",
+              "image": ""
             },
             {
-              "nama": "Produk contoh Perawatan Tubuh #2",
-              "toko": "Perawatan Store ID",
-              "harga": 15500,
-              "terjual_minggu_ini": 1478,
-              "rating": 4.6
+              "nama": "Tas Ransel Sekolah Gendong Kulit Backpack Pria",
+              "toko": "-",
+              "harga": 39600,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Tas-Ransel-Sekolah-Gendong-Kulit-Backpack-Pria-i.896703743.19360534728",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7r98s-lmioenmldq87d9"
             },
             {
-              "nama": "Produk contoh Perawatan Tubuh #3",
-              "toko": "Perawatan Shop",
-              "harga": 43500,
-              "terjual_minggu_ini": 913,
-              "rating": 5.0
+              "nama": "GOGOLAND Selempang Kulit Pria Tas Hp Tas Dada Usb Tas Impor Batam Sling Bag Usb Kulit P039",
+              "toko": "-",
+              "harga": 31355,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/GOGOLAND-Selempang-Kulit-Pria-Tas-Hp-Tas-Dada-Usb-Tas-Impor-Batam-Sling-Bag-Usb-Kulit-P039-i.304569394.6551789313",
+              "image": "https://down-id.img.susercontent.com/file/sg-11134201-22110-jwg11of0kkjv2d"
             },
             {
-              "nama": "Produk contoh Perawatan Tubuh #4",
-              "toko": "Perawatan Home",
-              "harga": 173500,
-              "terjual_minggu_ini": 708,
-              "rating": 4.5
+              "nama": "Sepatubandung_ Marley Tas Ransel Pria",
+              "toko": "-",
+              "harga": 39000,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Sepatubandung_-Marley-Tas-Ransel-Pria-i.5544507.8867068663",
+              "image": "https://down-id.img.susercontent.com/file/e387beae254fbc5fa5d2c23a6e01bcac"
+            },
+            {
+              "nama": "TAPAXCO Tas Waistbag Selempang Teme Pispol OutDoor Tapax Bandung Best Seller",
+              "toko": "-",
+              "harga": 19336,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/TAPAXCO-Tas-Waistbag-Selempang-Teme-Pispol-OutDoor-Tapax-Bandung-Best-Seller-i.6510062.2078908335",
+              "image": "https://down-id.img.susercontent.com/file/f075f295e9618ef1df8e0ac3fe922484"
             }
           ]
         },
         {
-          "id": "perlengkapan-pesta",
-          "nama": "Perlengkapan Pesta",
-          "url": "https://www.tokopedia.com/p/perlengkapan-pesta",
+          "id": "cat7",
+          "nama": "Fashion Aksesoris",
           "produk": [
             {
-              "nama": "Produk contoh Perlengkapan Pesta #1",
-              "toko": "Perlengkapan Home",
+              "nama": "ALOY RETAIL PL MX002 Kacamata Hitam Pantai Bingkai Persegi Untuk Wanita Termurah",
+              "toko": "-",
+              "harga": 16049,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/ALOY-RETAIL-PL-MX002-Kacamata-Hitam-Pantai-Bingkai-Persegi-Untuk-Wanita-Termurah-i.387295480.18474668419",
+              "image": ""
+            },
+            {
+              "nama": "Calla Topi Wanita Korea Style Topi Kait Masker Anti UV Topi Olahraga Topi Pantai Wanita",
+              "toko": "-",
+              "harga": 16900,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Calla-Topi-Wanita-Korea-Style-Topi-Kait-Masker-Anti-UV-Topi-Olahraga-Topi-Pantai-Wanita-i.799938544.29214715603",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7ra0s-mck07wp8v8l8b4"
+            },
+            {
+              "nama": "2000Pcs Karet Jepang Free Pouch Ikat Rambut Karet",
+              "toko": "-",
+              "harga": 3499,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/2000Pcs-Karet-Jepang-Free-Pouch-Ikat-Rambut-Karet-i.333432952.4061632186",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-82252-miv9zobxutxif5"
+            },
+            {
+              "nama": "(1LUSIN) JEDAI ORI LOKAL JEPIT MINI 2 5CM WARNA",
+              "toko": "-",
+              "harga": 5599,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/(1LUSIN)-JEDAI-ORI-LOKAL-JEPIT-MINI-2-5CM-WARNA-i.327282260.7163669110",
+              "image": "https://down-id.img.susercontent.com/file/2b9fbf874dc1b814789c43b404482122"
+            },
+            {
+              "nama": "ALOY RETAIL PL H004 PROMO Kacamata Hitam Pria Wanita Sunglasses Korean INS Fashion KM03 Termurah",
+              "toko": "-",
+              "harga": 6389,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/ALOY-RETAIL-PL-H004-PROMO-Kacamata-Hitam-Pria-Wanita-Sunglasses-Korean-INS-Fashion-KM03-Termurah-i.387295480.9479143767",
+              "image": "https://down-id.img.susercontent.com/file/6e367d15ca4fa06f55711d7c55cff56b"
+            }
+          ]
+        },
+        {
+          "id": "cat8",
+          "nama": "Jam Tangan",
+          "produk": [
+            {
+              "nama": "WBS Jam Tangan Wanita Analog Quartz Casual Fashion Strap Rantai Stainless Steel Couple Pria JF086",
+              "toko": "-",
+              "harga": 19800,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/WBS-Jam-Tangan-Wanita-Analog-Quartz-Casual-Fashion-Strap-Rantai-Stainless-Steel-Couple-Pria-JF086-i.3720074.11939890194",
+              "image": ""
+            },
+            {
+              "nama": "PA JAM TANGAN WANITA PRIA DIGITAL RUBBER LED WATCH ORIGINAL HIGH QUALITY PREMIUM JF087",
+              "toko": "-",
+              "harga": 12967,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/PA-JAM-TANGAN-WANITA-PRIA-DIGITAL-RUBBER-LED-WATCH-ORIGINAL-HIGH-QUALITY-PREMIUM-JF087-i.275382621.13401684478",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-81zth-mrvo0od6wv7k05"
+            },
+            {
+              "nama": "PA Jam Tangan Quartz Strap PU Analog Casual Gaya Retro Wanita Bulat Watch Korean Fashion RM027",
+              "toko": "-",
+              "harga": 14650,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/PA-Jam-Tangan-Quartz-Strap-PU-Analog-Casual-Gaya-Retro-Wanita-Bulat-Watch-Korean-Fashion-RM027-i.275382621.16170027349",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7rask-m1mdmiw20vynaf"
+            },
+            {
+              "nama": "PA JAM TANGAN WANITA PRIA DIGITAL RUBBER BULATLED WATCH GROSIR ORIGINAL HIGH QUALITY JF088",
+              "toko": "-",
+              "harga": 12967,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/PA-JAM-TANGAN-WANITA-PRIA-DIGITAL-RUBBER-BULATLED-WATCH-GROSIR-ORIGINAL-HIGH-QUALITY-JF088-i.275382621.12863272147",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7ra0i-mdpt9roxff7860"
+            },
+            {
+              "nama": "WBS JAM TANGAN RUBBER S SPORT S 1790 DIGITAL FASHION LED GROSIR MURAH PRIA WANITA COUPLE TERBARU ANAK REMAJA JF038",
+              "toko": "-",
+              "harga": 9801,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/WBS-JAM-TANGAN-RUBBER-S-SPORT-S-1790-DIGITAL-FASHION-LED-GROSIR-MURAH-PRIA-WANITA-COUPLE-TERBARU-ANAK-REMAJA-JF038-i.3720074.4700876235",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7ra0r-mb7hu7rtamwoe0"
+            }
+          ]
+        },
+        {
+          "id": "cat9",
+          "nama": "Kesehatan & Masker",
+          "produk": [
+            {
+              "nama": "MASKER KF94 MOUSON 10PC SACHET ORIGINAL",
+              "toko": "-",
+              "harga": 3500,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/MASKER-KF94-MOUSON-10PC-SACHET-ORIGINAL-i.218014200.14818220563",
+              "image": ""
+            },
+            {
+              "nama": "Masker Duckbill 3D Orlee 3 Ply 3Ply Earloop Medis Kemenkes isi 10 pcs Pria Wanita embos original",
+              "toko": "-",
+              "harga": 11888,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Masker-Duckbill-3D-Orlee-3-Ply-3Ply-Earloop-Medis-Kemenkes-isi-10-pcs-Pria-Wanita-embos-original-i.914988.9117581004",
+              "image": "https://down-id.img.susercontent.com/file/id-11134201-81ztm-mrnboobqz9c046"
+            },
+            {
+              "nama": "Masker Earloop Duckbill FACE MASK Tali Kuping 3ply 3 ply isi 50 pcs",
+              "toko": "-",
+              "harga": 7780,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Masker-Earloop-Duckbill-FACE-MASK-Tali-Kuping-3ply-3-ply-isi-50-pcs-i.242118463.21761256185",
+              "image": "https://down-id.img.susercontent.com/file/b4ee797bca17e2345c13087dd94c2e4b"
+            },
+            {
+              "nama": "MASKER DUCKBILL FACEMASK isi 50 masker duckbill putih isi 50 PCS murah MASKER DUCKBILL HITAM ISI 50 PCS",
+              "toko": "-",
+              "harga": 9849,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/MASKER-DUCKBILL-FACEMASK-isi-50-masker-duckbill-putih-isi-50-PCS-murah-MASKER-DUCKBILL-HITAM-ISI-50-PCS-i.14306646.26001010800",
+              "image": "https://down-id.img.susercontent.com/file/sg-11134201-23020-g4ximuq1oenvd2"
+            },
+            {
+              "nama": "Masker duckbill warna warni 50 pcs 3 Ply Masker Duck bill Rainbow",
+              "toko": "-",
               "harga": 4000,
-              "terjual_minggu_ini": 2143,
-              "rating": 4.7
-            },
-            {
-              "nama": "Produk contoh Perlengkapan Pesta #2",
-              "toko": "Perlengkapan Official Store",
-              "harga": 26000,
-              "terjual_minggu_ini": 763,
-              "rating": 4.6
-            },
-            {
-              "nama": "Produk contoh Perlengkapan Pesta #3",
-              "toko": "Perlengkapan Official Store",
-              "harga": 71500,
-              "terjual_minggu_ini": 491,
-              "rating": 4.6
-            },
-            {
-              "nama": "Produk contoh Perlengkapan Pesta #4",
-              "toko": "Perlengkapan Shop",
-              "harga": 99500,
-              "terjual_minggu_ini": 697,
-              "rating": 4.4
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Masker-duckbill-warna-warni-50-pcs-3-Ply-Masker-Duck-bill-Rainbow-i.61050481.10701234981",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7r98t-lvoby7vlqot2bc"
             }
           ]
         },
         {
-          "id": "pertukangan",
-          "nama": "Pertukangan",
-          "url": "https://www.tokopedia.com/p/pertukangan",
+          "id": "cat10",
+          "nama": "Hobi & Craft",
           "produk": [
             {
-              "nama": "Produk contoh Pertukangan #1",
-              "toko": "Pertukangan Grosir",
-              "harga": 20000,
-              "terjual_minggu_ini": 1453,
-              "rating": 4.5
+              "nama": "DIY Center Benang Rajut Katun Susu 5PLY 50gr – Milk Cotton 5 PLY Yarn Import Crochet Knitting",
+              "toko": "-",
+              "harga": 8999,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/-DIY-Center-Benang-Rajut-Katun-Susu-5PLY-50gr-–-Milk-Cotton-5-PLY-Yarn-Import-Crochet-Knitting-i.1246646059.41522989798",
+              "image": ""
             },
             {
-              "nama": "Produk contoh Pertukangan #2",
-              "toko": "Pertukangan Home",
-              "harga": 61500,
-              "terjual_minggu_ini": 520,
-              "rating": 4.8
+              "nama": "Print Foto Custom Estetik Isi 100 Kertas Tebal Premium Quality",
+              "toko": "-",
+              "harga": 19999,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Print-Foto-Custom-Estetik-Isi-100-Kertas-Tebal-Premium-Quality-i.291315356.6851265760",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7ra0k-mcuhyl0u8xitc3"
             },
             {
-              "nama": "Produk contoh Pertukangan #3",
-              "toko": "Pertukangan Home",
-              "harga": 169000,
-              "terjual_minggu_ini": 671,
-              "rating": 4.7
+              "nama": "Accesories Tas Kepala Resleting BESI No. 5 (SUPER) (A) Pendek Patah (Zipper puller) (IMPORT)",
+              "toko": "-",
+              "harga": 1340,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Accesories-Tas-Kepala-Resleting-BESI-No.-5-(SUPER)-(A)-Pendek-Patah-(Zipper-puller)-(IMPORT)-i.40107682.2880224211",
+              "image": "https://down-id.img.susercontent.com/file/13fee682e37e301fcb88a24564204de2"
             },
             {
-              "nama": "Produk contoh Pertukangan #4",
-              "toko": "Pertukangan Mart",
-              "harga": 366000,
-              "terjual_minggu_ini": 342,
-              "rating": 5.0
+              "nama": "W302 (BACA DESKRIPSI YG MAU REQ WARNA) 1Pcs Manik Luxury 3D Karakter Alphabet Bisa Request",
+              "toko": "-",
+              "harga": 1089,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/W302-(BACA-DESKRIPSI-YG-MAU-REQ-WARNA)-1Pcs-Manik-Luxury-3D-Karakter-Alphabet-Bisa-Request-i.1024492946.29026082430",
+              "image": "https://down-id.img.susercontent.com/file/sg-11134201-81zul-mmqx0thgwmx114"
+            },
+            {
+              "nama": "Minimal Order 10 Pcs Photocard Custom Hologram",
+              "toko": "-",
+              "harga": 1000,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Minimal-Order-10-Pcs-Photocard-Custom-Hologram-i.55005845.5850976351",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7ra0k-mc9fxo6yuzph1c"
             }
           ]
         },
         {
-          "id": "properti",
-          "nama": "Properti",
-          "url": "https://www.tokopedia.com/p/properti",
+          "id": "cat11",
+          "nama": "Makanan & Minuman",
           "produk": [
             {
-              "nama": "Produk contoh Properti #1",
-              "toko": "Properti Official Store",
-              "harga": 100000,
-              "terjual_minggu_ini": 691,
-              "rating": 4.8
+              "nama": "baso aci ayam suwir jumbo brutal pedas baso jumbo 1 baso sedang 7 komplit bumbu bikin lidah bergetar",
+              "toko": "-",
+              "harga": 5700,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/baso-aci-ayam-suwir-jumbo-brutal-pedas-baso-jumbo-1-baso-sedang-7-komplit-bumbu-bikin-lidah-bergetar-i.514201808.16072423620",
+              "image": ""
             },
             {
-              "nama": "Produk contoh Properti #2",
-              "toko": "Properti Store ID",
-              "harga": 232000,
-              "terjual_minggu_ini": 672,
-              "rating": 4.8
+              "nama": "BASRENG DAUN JERUK PEDAS VIRAL KEMASAN HIGIENIS_ EKONOMIS BASRENG BUMBU MELIMPAH",
+              "toko": "-",
+              "harga": 1979,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/BASRENG-DAUN-JERUK-PEDAS-VIRAL-KEMASAN-HIGIENIS_-EKONOMIS-BASRENG-BUMBU-MELIMPAH-i.220203833.40104602101",
+              "image": "https://down-id.img.susercontent.com/file/id-11134201-81zto-ms8jao17qmma9e"
             },
             {
-              "nama": "Produk contoh Properti #3",
-              "toko": "Properti Store ID",
-              "harga": 727500,
-              "terjual_minggu_ini": 370,
-              "rating": 4.5
+              "nama": "( Exp JAN 27)Kurma Sukari Gram ember Kurma Sukkari Sukari Basah AlQasim",
+              "toko": "-",
+              "harga": 6500,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/(-Exp-JAN-27)Kurma-Sukari-Gram-ember-Kurma-Sukkari-Sukari-Basah-AlQasim-i.603783036.17039503911",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7ra0m-mb7fkf3gjtpg91"
             },
             {
-              "nama": "Produk contoh Properti #4",
-              "toko": "Properti Home",
-              "harga": 1515000,
-              "terjual_minggu_ini": 177,
-              "rating": 4.7
+              "nama": "(Minimal 10 Pcs) Pie Susu Shaffia Rasa Coklat Keju",
+              "toko": "-",
+              "harga": 0,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/(Minimal-10-Pcs)-Pie-Susu-Shaffia-Rasa-Coklat-Keju-i.37795959.563804737",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-8224o-miwjg2qhn7r7ce"
+            },
+            {
+              "nama": "MACARONI EXSTRA 1000 an Raja kumis 30 gram",
+              "toko": "-",
+              "harga": 1199,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/MACARONI-EXSTRA-1000-an-Raja-kumis-30-gram-i.323691395.19366700213",
+              "image": "https://down-id.img.susercontent.com/file/a939b73f3ee30898c519f496f9029711"
             }
           ]
         },
         {
-          "id": "rumah-tangga",
+          "id": "cat12",
+          "nama": "Kecantikan & Perawatan",
+          "produk": [
+            {
+              "nama": "Hanasui Mattedorable Lip Cream Boba Matcha Latte Tintdorable Lip Stain TnT Beauty Shop",
+              "toko": "-",
+              "harga": 21190,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Hanasui-Mattedorable-Lip-Cream-Boba-Matcha-Latte-Tintdorable-Lip-Stain-TnT-Beauty-Shop-i.744873.5036083592",
+              "image": ""
+            },
+            {
+              "nama": "OMG Oh My Glam mattelast lip cream 2.9g Lip Cream Matte Dengan Warna Intense Tahan Lama Ringan",
+              "toko": "-",
+              "harga": 23250,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/OMG-Oh-My-Glam-mattelast-lip-cream-2.9g-Lip-Cream-Matte-Dengan-Warna-Intense-Tahan-Lama-Ringan-i.3343006.29557593310",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-8224x-mjtmhkcizt3b08"
+            },
+            {
+              "nama": "The Originote Hyalucera Moisturizer Gel 50ml Pelembap Wajah Moisturizer Ceramide Hyaluronic Acid Pelembap Menghidrasi Bikin Kulit Lembap Glowing Moisturizer Menenangkan Perbaiki Skin Barrier Merawat Keremajaan Kulit",
+              "toko": "-",
+              "harga": 41500,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/The-Originote-Hyalucera-Moisturizer-Gel-50ml-Pelembap-Wajah-Moisturizer-Ceramide-Hyaluronic-Acid-Pelembap-Menghidrasi-Bikin-Kulit-Lembap-Glowing-Moisturizer-Menenangkan-Perbaiki-Skin-Barrier-Merawat-Keremajaan-Kulit-i.710619388.10492590941",
+              "image": "https://down-id.img.susercontent.com/file/id-11134211-82251-mjz21cecpypxab"
+            },
+            {
+              "nama": "Najmia Ofc OMG Oh My Glam Matte Kiss Lip Cream ( lipstick lipstik lipcream ) NEW SHADE 01 30",
+              "toko": "-",
+              "harga": 23603,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Najmia-Ofc-OMG-Oh-My-Glam-Matte-Kiss-Lip-Cream-(-lipstick-lipstik-lipcream-)-NEW-SHADE-01-30-i.14175065.7487601758",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-81zte-msecz1ftvdoo8d"
+            },
+            {
+              "nama": "OMG OH MY GLAM MATTE KISS LIP CREAM BPOM HALAL (KEMASAN BARU) Warna Intense Tahan Lama",
+              "toko": "-",
+              "harga": 23690,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/OMG-OH-MY-GLAM-MATTE-KISS-LIP-CREAM-BPOM-HALAL-(KEMASAN-BARU)-Warna-Intense-Tahan-Lama-i.3948077.6083538401",
+              "image": "https://down-id.img.susercontent.com/file/sg-11134201-8260w-mjoz1qbdi4g0b1"
+            }
+          ]
+        },
+        {
+          "id": "cat13",
           "nama": "Rumah Tangga",
-          "url": "https://www.tokopedia.com/p/rumah-tangga",
           "produk": [
             {
-              "nama": "Produk contoh Rumah Tangga #1",
-              "toko": "Rumah Official Store",
-              "harga": 34500,
-              "terjual_minggu_ini": 923,
-              "rating": 4.5
+              "nama": "Tissue JOLLY 250 sheets 2ply facial tisu PROMO !",
+              "toko": "-",
+              "harga": 4250,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Tissue-JOLLY-250-sheets-2ply-facial-tisu-PROMO-!-i.256364012.3893171971",
+              "image": ""
             },
             {
-              "nama": "Produk contoh Rumah Tangga #2",
-              "toko": "Rumah Home",
-              "harga": 91500,
-              "terjual_minggu_ini": 548,
-              "rating": 4.4
+              "nama": "Tisu Tissue JOLLY POP UP 2ply 160 sheet PROMO !!!",
+              "toko": "-",
+              "harga": 5000,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Tisu-Tissue-JOLLY-POP-UP-2ply-160-sheet-PROMO-!!!-i.256364012.19746267557",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7r98v-m0bcljaeveif2c"
             },
             {
-              "nama": "Produk contoh Rumah Tangga #3",
-              "toko": "Rumah Shop",
-              "harga": 171000,
-              "terjual_minggu_ini": 737,
-              "rating": 4.8
+              "nama": "Tisu tissue nice 360 helai kemasan baru",
+              "toko": "-",
+              "harga": 6550,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Tisu-tissue-nice-360-helai-kemasan-baru-i.51975820.7633301614",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7rasd-m29t8vvjd00yb7"
             },
             {
-              "nama": "Produk contoh Rumah Tangga #4",
-              "toko": "Rumah Home",
-              "harga": 460500,
-              "terjual_minggu_ini": 524,
-              "rating": 4.5
+              "nama": "Kain Lap Mobil Microfiber 30x30 Warna kuning Abu Car cloth Universal Serba Bisa",
+              "toko": "-",
+              "harga": 5500,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Kain-Lap-Mobil-Microfiber-30x30-Warna-kuning-Abu-Car-cloth-Universal-Serba-Bisa-i.302253305.11771697970",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-822wk-mnh5jqkjchs57c"
+            },
+            {
+              "nama": "FAYES COD FAYES Kotak Sepatu Transparan Lipat Box Penyimpanan Susun Anti Debu U36 U98",
+              "toko": "-",
+              "harga": 6750,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/FAYES-COD-FAYES-Kotak-Sepatu-Transparan-Lipat-Box-Penyimpanan-Susun-Anti-Debu-U36-U98-i.189198206.7050844890",
+              "image": "https://down-id.img.susercontent.com/file/sg-11134201-22100-gd81eczo4rivc6"
             }
           ]
         },
         {
-          "id": "tiket-travel-voucher",
-          "nama": "Tiket, Travel & Voucher",
-          "url": "https://www.tokopedia.com/p/tiket-travel-voucher",
+          "id": "cat14",
+          "nama": "Pakaian Wanita",
           "produk": [
             {
-              "nama": "Produk contoh Tiket, Travel & Voucher #1",
-              "toko": "Tiket, Grosir",
-              "harga": 7500,
-              "terjual_minggu_ini": 1821,
-              "rating": 4.9
+              "nama": "Blouse Rajut Olop Cable Oversize Sweater Wanita Motif Cable Baju Atasan Wanita Terbaru Tangan Panjang Blouse",
+              "toko": "-",
+              "harga": 19999,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Blouse-Rajut-Olop-Cable-Oversize-Sweater-Wanita-Motif-Cable-Baju-Atasan-Wanita-Terbaru-Tangan-Panjang-Blouse-i.200092213.43200758657",
+              "image": ""
             },
             {
-              "nama": "Produk contoh Tiket, Travel & Voucher #2",
-              "toko": "Tiket, Grosir",
-              "harga": 17500,
-              "terjual_minggu_ini": 748,
-              "rating": 4.8
+              "nama": "Basic Crop Knit Rib Crop Top",
+              "toko": "-",
+              "harga": 12642,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Basic-Crop-Knit-Rib-Crop-Top-i.251753240.20016217743",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7ra0i-mbcbpuzux50966"
             },
             {
-              "nama": "Produk contoh Tiket, Travel & Voucher #3",
-              "toko": "Tiket, Home",
-              "harga": 77500,
-              "terjual_minggu_ini": 971,
-              "rating": 4.5
+              "nama": "BH Sport Guffy BRA Wanita Bahan Katun Halus Tanpa Kawat Dan Busa Uk 32 34 36 38 40 42 Bra BH",
+              "toko": "-",
+              "harga": 9050,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/BH-Sport-Guffy-BRA-Wanita-Bahan-Katun-Halus-Tanpa-Kawat-Dan-Busa-Uk-32-34-36-38-40-42-Bra-BH-i.1553965328.43402903090",
+              "image": "https://down-id.img.susercontent.com/file/67d064eae5071e8cfc9ad31ed7168297"
             },
             {
-              "nama": "Produk contoh Tiket, Travel & Voucher #4",
-              "toko": "Tiket, Grosir",
-              "harga": 130000,
-              "terjual_minggu_ini": 697,
-              "rating": 4.7
+              "nama": "Promo Daster Resleting Termurah Daster Jumbo Wolfis Poli Katun Sanwos Terlaris",
+              "toko": "-",
+              "harga": 18000,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Promo-Daster-Resleting-Termurah-Daster-Jumbo-Wolfis-Poli-Katun-Sanwos-Terlaris-i.1166499501.29776624296",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7rbk7-maleq578c74u90"
+            },
+            {
+              "nama": "SPESIAL LIVE QURAISHA Celana Kulot Plisket Lidi Kekinian Bahan Hyget Premium Adem lembut dan nyaman digunakan",
+              "toko": "-",
+              "harga": 12399,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/-SPESIAL-LIVE-QURAISHA-Celana-Kulot-Plisket-Lidi-Kekinian-Bahan-Hyget-Premium-Adem-lembut-dan-nyaman-digunakan-i.114769182.27024808686",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7rbkd-m6ep2g6f1qga2c"
             }
           ]
         },
         {
-          "id": "virtual-products",
-          "nama": "Virtual Products",
-          "url": "https://www.tokopedia.com/p/virtual-products",
+          "id": "cat15",
+          "nama": "Fashion Muslim",
           "produk": [
             {
-              "nama": "Produk contoh Virtual Products #1",
-              "toko": "Virtual Mart",
-              "harga": 12000,
-              "terjual_minggu_ini": 1299,
-              "rating": 4.4
+              "nama": "JILBAB BELLA SQUARE SEGI EMPAT HIJAB BELLA SQUARE WARNA TERLENGKAP",
+              "toko": "-",
+              "harga": 8900,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/JILBAB-BELLA-SQUARE-SEGI-EMPAT-HIJAB-BELLA-SQUARE-WARNA-TERLENGKAP-i.236227128.4828514714",
+              "image": ""
             },
             {
-              "nama": "Produk contoh Virtual Products #2",
-              "toko": "Virtual Mart",
-              "harga": 29000,
-              "terjual_minggu_ini": 1209,
-              "rating": 4.6
+              "nama": "ORI VARISHA BEST SELLER DAN COD HIJAB PARIS JADUL VARISHA DAN HUMAIRA SEGI EMPAT POLOS TERLARIS WARNA KOMPLIT",
+              "toko": "-",
+              "harga": 5900,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/ORI-VARISHA-BEST-SELLER-DAN-COD-HIJAB-PARIS-JADUL-VARISHA-DAN-HUMAIRA-SEGI-EMPAT-POLOS-TERLARIS-WARNA-KOMPLIT-i.1285739821.42156997426",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-81ztn-mq5rz7cknabx31"
             },
             {
-              "nama": "Produk contoh Virtual Products #3",
-              "toko": "Virtual Shop",
-              "harga": 46000,
-              "terjual_minggu_ini": 657,
-              "rating": 4.9
+              "nama": "Kerudung paris polos murah ORI VARISHA bisa (COD)",
+              "toko": "-",
+              "harga": 15305,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Kerudung-paris-polos-murah-ORI-VARISHA-bisa-(COD)-i.163167362.13662920511",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7ra0i-mc8z4egbjmf662"
             },
             {
-              "nama": "Produk contoh Virtual Products #4",
-              "toko": "Virtual Official Store",
-              "harga": 165500,
-              "terjual_minggu_ini": 587,
-              "rating": 5.0
+              "nama": "hijab segiempat PARIS JADUL BRAND ORI VARISHA Paris Jadul Premium",
+              "toko": "-",
+              "harga": 15950,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/hijab-segiempat-PARIS-JADUL-BRAND-ORI-VARISHA-Paris-Jadul-Premium-i.1060456701.42456035170",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7rask-m5q0enlz7vkt2f"
+            },
+            {
+              "nama": "(ORI) BERGO HAMIDAH SIZE M BAHAN SUPER PREMIUM",
+              "toko": "-",
+              "harga": 17900,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/(ORI)-BERGO-HAMIDAH-SIZE-M-BAHAN-SUPER-PREMIUM-i.486936166.22543674405",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-8224x-mh6g21s4e2h522"
+            }
+          ]
+        },
+        {
+          "id": "cat16",
+          "nama": "Fashion Bayi & Anak",
+          "produk": [
+            {
+              "nama": "Celana Pendek Anak usia 1 17 Tahun muat untuk Dewasa Celana Pendek Harian Anak Cewe dan Anak Cowo",
+              "toko": "-",
+              "harga": 6800,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Celana-Pendek-Anak-usia-1-17-Tahun-muat-untuk-Dewasa-Celana-Pendek-Harian-Anak-Cewe-dan-Anak-Cowo-i.221668746.12631175336",
+              "image": ""
+            },
+            {
+              "nama": "Celana Harian Anak Katun Halus Ukuran S L",
+              "toko": "-",
+              "harga": 3099,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Celana-Harian-Anak-Katun-Halus-Ukuran-S-L-i.228685729.11973624301",
+              "image": "https://down-id.img.susercontent.com/file/17be3d5654e8a232dec3a5c6576840a7"
+            },
+            {
+              "nama": "Celamis Los Anak celana tidur Anak celana santai anak",
+              "toko": "-",
+              "harga": 15000,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Celamis-Los-Anak-celana-tidur-Anak-celana-santai-anak-i.57089601.4106528498",
+              "image": "https://down-id.img.susercontent.com/file/ff2935af8a009da38dbfa08ca31e790a"
+            },
+            {
+              "nama": "Legging Pita Rib Knite Premium Legging Anak 0 7 Tahun",
+              "toko": "-",
+              "harga": 10897,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Legging-Pita-Rib-Knite-Premium-Legging-Anak-0-7-Tahun-i.536240941.22344566841",
+              "image": "https://down-id.img.susercontent.com/file/cdbd59f6b0c6d1a53c51e02ddcc58bee"
+            },
+            {
+              "nama": "Setelan Anak Anak Premium Setelan Anak Anak Murah",
+              "toko": "-",
+              "harga": 18900,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Setelan-Anak-Anak-Premium-Setelan-Anak-Anak-Murah-i.391623739.16589070737",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-8224t-mfysj7v3z95a47"
+            }
+          ]
+        },
+        {
+          "id": "cat17",
+          "nama": "Ibu & Bayi",
+          "produk": [
+            {
+              "nama": "PAKET BUNDLE 3 PCS Minyak Telon My Baby 30ml",
+              "toko": "-",
+              "harga": 11676,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/PAKET-BUNDLE-3-PCS-Minyak-Telon-My-Baby-30ml-i.1057272966.28707698635",
+              "image": ""
+            },
+            {
+              "nama": "Sweety bronze pants minipack M5 L5 XL4",
+              "toko": "-",
+              "harga": 7584,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Sweety-bronze-pants-minipack-M5-L5-XL4-i.274051946.25727998321",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7r98r-lyun9q993suz44"
+            },
+            {
+              "nama": "Tisu Basah Mini 8 Pack Tebal Tanpa Wangi Kemenkes",
+              "toko": "-",
+              "harga": 6037,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Tisu-Basah-Mini-8-Pack-Tebal-Tanpa-Wangi-Kemenkes-i.1607789266.48953396565",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7r98y-lutm6pf33floe3"
+            },
+            {
+              "nama": "My Baby Minyak Telon Plus 8 Jam Anti Nyamuk",
+              "toko": "-",
+              "harga": 17900,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/My-Baby-Minyak-Telon-Plus-8-Jam-Anti-Nyamuk-i.3343006.2685818534",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-8224q-mih2dmnsgxz451"
+            },
+            {
+              "nama": "Johnson's Baby Cologne 100ml Fresh Long Lasting",
+              "toko": "-",
+              "harga": 23990,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Johnson's-Baby-Cologne-100ml-Fresh-Long-Lasting-i.38076091.24061447126",
+              "image": "https://down-id.img.susercontent.com/file/id-11134211-82250-mjur9p697zep75"
+            }
+          ]
+        },
+        {
+          "id": "cat18",
+          "nama": "Sepatu Wanita",
+          "produk": [
+            {
+              "nama": "Sandal Wanita Elsa Teplek Platform Non Slip",
+              "toko": "-",
+              "harga": 16000,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Sandal-Wanita-Elsa-Teplek-Platform-Non-Slip-i.996437409.25816708248",
+              "image": ""
+            },
+            {
+              "nama": "Sandal Wanita Baim Fuji Clog Casual Anti Slip",
+              "toko": "-",
+              "harga": 28819,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Sandal-Wanita-Baim-Fuji-Clog-Casual-Anti-Slip-i.1078007646.45853537863",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7r98z-lshot5tavpmh8a"
+            },
+            {
+              "nama": "Sandal Platform Wanita Sandal Selop Teplek Gaya Korean",
+              "toko": "-",
+              "harga": 21760,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Sandal-Platform-Wanita-Sandal-Selop-Teplek-Gaya-Korean-i.202450576.25944336718",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-8224x-milhqnlia8lg70"
+            },
+            {
+              "nama": "Sandal Wanita Baim Nyaman Ringan Anti Slip",
+              "toko": "-",
+              "harga": 27499,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Sandal-Wanita-Baim-Nyaman-Ringan-Anti-Slip-i.123844975.40719467341",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7rbk9-m8uaxzwvdg5te9"
+            },
+            {
+              "nama": "Sendal Wanita Trend Selop Terbaru Kekinian",
+              "toko": "-",
+              "harga": 19999,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Sendal-Wanita-Trend-Selop-Terbaru-Kekinian-i.1076089384.23580511818",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-81ztq-mfkmo8l638js39"
+            }
+          ]
+        },
+        {
+          "id": "cat19",
+          "nama": "Tas Wanita & Organizer",
+          "produk": [
+            {
+              "nama": "Zipper bag Zipper lock zipper storage bag zipper travel pouch travel pouch serbaguna zipper bag baju",
+              "toko": "-",
+              "harga": 1450,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Zipper-bag-Zipper-lock-zipper-storage-bag-zipper-travel-pouch-travel-pouch-serbaguna-zipper-bag-baju-i.278590404.7052942562",
+              "image": ""
+            },
+            {
+              "nama": "~ CKK ~ POUCH DAISY ALL VARIANT ORGANIZER SERBAGUNA POUCH SERUT Bisa COD",
+              "toko": "-",
+              "harga": 610,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/~-CKK-~-POUCH-DAISY-ALL-VARIANT-ORGANIZER-SERBAGUNA-POUCH-SERUT-Bisa-COD-i.5981492.4748320937",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7qul8-lewqu4zq0o6p80"
+            },
+            {
+              "nama": "•OKEY BELI•PART1 PK058 Travel Pouch Organizer Serbaguna Tas Serut Kosmetik Motif Anti Air Travel Bag",
+              "toko": "-",
+              "harga": 628,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/•OKEY-BELI•PART1-PK058-Travel-Pouch-Organizer-Serbaguna-Tas-Serut-Kosmetik-Motif-Anti-Air-Travel-Bag-i.102071699.15522105302",
+              "image": "https://down-id.img.susercontent.com/file/sg-11134201-22120-ncuvcpj40olv7a"
+            },
+            {
+              "nama": "~ CKK ~ POUCH SERUT KARAKTER SERBAGUNA",
+              "toko": "-",
+              "harga": 610,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/~-CKK-~-POUCH-SERUT-KARAKTER-SERBAGUNA-i.5981492.23942530289",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7ra0u-mb7jehnwx5yjef"
+            },
+            {
+              "nama": "~ CKK ~ TRAVEL POUCH ORGANIZER SERBAGUNA POUCH SERUT Bisa COD",
+              "toko": "-",
+              "harga": 610,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/~-CKK-~-TRAVEL-POUCH-ORGANIZER-SERBAGUNA-POUCH-SERUT-Bisa-COD-i.5981492.7602857329",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7qul2-ljnyyj45syei2c"
+            }
+          ]
+        },
+        {
+          "id": "cat20",
+          "nama": "Otomotif & Aksesoris",
+          "produk": [
+            {
+              "nama": "Jas Hujan Dewasa Poncho Waterproof Bahan EVA Tebal Mantel Korea Semi Transparan Anti Basah Unisex Mofan acc",
+              "toko": "-",
+              "harga": 7702,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Jas-Hujan-Dewasa-Poncho-Waterproof-Bahan-EVA-Tebal-Mantel-Korea-Semi-Transparan-Anti-Basah-Unisex-Mofan-acc-i.31169310.20246769516",
+              "image": ""
+            },
+            {
+              "nama": "COD LAMPU LED H6 LASER HI LO LAMPU UTAMA MOTOR LED LASER H6 BERKUALITAS DAN SUPER TERANG H6 LASER 2 COLOUR BEAT VARIO MIO SUPRA REVO FINO XEON MIO GT MIO SOUL DLL",
+              "toko": "-",
+              "harga": 18500,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/COD-LAMPU-LED-H6-LASER-HI-LO-LAMPU-UTAMA-MOTOR-LED-LASER-H6-BERKUALITAS-DAN-SUPER-TERANG-H6-LASER-2-COLOUR-BEAT-VARIO-MIO-SUPRA-REVO-FINO-XEON-MIO-GT-MIO-SOUL-DLL-i.136305202.25204080260",
+              "image": "https://down-id.img.susercontent.com/file/sg-11134201-22090-zc1ur4edhthv17"
+            },
+            {
+              "nama": "M10 Headset Bluetooth Wireless TWS Power Bank 3500mAh",
+              "toko": "-",
+              "harga": 31656,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/M10-Headset-Bluetooth-Wireless-TWS-Power-Bank-3500mAh-i.125865704.21758044800",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-7ras9-m5d0sza8vg1y64"
+            },
+            {
+              "nama": "Walva Masker Wajah Anti UV Ultraviolet Matahari Masker Premium Berkualitas Multifungsi Walva Store",
+              "toko": "-",
+              "harga": 3900,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/Walva-Masker-Wajah-Anti-UV-Ultraviolet-Matahari-Masker-Premium-Berkualitas-Multifungsi-Walva-Store-i.10184638.14097776632",
+              "image": "https://down-id.img.susercontent.com/file/sg-11134201-22110-z99u7k8wqwjv90"
+            },
+            {
+              "nama": "original baut probolt titanium 6x15 drat 10 panjang 1.5 cm payung big head",
+              "toko": "-",
+              "harga": 9450,
+              "terjual_minggu_ini": 0,
+              "rating": 0,
+              "url": "https://shopee.co.id/original-baut-probolt-titanium-6x15-drat-10-panjang-1.5-cm-payung-big-head-i.236136941.26478988178",
+              "image": "https://down-id.img.susercontent.com/file/id-11134207-822wl-mp42lk3ld5vked"
             }
           ]
         }
