@@ -1,103 +1,104 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Radar Pasar — Produk Terlaris Mingguan</title>
-<meta name="description" content="Dashboard produk terlaris per kategori Shopee, update real-time dari server.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
-<style>
-  :root{--bg:#F5F7FB;--surface:#FFFFFF;--surface-soft:#F8FAFD;--border:#E7ECF3;--text:#2C3646;--muted:#8A94A6;--shopee:#FF8A3D;--shopee-bg:#FFF2E7;--toko:#22B07D;--toko-bg:#E8F8F1;--blue:#5B7FEF;--blue-bg:#EEF2FE;--amber:#F0A93E;--amber-bg:#FFF6E7;--shadow:0 1px 2px rgba(30,41,59,0.04),0 8px 24px rgba(30,41,59,0.05);--shadow-sm:0 1px 2px rgba(30,41,59,0.05);}
-  *{box-sizing:border-box;}html{scroll-behavior:smooth;}body{margin:0;background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;}
-  .font-display{font-family:'Space Grotesk',sans-serif;}.font-mono{font-family:'JetBrains Mono',monospace;}
-  .ticker-wrap{background:linear-gradient(90deg,var(--blue-bg),var(--toko-bg));border-bottom:1px solid var(--border);overflow:hidden;white-space:nowrap;position:relative;}
-  .ticker-wrap::before,.ticker-wrap::after{content:"";position:absolute;top:0;bottom:0;width:70px;z-index:2;pointer-events:none;}
-  .ticker-wrap::before{left:0;background:linear-gradient(90deg,var(--blue-bg),transparent);}
-  .ticker-wrap::after{right:0;background:linear-gradient(270deg,var(--toko-bg),transparent);}
-  .ticker-track{display:inline-flex;animation:scroll-left 46s linear infinite;padding:10px 0;}
-  .ticker-wrap:hover .ticker-track{animation-play-state:paused;}
-  @keyframes scroll-left{from{transform:translateX(0);}to{transform:translateX(-50%);}}
-  .ticker-item{display:inline-flex;align-items:center;gap:8px;padding:0 22px;font-family:'JetBrains Mono',monospace;font-size:12.5px;color:#5b6779;border-right:1px solid rgba(90,110,140,0.15);}
-  .ticker-item b{color:var(--text);font-weight:700;}.up{color:var(--toko);}
-  .wrap{max-width:1320px;margin:0 auto;padding:0 24px;}
-  header.hero{padding:40px 0 26px;}
-  .eyebrow{display:inline-flex;align-items:center;gap:8px;font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.1em;color:#B9821F;text-transform:uppercase;padding:5px 11px;border-radius:999px;background:var(--amber-bg);border:1px solid #F3DBA6;}
-  .dot{width:6px;height:6px;border-radius:50%;background:var(--toko);box-shadow:0 0 0 3px rgba(34,176,125,0.18);animation:pulse 2s infinite;}
-  @keyframes pulse{0%,100%{opacity:1;}50%{opacity:.4;}}
-  h1.title{font-size:38px;line-height:1.1;margin:16px 0 10px;font-weight:700;letter-spacing:-0.01em;}
-  h1.title .accent{color:var(--blue);}
-  p.sub{color:var(--muted);font-size:15px;max-width:660px;margin:0;line-height:1.6;}
-  .meta-row{display:flex;gap:26px;flex-wrap:wrap;margin-top:22px;}
-  .meta{font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--muted);}
-  .meta strong{display:block;font-family:'Space Grotesk',sans-serif;font-size:18px;color:var(--text);font-weight:600;margin-top:2px;}
-  .platform-tabs{display:flex;gap:10px;margin:22px 0 24px;}
-  .ptab{flex:1;display:flex;align-items:center;gap:12px;padding:14px 18px;border-radius:16px;background:var(--surface);border:1.5px solid var(--border);cursor:pointer;transition:.15s;box-shadow:var(--shadow-sm);}
-  .ptab:hover{border-color:#cfd8e6;}.ptab.active{border-color:var(--blue);background:var(--blue-bg);}
-  .ptab .p-icon{width:36px;height:36px;border-radius:11px;display:flex;align-items:center;justify-content:center;font-family:'Space Grotesk';font-weight:700;font-size:15px;color:#fff;flex-shrink:0;}
-  .ptab.shopee .p-icon{background:var(--shopee);}
-  .ptab.tokopedia .p-icon{background:var(--toko);}
-  .ptab .p-name{font-family:'Space Grotesk';font-weight:600;font-size:15px;}
-  .ptab .p-count{font-size:12px;color:var(--muted);margin-top:1px;}
-  .stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:26px 0;}
-  @media(max-width:900px){.stats-grid{grid-template-columns:repeat(2,1fr);}}
-  .stat-card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:18px 18px 16px;box-shadow:var(--shadow-sm);}
-  .stat-card .label{font-size:11.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;font-weight:600;}
-  .stat-card .value{font-family:'Space Grotesk',sans-serif;font-size:25px;font-weight:700;margin-top:8px;}
-  .stat-card .foot{font-size:12px;color:var(--muted);margin-top:4px;}
-  .controls{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:4px 0 22px;padding-top:22px;border-top:1px solid var(--border);}
-  .search{flex:1;min-width:220px;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:11px 15px;color:var(--text);font-family:'Inter';font-size:14px;}
-  .search::placeholder{color:var(--muted);}.search:focus{outline:none;border-color:var(--blue);}
-  select.sortsel{background:var(--surface);border:1px solid var(--border);border-radius:12px;color:var(--text);padding:11px 13px;font-family:'Inter';font-size:13.5px;}
-  .chips{display:flex;gap:8px;flex-wrap:wrap;}
-  .chip{font-family:'Inter',sans-serif;font-weight:500;font-size:12.5px;padding:8px 14px;border-radius:999px;border:1px solid var(--border);background:var(--surface);color:var(--muted);cursor:pointer;transition:.15s;user-select:none;}
-  .chip:hover{border-color:#cfd8e6;color:var(--text);}.chip.active{background:var(--blue);border-color:var(--blue);color:#fff;}
-  .charts-grid{display:grid;grid-template-columns:1fr;gap:16px;margin-bottom:32px;}
-  .panel{background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:20px 22px;box-shadow:var(--shadow-sm);}
-  .panel h3{margin:0 0 2px;font-family:'Space Grotesk';font-size:15.5px;font-weight:600;}
-  .panel p.hint{margin:0 0 14px;color:var(--muted);font-size:12.5px;line-height:1.5;}
-  .cat-section{margin-bottom:40px;scroll-margin-top:90px;}
-  .cat-head{display:flex;align-items:baseline;gap:12px;margin-bottom:14px;}
-  .cat-head .idx{font-family:'JetBrains Mono';color:var(--muted);font-size:12.5px;}
-  .cat-head h2{font-family:'Space Grotesk';font-size:19px;margin:0;font-weight:600;}
-  .cat-head .count{margin-left:auto;font-family:'JetBrains Mono';font-size:11.5px;color:var(--muted);}
-  .cat-body{display:grid;grid-template-columns:1.55fr 1fr;gap:14px;align-items:start;}
-  @media(max-width:980px){.cat-body{grid-template-columns:1fr;}}
-  .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;}
-  @media(max-width:600px){.cards{grid-template-columns:1fr;}}
-  .card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:15px;position:relative;transition:.15s;box-shadow:var(--shadow-sm);}
-  .card:hover{border-color:#cfd8e6;transform:translateY(-1px);}
-  .card .rank{position:absolute;top:13px;right:13px;font-family:'JetBrains Mono';font-size:11px;color:var(--muted);}
-  .rank-1{color:var(--amber) !important;font-weight:700;}
-  .card .nama{font-size:13.5px;font-weight:600;line-height:1.35;margin:2px 0 4px;padding-right:24px;min-height:36px;}
-  .card .toko{font-size:11px;color:var(--muted);margin-bottom:10px;}
-  .price-row{margin-bottom:10px;}
-  .price-row .harga{font-family:'JetBrains Mono';font-size:16px;font-weight:700;color:var(--text);}
-  .kpi-row{display:flex;gap:14px;padding-top:9px;border-top:1px dashed var(--border);}
-  .kpi{flex:1;}.kpi .k-label{font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;}
-  .kpi .k-value{font-family:'JetBrains Mono';font-size:13.5px;font-weight:700;margin-top:2px;}
-  .kpi .k-value.star{color:var(--amber);}
-  .bucket-panel{background:var(--surface-soft);border:1px solid var(--border);border-radius:14px;padding:16px;position:sticky;top:16px;}
-  .bucket-panel h4{margin:0 0 3px;font-family:'Space Grotesk';font-size:13.5px;font-weight:600;}
-  .bucket-panel p.hint{margin:0 0 12px;font-size:11.5px;color:var(--muted);line-height:1.5;}
-  .bucket-row{display:flex;align-items:center;gap:8px;margin-bottom:7px;font-size:11.5px;}
-  .bucket-row .b-range{width:92px;flex-shrink:0;font-family:'JetBrains Mono';color:var(--muted);}
-  .bucket-row .b-bar-wrap{flex:1;height:8px;border-radius:5px;background:var(--border);overflow:hidden;}
-  .bucket-row .b-bar{height:100%;background:var(--blue);border-radius:5px;}
-  .bucket-row .b-val{width:60px;text-align:right;font-family:'JetBrains Mono';font-weight:600;flex-shrink:0;}
-  .bucket-best{margin-top:12px;padding:10px 12px;background:var(--toko-bg);border-radius:10px;font-size:11.5px;color:#1a7a54;line-height:1.5;}
-  .bucket-best b{font-family:'Space Grotesk';}
-  footer{border-top:1px solid var(--border);padding:32px 0 50px;margin-top:16px;}
-  footer p{color:var(--muted);font-size:12.5px;line-height:1.7;max-width:760px;}
-  footer a{color:var(--blue);text-decoration:none;}
-  footer a:hover{text-decoration:underline;}
-  .badge-warn{display:inline-block;background:var(--amber-bg);border:1px solid #F3DBA6;color:#966616;font-family:'JetBrains Mono';font-size:11px;padding:3px 9px;border-radius:6px;margin-bottom:10px;}
-  .empty{color:var(--muted);font-size:13px;padding:30px 0;text-align:center;}
-  .loading{text-align:center;padding:60px 0;color:var(--muted);font-size:15px;}
-  .loading .spinner{display:inline-block;width:24px;height:24px;border:3px solid var(--border);border-top-color:var(--blue);border-radius:50%;animation:spin .8s linear infinite;margin-right:10px;vertical-align:middle;}
-  @keyframes spin{to{transform:rotate(360deg);}}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radar Pasar — Produk Terlaris Mingguan</title>
+    <meta name="description" content="Dashboard produk terlaris per kategori Shopee.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+    <style>
+        /* ====== STYLE (SAMA SEPERTI SEBELUMNYA) ====== */
+        :root{--bg:#F5F7FB;--surface:#FFFFFF;--surface-soft:#F8FAFD;--border:#E7ECF3;--text:#2C3646;--muted:#8A94A6;--shopee:#FF8A3D;--shopee-bg:#FFF2E7;--toko:#22B07D;--toko-bg:#E8F8F1;--blue:#5B7FEF;--blue-bg:#EEF2FE;--amber:#F0A93E;--amber-bg:#FFF6E7;--shadow:0 1px 2px rgba(30,41,59,0.04),0 8px 24px rgba(30,41,59,0.05);--shadow-sm:0 1px 2px rgba(30,41,59,0.05);}
+        *{box-sizing:border-box;}html{scroll-behavior:smooth;}body{margin:0;background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;}
+        .font-display{font-family:'Space Grotesk',sans-serif;}.font-mono{font-family:'JetBrains Mono',monospace;}
+        .ticker-wrap{background:linear-gradient(90deg,var(--blue-bg),var(--toko-bg));border-bottom:1px solid var(--border);overflow:hidden;white-space:nowrap;position:relative;}
+        .ticker-wrap::before,.ticker-wrap::after{content:"";position:absolute;top:0;bottom:0;width:70px;z-index:2;pointer-events:none;}
+        .ticker-wrap::before{left:0;background:linear-gradient(90deg,var(--blue-bg),transparent);}
+        .ticker-wrap::after{right:0;background:linear-gradient(270deg,var(--toko-bg),transparent);}
+        .ticker-track{display:inline-flex;animation:scroll-left 46s linear infinite;padding:10px 0;}
+        .ticker-wrap:hover .ticker-track{animation-play-state:paused;}
+        @keyframes scroll-left{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+        .ticker-item{display:inline-flex;align-items:center;gap:8px;padding:0 22px;font-family:'JetBrains Mono',monospace;font-size:12.5px;color:#5b6779;border-right:1px solid rgba(90,110,140,0.15);}
+        .ticker-item b{color:var(--text);font-weight:700;}.up{color:var(--toko);}
+        .wrap{max-width:1320px;margin:0 auto;padding:0 24px;}
+        header.hero{padding:40px 0 26px;}
+        .eyebrow{display:inline-flex;align-items:center;gap:8px;font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.1em;color:#B9821F;text-transform:uppercase;padding:5px 11px;border-radius:999px;background:var(--amber-bg);border:1px solid #F3DBA6;}
+        .dot{width:6px;height:6px;border-radius:50%;background:var(--toko);box-shadow:0 0 0 3px rgba(34,176,125,0.18);animation:pulse 2s infinite;}
+        @keyframes pulse{0%,100%{opacity:1;}50%{opacity:.4;}}
+        h1.title{font-size:38px;line-height:1.1;margin:16px 0 10px;font-weight:700;letter-spacing:-0.01em;}
+        h1.title .accent{color:var(--blue);}
+        p.sub{color:var(--muted);font-size:15px;max-width:660px;margin:0;line-height:1.6;}
+        .meta-row{display:flex;gap:26px;flex-wrap:wrap;margin-top:22px;}
+        .meta{font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--muted);}
+        .meta strong{display:block;font-family:'Space Grotesk',sans-serif;font-size:18px;color:var(--text);font-weight:600;margin-top:2px;}
+        .platform-tabs{display:flex;gap:10px;margin:22px 0 24px;}
+        .ptab{flex:1;display:flex;align-items:center;gap:12px;padding:14px 18px;border-radius:16px;background:var(--surface);border:1.5px solid var(--border);cursor:pointer;transition:.15s;box-shadow:var(--shadow-sm);}
+        .ptab:hover{border-color:#cfd8e6;}.ptab.active{border-color:var(--blue);background:var(--blue-bg);}
+        .ptab .p-icon{width:36px;height:36px;border-radius:11px;display:flex;align-items:center;justify-content:center;font-family:'Space Grotesk';font-weight:700;font-size:15px;color:#fff;flex-shrink:0;}
+        .ptab.shopee .p-icon{background:var(--shopee);}
+        .ptab.tokopedia .p-icon{background:var(--toko);}
+        .ptab .p-name{font-family:'Space Grotesk';font-weight:600;font-size:15px;}
+        .ptab .p-count{font-size:12px;color:var(--muted);margin-top:1px;}
+        .stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:26px 0;}
+        @media(max-width:900px){.stats-grid{grid-template-columns:repeat(2,1fr);}}
+        .stat-card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:18px 18px 16px;box-shadow:var(--shadow-sm);}
+        .stat-card .label{font-size:11.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;font-weight:600;}
+        .stat-card .value{font-family:'Space Grotesk',sans-serif;font-size:25px;font-weight:700;margin-top:8px;}
+        .stat-card .foot{font-size:12px;color:var(--muted);margin-top:4px;}
+        .controls{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:4px 0 22px;padding-top:22px;border-top:1px solid var(--border);}
+        .search{flex:1;min-width:220px;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:11px 15px;color:var(--text);font-family:'Inter';font-size:14px;}
+        .search::placeholder{color:var(--muted);}.search:focus{outline:none;border-color:var(--blue);}
+        select.sortsel{background:var(--surface);border:1px solid var(--border);border-radius:12px;color:var(--text);padding:11px 13px;font-family:'Inter';font-size:13.5px;}
+        .chips{display:flex;gap:8px;flex-wrap:wrap;}
+        .chip{font-family:'Inter',sans-serif;font-weight:500;font-size:12.5px;padding:8px 14px;border-radius:999px;border:1px solid var(--border);background:var(--surface);color:var(--muted);cursor:pointer;transition:.15s;user-select:none;}
+        .chip:hover{border-color:#cfd8e6;color:var(--text);}.chip.active{background:var(--blue);border-color:var(--blue);color:#fff;}
+        .charts-grid{display:grid;grid-template-columns:1fr;gap:16px;margin-bottom:32px;}
+        .panel{background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:20px 22px;box-shadow:var(--shadow-sm);}
+        .panel h3{margin:0 0 2px;font-family:'Space Grotesk';font-size:15.5px;font-weight:600;}
+        .panel p.hint{margin:0 0 14px;color:var(--muted);font-size:12.5px;line-height:1.5;}
+        .cat-section{margin-bottom:40px;scroll-margin-top:90px;}
+        .cat-head{display:flex;align-items:baseline;gap:12px;margin-bottom:14px;}
+        .cat-head .idx{font-family:'JetBrains Mono';color:var(--muted);font-size:12.5px;}
+        .cat-head h2{font-family:'Space Grotesk';font-size:19px;margin:0;font-weight:600;}
+        .cat-head .count{margin-left:auto;font-family:'JetBrains Mono';font-size:11.5px;color:var(--muted);}
+        .cat-body{display:grid;grid-template-columns:1.55fr 1fr;gap:14px;align-items:start;}
+        @media(max-width:980px){.cat-body{grid-template-columns:1fr;}}
+        .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;}
+        @media(max-width:600px){.cards{grid-template-columns:1fr;}}
+        .card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:15px;position:relative;transition:.15s;box-shadow:var(--shadow-sm);}
+        .card:hover{border-color:#cfd8e6;transform:translateY(-1px);}
+        .card .rank{position:absolute;top:13px;right:13px;font-family:'JetBrains Mono';font-size:11px;color:var(--muted);}
+        .rank-1{color:var(--amber) !important;font-weight:700;}
+        .card .nama{font-size:13.5px;font-weight:600;line-height:1.35;margin:2px 0 4px;padding-right:24px;min-height:36px;}
+        .card .toko{font-size:11px;color:var(--muted);margin-bottom:10px;}
+        .price-row{margin-bottom:10px;}
+        .price-row .harga{font-family:'JetBrains Mono';font-size:16px;font-weight:700;color:var(--text);}
+        .kpi-row{display:flex;gap:14px;padding-top:9px;border-top:1px dashed var(--border);}
+        .kpi{flex:1;}.kpi .k-label{font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;}
+        .kpi .k-value{font-family:'JetBrains Mono';font-size:13.5px;font-weight:700;margin-top:2px;}
+        .kpi .k-value.star{color:var(--amber);}
+        .bucket-panel{background:var(--surface-soft);border:1px solid var(--border);border-radius:14px;padding:16px;position:sticky;top:16px;}
+        .bucket-panel h4{margin:0 0 3px;font-family:'Space Grotesk';font-size:13.5px;font-weight:600;}
+        .bucket-panel p.hint{margin:0 0 12px;font-size:11.5px;color:var(--muted);line-height:1.5;}
+        .bucket-row{display:flex;align-items:center;gap:8px;margin-bottom:7px;font-size:11.5px;}
+        .bucket-row .b-range{width:92px;flex-shrink:0;font-family:'JetBrains Mono';color:var(--muted);}
+        .bucket-row .b-bar-wrap{flex:1;height:8px;border-radius:5px;background:var(--border);overflow:hidden;}
+        .bucket-row .b-bar{height:100%;background:var(--blue);border-radius:5px;}
+        .bucket-row .b-val{width:60px;text-align:right;font-family:'JetBrains Mono';font-weight:600;flex-shrink:0;}
+        .bucket-best{margin-top:12px;padding:10px 12px;background:var(--toko-bg);border-radius:10px;font-size:11.5px;color:#1a7a54;line-height:1.5;}
+        .bucket-best b{font-family:'Space Grotesk';}
+        footer{border-top:1px solid var(--border);padding:32px 0 50px;margin-top:16px;}
+        footer p{color:var(--muted);font-size:12.5px;line-height:1.7;max-width:760px;}
+        footer a{color:var(--blue);text-decoration:none;}
+        footer a:hover{text-decoration:underline;}
+        .badge-warn{display:inline-block;background:var(--amber-bg);border:1px solid #F3DBA6;color:#966616;font-family:'JetBrains Mono';font-size:11px;padding:3px 9px;border-radius:6px;margin-bottom:10px;}
+        .empty{color:var(--muted);font-size:13px;padding:30px 0;text-align:center;}
+        .loading{text-align:center;padding:60px 0;color:var(--muted);font-size:15px;}
+        .loading .spinner{display:inline-block;width:24px;height:24px;border:3px solid var(--border);border-top-color:var(--blue);border-radius:50%;animation:spin .8s linear infinite;margin-right:10px;vertical-align:middle;}
+        @keyframes spin{to{transform:rotate(360deg);}}
+    </style>
 </head>
 <body>
 <div class="ticker-wrap"><div class="ticker-track" id="tickerTrack"></div></div>
@@ -105,7 +106,7 @@
   <header class="hero">
     <span class="eyebrow"><span class="dot"></span> Update Mingguan · Riset Onboarding Akulaku</span>
     <h1 class="title">Radar Pasar <span class="accent">/</span> Produk Terlaris</h1>
-    <p class="sub">Produk terlaris per kategori Shopee, update real-time dari server.</p>
+    <p class="sub">Produk terlaris per kategori Shopee — update mingguan.</p>
     <div class="meta-row">
       <div class="meta">PERIODE<strong id="metaPeriode">—</strong></div>
       <div class="meta">TERAKHIR DIPERBARUI<strong id="metaUpdated">—</strong></div>
@@ -127,124 +128,39 @@
   <section class="charts-grid">
     <div class="panel"><h3>Total Transaksi per Kategori</h3><p class="hint">Jumlah unit terjual per kategori.</p><canvas id="chartCategory" height="90"></canvas></div>
   </section>
-  <main id="categoryContainer"><div class="loading"><span class="spinner"></span> Menghubungi server...</div></main>
+  <main id="categoryContainer"><div class="loading"><span class="spinner"></span> Memuat data...</div></main>
   <footer>
-    <span class="badge-warn">📡 DATA REAL-TIME DARI SERVER</span>
-    <p>Data diambil langsung dari server FastAPI yang berjalan di PC Anda. Server harus menyala agar data muncul.</p>
+    <span class="badge-warn">📊 DATA STATIS (UPDATE MINGGUAN)</span>
+    <p>Data diambil dari file JSON statis. Untuk memperbarui, jalankan scraping ulang.</p>
   </footer>
 </div>
 
 <script>
 // ============================================================
-// URL SERVER (GANTI DENGAN URL NGROK ANDA)
+// FUNGSI MEMBACA FILE JSON STATIS
 // ============================================================
-const API_URL = "https://populace-spellbind-duvet.ngrok-free.dev"; // <-- GANTI INI
-
-// ============================================================
-// DAFTAR KATEGORI (25 kategori)
-// ============================================================
-const CATEGORY_URLS = [
-  { id: "electronics", url: "https://shopee.co.id/Electronics-cat.11044258", nama: "Elektronik" },
-  { id: "computer", url: "https://shopee.co.id/Computer-Accessories-cat.11044364", nama: "Aksesoris Komputer" },
-  { id: "mobile", url: "https://shopee.co.id/Mobile-Accessories-cat.11044458", nama: "Aksesoris HP" },
-  { id: "men-clothes", url: "https://shopee.co.id/Men-Clothes-cat.11042849", nama: "Pakaian Pria" },
-  { id: "men-shoes", url: "https://shopee.co.id/Men-Shoes-cat.11042985", nama: "Sepatu Pria" },
-  { id: "men-bags", url: "https://shopee.co.id/Men-Bags-cat.11043011", nama: "Tas Pria" },
-  { id: "fashion-acc", url: "https://shopee.co.id/Fashion-Accessories-cat.11042921", nama: "Aksesoris Fashion" },
-  { id: "watches", url: "https://shopee.co.id/Watches-cat.11042900", nama: "Jam Tangan" },
-  { id: "health", url: "https://shopee.co.id/Health-cat.11043279", nama: "Kesehatan" },
-  { id: "hobby", url: "https://shopee.co.id/Hobby-Collection-cat.11043572", nama: "Hobi & Koleksi" },
-  { id: "food", url: "https://shopee.co.id/Food-Beverages-cat.11043451", nama: "Makanan & Minuman" },
-  { id: "beauty", url: "https://shopee.co.id/Beauty-Care-cat.11043145", nama: "Perawatan Kecantikan" },
-  { id: "home", url: "https://shopee.co.id/Home-Living-cat.11043778", nama: "Rumah Tangga" },
-  { id: "women-clothes", url: "https://shopee.co.id/Women-Clothes-cat.11042745", nama: "Pakaian Wanita" },
-  { id: "muslim", url: "https://shopee.co.id/Muslim-Fashion-cat.11042684", nama: "Fashion Muslim" },
-  { id: "baby-kids", url: "https://shopee.co.id/Baby-Kids-Fashion-cat.11043031", nama: "Fashion Bayi & Anak" },
-  { id: "mom-baby", url: "https://shopee.co.id/Mom-Baby-cat.11043350", nama: "Ibu & Bayi" },
-  { id: "women-shoes", url: "https://shopee.co.id/Women-Shoes-cat.11042604", nama: "Sepatu Wanita" },
-  { id: "women-bags", url: "https://shopee.co.id/Women-Bags-cat.11042642", nama: "Tas Wanita" },
-  { id: "automotive", url: "https://shopee.co.id/Automotive-cat.11043660", nama: "Otomotif" },
-  { id: "sports", url: "https://shopee.co.id/Sports-Outdoor-cat.11043958", nama: "Olahraga & Outdoor" },
-  { id: "souvenir", url: "https://shopee.co.id/Souvenir-Party-Supplies-cat.11116633", nama: "Souvenir & Pesta" },
-  { id: "vouchers", url: "https://shopee.co.id/Vouchers-cat.11044631", nama: "Voucher" },
-  { id: "stationery", url: "https://shopee.co.id/Stationery-Books-cat.11044123", nama: "Alat Tulis & Buku" },
-  { id: "photography", url: "https://shopee.co.id/Photography-cat.11044588", nama: "Fotografi" }
-];
-
-// ============================================================
-// FUNGSI MEMANGGIL API SERVER
-// ============================================================
-async function fetchDataFromServer() {
+async function fetchData() {
   const container = document.getElementById("categoryContainer");
-  container.innerHTML = `<div class="loading"><span class="spinner"></span> Menghubungi server...</div>`;
+  container.innerHTML = `<div class="loading"><span class="spinner"></span> Memuat data...</div>`;
 
   try {
-    const payload = {
-      category_urls: CATEGORY_URLS.map(c => c.url),
-      country: "ID",
-      max_items: 5,
-      include_reviews: false
-    };
-
-    const response = await fetch(`${API_URL}/scrape-category`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload)
-    });
-
+    const response = await fetch("data/products.json");
     if (!response.ok) {
-      throw new Error(`Server error: ${response.status} ${response.statusText}`);
+      throw new Error(`Gagal load data: ${response.status}`);
     }
-
     const data = await response.json();
-    console.log("📦 Data dari server:", data);
-
-    // Transformasi data
-    const results = CATEGORY_URLS.map(cat => {
-      let products = data.categories[cat.url] || [];
-      if (!Array.isArray(products)) {
-        products = [];
-      }
-      return {
-        id: cat.id,
-        nama: cat.nama,
-        produk: products.map((p, idx) => ({
-          nama: p.name || "Tidak ada nama",
-          toko: p.shop_name || "Tidak ada toko",
-          harga: p.price || 0,
-          terjual_minggu_ini: p.sold_count || 0,
-          rating: p.rating || 0,
-          url: p.url || "#",
-          image: p.image_url || "",
-          rank: idx + 1
-        }))
-      };
-    });
-
-    window.DATA = {
-      minggu: `Minggu Ini (${new Date().toLocaleDateString("id-ID")})`,
-      terakhir_diperbarui: new Date().toISOString(),
-      platforms: [
-        {
-          id: "shopee",
-          nama: "Shopee",
-          kategori: results
-        }
-      ]
-    };
-
-    activePlatform = "shopee";
+    window.DATA = data;
+    activePlatform = data.platforms[0].id;
     buildTicker();
     buildPlatformTabs();
     buildChips();
     buildStats();
     render();
-
   } catch (error) {
     container.innerHTML = `
       <div class="empty">
-        ❌ Gagal terhubung ke server.<br>
-        Pastikan server FastAPI berjalan di PC Anda dan ngrok aktif.<br>
+        ❌ Gagal memuat data.<br>
+        Pastikan file <code>data/products.json</code> tersedia.<br>
         <small>Error: ${error.message}</small>
       </div>
     `;
@@ -253,9 +169,9 @@ async function fetchDataFromServer() {
 }
 
 // ============================================================
-// FUNGSI TEMPLATE (SAMA SEPERTI SEBELUMNYA)
+// FUNGSI TEMPLATE
 // ============================================================
-const CAT_COLORS = ["#5B7FEF","#FF8A3D","#22B07D","#F0A93E","#B18CF0","#F0708A","#3EC6D9","#8FA6E0","#F5C16C","#7FD1A8","#E07C7C","#7CB9E8","#B4A7D6","#F7DC6F","#82E0AA","#F1948A","#85C1E9","#BB8FCE","#F8C471","#76D7C4","#E59866","#AF7AC5","#5DADE2","#58D68D","#F4D03F"];
+const CAT_COLORS = ["#5B7FEF","#FF8A3D","#22B07D","#F0A93E","#B18CF0","#F0708A","#3EC6D9","#8FA6E0","#F5C16C","#7FD1A8"];
 const BUCKET_EDGES = [0, 20000, 50000, 100000, 200000, 500000, 1000000, Infinity];
 const BUCKET_LABELS = ["<20rb","20-50rb","50-100rb","100-200rb","200-500rb","500rb-1jt",">1jt"];
 
@@ -324,7 +240,23 @@ function bucketPanelHTML(produk){
   return `<div class="bucket-panel"><h4>Analisis Rentang Harga</h4><p class="hint">Total unit terjual per rentang harga.</p>${rows||'<p class="hint">Belum ada data.</p>'}${best.val>0?`<div class="bucket-best"><b>💡 Sweet spot:</b> rentang harga <b>${bestLabel}</b> paling banyak terjual.</div>`:""}</div>`;
 }
 
-function cardHTML(p){ return `<div class="card"><span class="rank ${p.rank===1?'rank-1':''}">#${p.rank}</span><div class="nama">${p.nama}</div><div class="toko">${p.toko}</div><div class="price-row"><span class="harga">${rupiah(p.harga)}</span></div><div class="kpi-row"><div class="kpi"><div class="k-label">Terjual</div><div class="k-value">${angka(p.terjual_minggu_ini)}</div></div><div class="kpi"><div class="k-label">Rating</div><div class="k-value star">★ ${p.rating}</div></div></div></div>`; }
+function cardHTML(p){
+  return `
+  <div class="card">
+    <span class="rank ${p.rank===1?'rank-1':''}">#${p.rank}</span>
+    <div class="nama">${p.nama}</div>
+    <div class="toko">${p.toko}</div>
+    <div class="price-row"><span class="harga">${rupiah(p.harga)}</span></div>
+    <div class="kpi-row">
+      <div class="kpi"><div class="k-label">Terjual</div><div class="k-value">${angka(p.terjual_minggu_ini)}</div></div>
+      <div class="kpi"><div class="k-label">Rating</div><div class="k-value star">★ ${p.rating}</div></div>
+    </div>
+    <div style="margin-top:8px;font-size:11px;word-break:break-all;">
+      <a href="${p.url}" target="_blank" style="color:var(--blue);text-decoration:none;">🔗 Link Produk</a>
+      ${p.image ? `<br><img src="${p.image}" alt="Gambar" style="max-width:100%;max-height:100px;margin-top:4px;border-radius:4px;">` : ''}
+    </div>
+  </div>`;
+}
 
 function render(){
   const q=document.getElementById("searchInput").value.trim().toLowerCase(); const sortBy=document.getElementById("sortSelect").value; const container=document.getElementById("categoryContainer"); container.innerHTML="";
@@ -337,12 +269,11 @@ function render(){
     container.appendChild(section);
   });
   if(!any){ container.innerHTML=`<div class="empty">Tidak ada produk yang cocok dengan pencarian "${q}".</div>`; }
+  document.getElementById("metaPeriode").textContent = window.DATA.minggu;
+  document.getElementById("metaUpdated").textContent = new Date(window.DATA.terakhir_diperbarui).toLocaleString("id-ID",{dateStyle:"long",timeStyle:"short"});
 }
 
-// ============================================================
-// MULAI
-// ============================================================
-fetchDataFromServer();
+fetchData();
 </script>
 </body>
 </html>
