@@ -1,398 +1,415 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Radar Pasar — Produk Terlaris Mingguan</title>
-  <meta name="description" content="Dashboard produk terlaris per kategori Shopee.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    :root {
-      --bg: #F4F6FA;
-      --surface: #FFFFFF;
-      --border: #E2E8F0;
-      --text: #0B1A2F;
-      --muted: #5A6B7C;
-      --primary: #4F46E5;
-      --primary-light: #EEF2FF;
-      --shopee: #EE4D2D;
-      --shopee-light: #FFF0ED;
-      --shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
-      --shadow-hover: 0 12px 40px rgba(0, 0, 0, 0.10);
-      --radius: 20px;
-      --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    body {
-      background: var(--bg);
-      color: var(--text);
-      font-family: 'Inter', sans-serif;
-      -webkit-font-smoothing: antialiased;
-    }
-    .wrap {
-      max-width: 1280px;
-      margin: 0 auto;
-      padding: 0 24px;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radar Pasar — Produk Terlaris Mingguan</title>
+    <meta name="description" content="Dashboard produk terlaris per kategori Shopee & Akulaku.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* ====== STYLE (SAMA SEPERTI SEBELUMNYA) ====== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        :root {
+            --bg: #F4F6FA;
+            --surface: #FFFFFF;
+            --border: #E2E8F0;
+            --text: #0B1A2F;
+            --muted: #5A6B7C;
+            --primary: #4F46E5;
+            --primary-light: #EEF2FF;
+            --shopee: #EE4D2D;
+            --shopee-light: #FFF0ED;
+            --shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+            --shadow-hover: 0 12px 40px rgba(0, 0, 0, 0.10);
+            --radius: 20px;
+            --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+        .wrap {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        .ticker-wrap {
+            background: linear-gradient(90deg, var(--primary-light), #F0F4FF);
+            border-bottom: 1px solid var(--border);
+            overflow: hidden;
+            white-space: nowrap;
+            position: relative;
+            padding: 10px 0;
+        }
+        .ticker-track {
+            display: inline-flex;
+            animation: scroll-left 50s linear infinite;
+        }
+        .ticker-wrap:hover .ticker-track { animation-play-state: paused; }
+        @keyframes scroll-left {
+            from { transform: translateX(0); }
+            to { transform: translateX(-50%); }
+        }
+        .ticker-item {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 0 28px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 13px;
+            color: var(--muted);
+            border-right: 1px solid rgba(79, 70, 229, 0.15);
+        }
+        .ticker-item b { color: var(--text); font-weight: 700; }
+        .ticker-item .up { color: var(--shopee); font-weight: 700; }
 
-    /* Ticker */
-    .ticker-wrap {
-      background: linear-gradient(90deg, var(--primary-light), #F0F4FF);
-      border-bottom: 1px solid var(--border);
-      overflow: hidden;
-      white-space: nowrap;
-      position: relative;
-      padding: 10px 0;
-    }
-    .ticker-track {
-      display: inline-flex;
-      animation: scroll-left 50s linear infinite;
-    }
-    .ticker-wrap:hover .ticker-track { animation-play-state: paused; }
-    @keyframes scroll-left {
-      from { transform: translateX(0); }
-      to { transform: translateX(-50%); }
-    }
-    .ticker-item {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      padding: 0 28px;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 13px;
-      color: var(--muted);
-      border-right: 1px solid rgba(79, 70, 229, 0.15);
-    }
-    .ticker-item b { color: var(--text); font-weight: 700; }
-    .ticker-item .up { color: var(--shopee); font-weight: 700; }
+        header.hero {
+            padding: 48px 0 32px;
+            background: linear-gradient(135deg, #FFFFFF 0%, #F8FAFF 100%);
+            border-radius: 0 0 40px 40px;
+            margin-bottom: 8px;
+        }
+        .eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: var(--primary);
+            background: var(--primary-light);
+            padding: 6px 16px;
+            border-radius: 999px;
+            border: 1px solid rgba(79, 70, 229, 0.2);
+        }
+        .eyebrow .dot {
+            width: 8px; height: 8px;
+            border-radius: 50%;
+            background: var(--primary);
+            animation: pulse-dot 2s infinite;
+        }
+        @keyframes pulse-dot {
+            0%,100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.4; transform: scale(0.8); }
+        }
+        h1.title {
+            font-size: 44px;
+            font-weight: 900;
+            letter-spacing: -0.02em;
+            margin: 20px 0 8px;
+            line-height: 1.1;
+        }
+        h1.title .accent { color: var(--primary); }
+        p.sub {
+            color: var(--muted);
+            font-size: 17px;
+            max-width: 600px;
+            line-height: 1.6;
+        }
+        .meta-row {
+            display: flex;
+            gap: 32px;
+            flex-wrap: wrap;
+            margin-top: 18px;
+        }
+        .meta {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            color: var(--muted);
+        }
+        .meta strong {
+            display: block;
+            font-family: 'Inter', sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text);
+            margin-top: 2px;
+        }
 
-    /* Header */
-    header.hero {
-      padding: 48px 0 32px;
-      background: linear-gradient(135deg, #FFFFFF 0%, #F8FAFF 100%);
-      border-radius: 0 0 40px 40px;
-      margin-bottom: 8px;
-    }
-    .eyebrow {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 12px;
-      font-weight: 500;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-      color: var(--primary);
-      background: var(--primary-light);
-      padding: 6px 16px;
-      border-radius: 999px;
-      border: 1px solid rgba(79, 70, 229, 0.2);
-    }
-    .eyebrow .dot {
-      width: 8px; height: 8px;
-      border-radius: 50%;
-      background: var(--primary);
-      animation: pulse-dot 2s infinite;
-    }
-    @keyframes pulse-dot {
-      0%,100% { opacity: 1; transform: scale(1); }
-      50% { opacity: 0.4; transform: scale(0.8); }
-    }
-    h1.title {
-      font-size: 44px;
-      font-weight: 900;
-      letter-spacing: -0.02em;
-      margin: 20px 0 8px;
-      line-height: 1.1;
-    }
-    h1.title .accent { color: var(--primary); }
-    p.sub {
-      color: var(--muted);
-      font-size: 17px;
-      max-width: 600px;
-      line-height: 1.6;
-    }
-    .meta-row {
-      display: flex;
-      gap: 32px;
-      flex-wrap: wrap;
-      margin-top: 18px;
-    }
-    .meta {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 12px;
-      color: var(--muted);
-    }
-    .meta strong {
-      display: block;
-      font-family: 'Inter', sans-serif;
-      font-size: 18px;
-      font-weight: 700;
-      color: var(--text);
-      margin-top: 2px;
-    }
+        .platform-tabs {
+            display: flex;
+            gap: 12px;
+            margin: 24px 0 32px;
+        }
+        .ptab {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 16px 22px;
+            border-radius: var(--radius);
+            background: var(--surface);
+            border: 1.5px solid var(--border);
+            cursor: pointer;
+            transition: var(--transition);
+            box-shadow: var(--shadow);
+        }
+        .ptab:hover {
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+        .ptab.active {
+            border-color: var(--primary);
+            background: var(--primary-light);
+            box-shadow: 0 0 0 4px rgba(79,70,229,0.12);
+        }
+        .ptab .p-icon {
+            width: 44px; height: 44px;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 20px;
+            color: #fff;
+            flex-shrink: 0;
+        }
+        .ptab.shopee .p-icon { background: var(--shopee); }
+        .ptab.akulaku .p-icon { background: #22B07D; }
+        .ptab .p-name { font-weight: 700; font-size: 17px; }
+        .ptab .p-count { font-size: 13px; color: var(--muted); margin-top: 1px; }
 
-    /* Platform Tabs */
-    .platform-tabs {
-      display: flex;
-      gap: 12px;
-      margin: 24px 0 32px;
-    }
-    .ptab {
-      flex: 1;
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      padding: 16px 22px;
-      border-radius: var(--radius);
-      background: var(--surface);
-      border: 1.5px solid var(--border);
-      cursor: pointer;
-      transition: var(--transition);
-      box-shadow: var(--shadow);
-    }
-    .ptab:hover {
-      border-color: var(--primary);
-      transform: translateY(-2px);
-    }
-    .ptab.active {
-      border-color: var(--primary);
-      background: var(--primary-light);
-      box-shadow: 0 0 0 4px rgba(79,70,229,0.12);
-    }
-    .ptab .p-icon {
-      width: 44px; height: 44px;
-      border-radius: 14px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 700;
-      font-size: 20px;
-      color: #fff;
-      flex-shrink: 0;
-    }
-    .ptab.shopee .p-icon { background: var(--shopee); }
-    .ptab.tokopedia .p-icon { background: #22B07D; }
-    .ptab .p-name { font-weight: 700; font-size: 17px; }
-    .ptab .p-count { font-size: 13px; color: var(--muted); margin-top: 1px; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin: 0 0 32px;
+        }
+        @media (max-width: 600px) {
+            .stats-grid { grid-template-columns: 1fr; }
+        }
+        .stat-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 24px 28px;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            text-align: center;
+        }
+        .stat-card:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-hover);
+        }
+        .stat-card .label {
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: var(--muted);
+        }
+        .stat-card .value {
+            font-size: 36px;
+            font-weight: 800;
+            margin-top: 6px;
+            color: var(--text);
+        }
+        .stat-card .foot {
+            font-size: 14px;
+            color: var(--muted);
+            margin-top: 4px;
+        }
 
-    /* Stats Grid */
-    .stats-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 20px;
-      margin: 0 0 32px;
-    }
-    @media (max-width: 600px) {
-      .stats-grid { grid-template-columns: 1fr; }
-    }
-    .stat-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 24px 28px;
-      box-shadow: var(--shadow);
-      transition: var(--transition);
-      text-align: center;
-    }
-    .stat-card:hover {
-      transform: translateY(-3px);
-      box-shadow: var(--shadow-hover);
-    }
-    .stat-card .label {
-      font-size: 13px;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      color: var(--muted);
-    }
-    .stat-card .value {
-      font-size: 36px;
-      font-weight: 800;
-      margin-top: 6px;
-      color: var(--text);
-    }
-    .stat-card .foot {
-      font-size: 14px;
-      color: var(--muted);
-      margin-top: 4px;
-    }
+        .cat-section {
+            margin-bottom: 56px;
+            scroll-margin-top: 80px;
+        }
+        .cat-head {
+            display: flex;
+            align-items: baseline;
+            gap: 16px;
+            margin-bottom: 20px;
+        }
+        .cat-head .idx {
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--muted);
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .cat-head h2 {
+            font-size: 24px;
+            font-weight: 800;
+            letter-spacing: -0.01em;
+        }
+        .cat-head .count {
+            margin-left: auto;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 13px;
+            color: var(--muted);
+            background: var(--surface);
+            padding: 4px 14px;
+            border-radius: 999px;
+            border: 1px solid var(--border);
+        }
 
-    /* Category Sections */
-    .cat-section {
-      margin-bottom: 56px;
-      scroll-margin-top: 80px;
-    }
-    .cat-head {
-      display: flex;
-      align-items: baseline;
-      gap: 16px;
-      margin-bottom: 20px;
-    }
-    .cat-head .idx {
-      font-family: 'JetBrains Mono', monospace;
-      color: var(--muted);
-      font-size: 14px;
-      font-weight: 500;
-    }
-    .cat-head h2 {
-      font-size: 24px;
-      font-weight: 800;
-      letter-spacing: -0.01em;
-    }
-    .cat-head .count {
-      margin-left: auto;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 13px;
-      color: var(--muted);
-      background: var(--surface);
-      padding: 4px 14px;
-      border-radius: 999px;
-      border: 1px solid var(--border);
-    }
+        .cat-body {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 18px;
+            position: relative;
+            transition: var(--transition);
+            box-shadow: var(--shadow);
+            display: flex;
+            flex-direction: column;
+        }
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-hover);
+            border-color: var(--primary);
+        }
+        .card .rank {
+            position: absolute;
+            top: 14px;
+            right: 16px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--muted);
+            background: var(--bg);
+            padding: 2px 12px;
+            border-radius: 999px;
+            border: 1px solid var(--border);
+        }
+        .rank-1 {
+            color: var(--shopee) !important;
+            background: var(--shopee-light) !important;
+            border-color: var(--shopee) !important;
+        }
+        .card .product-img {
+            width: 100%;
+            height: 170px;
+            object-fit: cover;
+            border-radius: 14px;
+            background: var(--bg);
+            margin-bottom: 14px;
+        }
+        .card .nama {
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 1.4;
+            margin: 0 0 4px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .card .toko {
+            font-size: 13px;
+            color: var(--muted);
+            margin-bottom: 10px;
+        }
+        .card .price-row {
+            margin: 6px 0 12px;
+        }
+        .card .price-row .harga {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 22px;
+            font-weight: 800;
+            color: var(--text);
+        }
+        .card .kpi-row {
+            display: flex;
+            gap: 16px;
+            padding-top: 12px;
+            border-top: 1px dashed var(--border);
+            margin-top: auto;
+        }
+        .card .kpi {
+            flex: 1;
+        }
+        .card .kpi .k-label {
+            font-size: 10px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            color: var(--muted);
+        }
+        .card .kpi .k-value {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 16px;
+            font-weight: 700;
+            margin-top: 2px;
+        }
+        .card .kpi .k-value.star { color: #F59E0B; }
+        .card .link-produk {
+            margin-top: 12px;
+            font-size: 13px;
+        }
+        .card .link-produk a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+        }
+        .card .link-produk a:hover { text-decoration: underline; }
 
-    /* Product Cards (tanpa kpi-row) */
-    .cat-body {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 24px;
-    }
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-      gap: 20px;
-    }
-    .card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 18px;
-      position: relative;
-      transition: var(--transition);
-      box-shadow: var(--shadow);
-      display: flex;
-      flex-direction: column;
-    }
-    .card:hover {
-      transform: translateY(-6px);
-      box-shadow: var(--shadow-hover);
-      border-color: var(--primary);
-    }
-    .card .rank {
-      position: absolute;
-      top: 14px;
-      right: 16px;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 14px;
-      font-weight: 700;
-      color: var(--muted);
-      background: var(--bg);
-      padding: 2px 12px;
-      border-radius: 999px;
-      border: 1px solid var(--border);
-    }
-    .rank-1 {
-      color: var(--shopee) !important;
-      background: var(--shopee-light) !important;
-      border-color: var(--shopee) !important;
-    }
-    .card .product-img {
-      width: 100%;
-      height: 170px;
-      object-fit: cover;
-      border-radius: 14px;
-      background: var(--bg);
-      margin-bottom: 14px;
-    }
-    .card .nama {
-      font-size: 15px;
-      font-weight: 600;
-      line-height: 1.4;
-      margin: 0 0 4px;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
-    .card .toko {
-      font-size: 13px;
-      color: var(--muted);
-      margin-bottom: 10px;
-    }
-    .card .price-row {
-      margin: 6px 0 12px;
-    }
-    .card .price-row .harga {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 22px;
-      font-weight: 800;
-      color: var(--text);
-    }
-    .card .link-produk {
-      margin-top: 12px;
-      font-size: 13px;
-    }
-    .card .link-produk a {
-      color: var(--primary);
-      text-decoration: none;
-      font-weight: 600;
-      transition: var(--transition);
-    }
-    .card .link-produk a:hover { text-decoration: underline; }
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 32px 0 48px;
+            margin-top: 24px;
+        }
+        footer p {
+            color: var(--muted);
+            font-size: 14px;
+            line-height: 1.7;
+            max-width: 700px;
+        }
+        footer .badge-warn {
+            display: inline-block;
+            background: #FEF3C7;
+            border: 1px solid #FCD34D;
+            color: #92400E;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            padding: 4px 14px;
+            border-radius: 999px;
+            margin-bottom: 12px;
+        }
 
-    /* Footer */
-    footer {
-      border-top: 1px solid var(--border);
-      padding: 32px 0 48px;
-      margin-top: 24px;
-    }
-    footer p {
-      color: var(--muted);
-      font-size: 14px;
-      line-height: 1.7;
-      max-width: 700px;
-    }
-    footer .badge-warn {
-      display: inline-block;
-      background: #FEF3C7;
-      border: 1px solid #FCD34D;
-      color: #92400E;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 12px;
-      padding: 4px 14px;
-      border-radius: 999px;
-      margin-bottom: 12px;
-    }
-
-    .empty {
-      color: var(--muted);
-      font-size: 16px;
-      padding: 48px 0;
-      text-align: center;
-    }
-    .loading {
-      text-align: center;
-      padding: 60px 0;
-      color: var(--muted);
-      font-size: 18px;
-    }
-    .loading .spinner {
-      display: inline-block;
-      width: 32px; height: 32px;
-      border: 4px solid var(--border);
-      border-top-color: var(--primary);
-      border-radius: 50%;
-      animation: spin 0.8s linear infinite;
-      margin-right: 14px;
-      vertical-align: middle;
-    }
-    @keyframes spin { to { transform: rotate(360deg); } }
-  </style>
+        .empty {
+            color: var(--muted);
+            font-size: 16px;
+            padding: 48px 0;
+            text-align: center;
+        }
+        .loading {
+            text-align: center;
+            padding: 60px 0;
+            color: var(--muted);
+            font-size: 18px;
+        }
+        .loading .spinner {
+            display: inline-block;
+            width: 32px; height: 32px;
+            border: 4px solid var(--border);
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin-right: 14px;
+            vertical-align: middle;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+    </style>
 </head>
 <body>
 <div class="ticker-wrap"><div class="ticker-track" id="tickerTrack"></div></div>
@@ -401,7 +418,7 @@
   <header class="hero">
     <span class="eyebrow"><span class="dot"></span> Update Mingguan · Riset Onboarding Akulaku</span>
     <h1 class="title">Radar Pasar <span class="accent">/</span> Produk Terlaris</h1>
-    <p class="sub">Produk terlaris per kategori Shopee — update mingguan.</p>
+    <p class="sub">Produk terlaris per kategori Shopee & Akulaku — update mingguan.</p>
     <div class="meta-row">
       <div class="meta">PERIODE<strong id="metaPeriode">—</strong></div>
       <div class="meta">TERAKHIR DIPERBARUI<strong id="metaUpdated">—</strong></div>
@@ -415,34 +432,82 @@
   <main id="categoryContainer"><div class="loading"><span class="spinner"></span> Memuat data...</div></main>
 
   <footer>
-    <span class="badge-warn">📊 DATA STATIS (UPDATE MINGGUAN)</span>
-    <p>Data diambil dari file JSON statis. Untuk memperbarui, jalankan scraping ulang.</p>
+    <span class="badge-warn">📊 DATA GABUNGAN (SHOPEE + AKULAKU)</span>
+    <p>Data Shopee dari file <code>data/products.json</code> dan Akulaku dari <code>data/akulaku.json</code>.</p>
   </footer>
 </div>
 
 <script>
 // ============================================================
-// MEMBACA FILE JSON STATIS
+// MEMUAT DUA FILE JSON DAN MENGGABUNGKAN
 // ============================================================
-async function fetchData() {
+async function fetchAllData() {
   const container = document.getElementById("categoryContainer");
-  container.innerHTML = `<div class="loading"><span class="spinner"></span> Memuat data...</div>`;
+  container.innerHTML = `<div class="loading"><span class="spinner"></span> Memuat data Shopee & Akulaku...</div>`;
 
   try {
-    const response = await fetch("data/products.json");
-    if (!response.ok) throw new Error(`Gagal load data: ${response.status}`);
-    const data = await response.json();
-    window.DATA = data;
-    activePlatform = data.platforms[0].id;
+    // 1. Load Shopee
+    let shopeeData = null;
+    try {
+      const resp = await fetch("data/products.json");
+      if (resp.ok) shopeeData = await resp.json();
+    } catch (e) { console.warn("Gagal load shopee:", e); }
+
+    // 2. Load Akulaku
+    let akulakuData = null;
+    try {
+      const resp = await fetch("data/akulaku.json");
+      if (resp.ok) akulakuData = await resp.json();
+    } catch (e) { console.warn("Gagal load akulaku:", e); }
+
+    // 3. Gabungkan
+    if (!shopeeData && !akulakuData) {
+      throw new Error("Tidak ada data yang berhasil dimuat.");
+    }
+
+    // Ambil platform dari masing-masing
+    let platforms = [];
+    let minggu = "Minggu Ini";
+    let terakhir = new Date().toISOString();
+
+    if (shopeeData) {
+      if (shopeeData.platforms && shopeeData.platforms.length > 0) {
+        platforms.push(shopeeData.platforms[0]);
+      }
+      if (shopeeData.minggu) minggu = shopeeData.minggu;
+      if (shopeeData.terakhir_diperbarui) terakhir = shopeeData.terakhir_diperbarui;
+    }
+
+    if (akulakuData) {
+      if (akulakuData.platforms && akulakuData.platforms.length > 0) {
+        // Ubah id dan nama menjadi "akulaku" jika belum
+        const akulakuPlatform = akulakuData.platforms[0];
+        akulakuPlatform.id = "akulaku";
+        akulakuPlatform.nama = "Akulaku";
+        platforms.push(akulakuPlatform);
+      }
+      if (akulakuData.minggu) minggu = akulakuData.minggu;
+      if (akulakuData.terakhir_diperbarui) terakhir = akulakuData.terakhir_diperbarui;
+    }
+
+    // Buat objek DATA
+    window.DATA = {
+      minggu: minggu,
+      terakhir_diperbarui: terakhir,
+      platforms: platforms
+    };
+
+    // Inisialisasi tampilan
+    activePlatform = platforms[0].id;
     buildTicker();
     buildPlatformTabs();
     buildStats();
     render();
+
   } catch (error) {
     container.innerHTML = `
       <div class="empty">
         ❌ Gagal memuat data.<br>
-        Pastikan file <code>data/products.json</code> tersedia.<br>
         <small>Error: ${error.message}</small>
       </div>
     `;
@@ -455,7 +520,11 @@ async function fetchData() {
 // ============================================================
 let activePlatform = null;
 
-function rupiah(n){ return "Rp" + Number(n).toLocaleString("id-ID"); }
+function rupiah(n){
+  // Jika n adalah string dengan koma, ubah ke float dulu
+  if (typeof n === 'string') n = parseFloat(n.replace(',','.'));
+  return "Rp" + Number(n).toLocaleString("id-ID");
+}
 function angka(n){ return Number(n).toLocaleString("id-ID"); }
 
 function currentPlatform(){ return window.DATA.platforms.find(p=>p.id===activePlatform); }
@@ -518,6 +587,16 @@ function cardHTML(p, idx){
       <div class="nama">${p.nama}</div>
       <div class="toko">${p.toko}</div>
       <div class="price-row"><span class="harga">${rupiah(p.harga)}</span></div>
+      <div class="kpi-row">
+        <div class="kpi">
+          <div class="k-label">Terjual</div>
+          <div class="k-value">${angka(p.terjual_minggu_ini)}</div>
+        </div>
+        <div class="kpi">
+          <div class="k-label">Rating</div>
+          <div class="k-value star">★ ${p.rating}</div>
+        </div>
+      </div>
       <div class="link-produk"><a href="${p.url}" target="_blank">🔗 Lihat Produk</a></div>
     </div>
   `;
@@ -554,7 +633,7 @@ function render(){
   document.getElementById("metaUpdated").textContent = new Date(window.DATA.terakhir_diperbarui).toLocaleString("id-ID",{dateStyle:"long",timeStyle:"short"});
 }
 
-fetchData();
+fetchAllData();
 </script>
 </body>
 </html>
